@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="quicksort__index_8h" kind="file" language="C++">
+    <compoundname>quicksort_index.h</compoundname>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="34017">
+        <label>vector</label>
+      </node>
+      <node id="34016">
+        <label>quicksort_index.h</label>
+        <link refid="quicksort_index.h"/>
+        <childnode refid="34017" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1trellis">gr::trellis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-trellis/include/gnuradio/trellis/quicksort_index.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="pycallback__object_8h" kind="file" language="C++">
+    <compoundname>pycallback_object.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="rpcregisterhelpers_8h" local="no">gnuradio/rpcregisterhelpers.h</includes>
+    <includes local="no">pythread.h</includes>
+    <includes local="no">boost/format.hpp</includes>
+    <incdepgraph>
+      <node id="33930">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="33923">
+        <label>gnuradio/runtime_types.h</label>
+        <link refid="runtime__types_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33924" relation="include">
+        </childnode>
+      </node>
+      <node id="33932">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="33900">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="33890">
+        <label>gnuradio/rpcregisterhelpers.h</label>
+        <link refid="rpcregisterhelpers_8h"/>
+        <childnode refid="33891" relation="include">
+        </childnode>
+        <childnode refid="33892" relation="include">
+        </childnode>
+        <childnode refid="33889" relation="include">
+        </childnode>
+        <childnode refid="33893" relation="include">
+        </childnode>
+        <childnode refid="33896" relation="include">
+        </childnode>
+        <childnode refid="33917" relation="include">
+        </childnode>
+        <childnode refid="33903" relation="include">
+        </childnode>
+        <childnode refid="33919" relation="include">
+        </childnode>
+      </node>
+      <node id="33921">
+        <label>gnuradio/sptr_magic.h</label>
+        <link refid="sptr__magic_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+      </node>
+      <node id="33908">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="33893">
+        <label>gnuradio/rpcserver_booter_base.h</label>
+        <link refid="rpcserver__booter__base_8h"/>
+        <childnode refid="33894" relation="include">
+        </childnode>
+        <childnode refid="33895" relation="include">
+        </childnode>
+      </node>
+      <node id="33927">
+        <label>gnuradio/io_signature.h</label>
+        <link refid="io__signature_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33923" relation="include">
+        </childnode>
+      </node>
+      <node id="33919">
+        <label>gnuradio/block_registry.h</label>
+        <link refid="block__registry_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33920" relation="include">
+        </childnode>
+        <childnode refid="33938" relation="include">
+        </childnode>
+      </node>
+      <node id="33911">
+        <label>stdint.h</label>
+      </node>
+      <node id="33914">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="33905" relation="include">
+        </childnode>
+      </node>
+      <node id="33936">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="33940">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="33913">
+        <label>stdexcept</label>
+      </node>
+      <node id="33929">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="33928">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33929" relation="include">
+        </childnode>
+        <childnode refid="33930" relation="include">
+        </childnode>
+        <childnode refid="33931" relation="include">
+        </childnode>
+        <childnode refid="33932" relation="include">
+        </childnode>
+        <childnode refid="33933" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+        <childnode refid="33895" relation="include">
+        </childnode>
+      </node>
+      <node id="33894">
+        <label>string</label>
+      </node>
+      <node id="33898">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="33897">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="33898" relation="include">
+        </childnode>
+      </node>
+      <node id="33938">
+        <label>map</label>
+      </node>
+      <node id="33907">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="33898" relation="include">
+        </childnode>
+      </node>
+      <node id="33901">
+        <label>gnuradio/rpcserver_booter_aggregator.h</label>
+        <link refid="rpcserver__booter__aggregator_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33893" relation="include">
+        </childnode>
+        <childnode refid="33902" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+        <childnode refid="33894" relation="include">
+        </childnode>
+      </node>
+      <node id="33925">
+        <label>stddef.h</label>
+      </node>
+      <node id="33915">
+        <label>gnuradio/messages/msg_producer.h</label>
+        <link refid="msg__producer_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33906" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+      </node>
+      <node id="33935">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="33917">
+        <label>gnuradio/rpcserver_selector.h</label>
+        <link refid="rpcserver__selector_8h"/>
+        <childnode refid="33918" relation="include">
+        </childnode>
+      </node>
+      <node id="33909">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="33922">
+        <label>gnuradio/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33905" relation="include">
+        </childnode>
+        <childnode refid="33906" relation="include">
+        </childnode>
+      </node>
+      <node id="33931">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="33895">
+        <label>vector</label>
+      </node>
+      <node id="33933">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="33939">
+        <label>pythread.h</label>
+      </node>
+      <node id="33918">
+        <label>gnuradio/config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="33892">
+        <label>sstream</label>
+      </node>
+      <node id="33924">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+        <childnode refid="33895" relation="include">
+        </childnode>
+        <childnode refid="33925" relation="include">
+        </childnode>
+        <childnode refid="33926" relation="include">
+        </childnode>
+        <childnode refid="33911" relation="include">
+        </childnode>
+      </node>
+      <node id="33926">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="33910" relation="include">
+        </childnode>
+      </node>
+      <node id="33902">
+        <label>gnuradio/rpcserver_aggregator.h</label>
+        <link refid="rpcserver__aggregator_8h"/>
+        <childnode refid="33895" relation="include">
+        </childnode>
+        <childnode refid="33894" relation="include">
+        </childnode>
+        <childnode refid="33903" relation="include">
+        </childnode>
+        <childnode refid="33899" relation="include">
+        </childnode>
+      </node>
+      <node id="33896">
+        <label>gnuradio/rpcmanager.h</label>
+        <link refid="rpcmanager_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33899" relation="include">
+        </childnode>
+        <childnode refid="33901" relation="include">
+        </childnode>
+        <childnode refid="33916" relation="include">
+        </childnode>
+        <childnode refid="33889" relation="include">
+        </childnode>
+      </node>
+      <node id="33934">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="33912">
+        <label>iosfwd</label>
+      </node>
+      <node id="33888">
+        <label>pycallback_object.h</label>
+        <link refid="pycallback_object.h"/>
+        <childnode refid="33889" relation="include">
+        </childnode>
+        <childnode refid="33890" relation="include">
+        </childnode>
+        <childnode refid="33939" relation="include">
+        </childnode>
+        <childnode refid="33940" relation="include">
+        </childnode>
+      </node>
+      <node id="33889">
+        <label>iostream</label>
+      </node>
+      <node id="33905">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33906" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+      </node>
+      <node id="33937">
+        <label>deque</label>
+      </node>
+      <node id="33903">
+        <label>gnuradio/rpcserver_base.h</label>
+        <link refid="rpcserver__base_8h"/>
+        <childnode refid="33904" relation="include">
+        </childnode>
+      </node>
+      <node id="33906">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="33907" relation="include">
+        </childnode>
+        <childnode refid="33908" relation="include">
+        </childnode>
+        <childnode refid="33900" relation="include">
+        </childnode>
+        <childnode refid="33909" relation="include">
+        </childnode>
+        <childnode refid="33910" relation="include">
+        </childnode>
+        <childnode refid="33894" relation="include">
+        </childnode>
+        <childnode refid="33911" relation="include">
+        </childnode>
+        <childnode refid="33912" relation="include">
+        </childnode>
+        <childnode refid="33913" relation="include">
+        </childnode>
+        <childnode refid="33895" relation="include">
+        </childnode>
+        <childnode refid="33914" relation="include">
+        </childnode>
+      </node>
+      <node id="33904">
+        <label>gnuradio/rpccallbackregister_base.h</label>
+        <link refid="rpccallbackregister__base_8h"/>
+        <childnode refid="33905" relation="include">
+        </childnode>
+        <childnode refid="33915" relation="include">
+        </childnode>
+      </node>
+      <node id="33920">
+        <label>gnuradio/basic_block.h</label>
+        <link refid="basic__block_8h"/>
+        <childnode refid="33897" relation="include">
+        </childnode>
+        <childnode refid="33921" relation="include">
+        </childnode>
+        <childnode refid="33922" relation="include">
+        </childnode>
+        <childnode refid="33923" relation="include">
+        </childnode>
+        <childnode refid="33927" relation="include">
+        </childnode>
+        <childnode refid="33928" relation="include">
+        </childnode>
+        <childnode refid="33934" relation="include">
+        </childnode>
+        <childnode refid="33935" relation="include">
+        </childnode>
+        <childnode refid="33936" relation="include">
+        </childnode>
+        <childnode refid="33932" relation="include">
+        </childnode>
+        <childnode refid="33889" relation="include">
+        </childnode>
+        <childnode refid="33894" relation="include">
+        </childnode>
+        <childnode refid="33937" relation="include">
+        </childnode>
+        <childnode refid="33938" relation="include">
+        </childnode>
+      </node>
+      <node id="33910">
+        <label>complex</label>
+      </node>
+      <node id="33891">
+        <label>stdio.h</label>
+      </node>
+      <node id="33916">
+        <label>memory</label>
+      </node>
+      <node id="33899">
+        <label>gnuradio/rpcmanager_base.h</label>
+        <link refid="rpcmanager__base_8h"/>
+        <childnode refid="33900" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classpmt__assist" prot="public">pmt_assist</innerclass>
+    <innerclass refid="classpycallback__object" prot="public">pycallback_object</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="pycallback__object_8h_1afdcb33acd08539b294ffd13411ab59d4" prot="public" static="no">
+        <name>pyport_t</name>
+        <enumvalue id="pycallback__object_8h_1afdcb33acd08539b294ffd13411ab59d4ad100801d1c0febe3885e5f69c6012131" prot="public">
+          <name>PYPORT_STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pycallback__object_8h_1afdcb33acd08539b294ffd13411ab59d4a1dbd06b5c7cc061177cf66309aa5a9ff" prot="public">
+          <name>PYPORT_FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/pycallback_object.h" line="28" column="1" bodyfile="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/pycallback_object.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pycallback__object_8h_1aa89a2c2e5f581891a9e8add79f53a855" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pycallback_object_count</definition>
+        <argsstring></argsstring>
+        <name>pycallback_object_count</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/pycallback_object.h" line="33" column="1" bodyfile="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/pycallback_object.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/pycallback_object.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h" kind="file" language="C++">
+    <compoundname>gr-vocoder/include/gnuradio/vocoder/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="alaw__decode__bs_8h" local="no">alaw_decode_bs.h</includedby>
+    <includedby refid="alaw__encode__sb_8h" local="no">alaw_encode_sb.h</includedby>
+    <includedby refid="codec2_8h" local="no">codec2.h</includedby>
+    <includedby refid="codec2__decode__ps_8h" local="no">codec2_decode_ps.h</includedby>
+    <includedby refid="codec2__encode__sp_8h" local="no">codec2_encode_sp.h</includedby>
+    <includedby refid="cvsd__decode__bs_8h" local="no">cvsd_decode_bs.h</includedby>
+    <includedby refid="cvsd__encode__sb_8h" local="no">cvsd_encode_sb.h</includedby>
+    <includedby refid="g721__decode__bs_8h" local="no">g721_decode_bs.h</includedby>
+    <includedby refid="g721__encode__sb_8h" local="no">g721_encode_sb.h</includedby>
+    <includedby refid="g723__24__decode__bs_8h" local="no">g723_24_decode_bs.h</includedby>
+    <includedby refid="g723__24__encode__sb_8h" local="no">g723_24_encode_sb.h</includedby>
+    <includedby refid="g723__40__decode__bs_8h" local="no">g723_40_decode_bs.h</includedby>
+    <includedby refid="g723__40__encode__sb_8h" local="no">g723_40_encode_sb.h</includedby>
+    <includedby refid="gsm__fr__decode__ps_8h" local="no">gsm_fr_decode_ps.h</includedby>
+    <includedby refid="gsm__fr__encode__sp_8h" local="no">gsm_fr_encode_sp.h</includedby>
+    <includedby refid="ulaw__decode__bs_8h" local="no">ulaw_decode_bs.h</includedby>
+    <includedby refid="ulaw__encode__sb_8h" local="no">ulaw_encode_sb.h</includedby>
+    <incdepgraph>
+      <node id="3975">
+        <label>api.h</label>
+        <link refid="gr-vocoder/include/gnuradio/vocoder/api.h"/>
+        <childnode refid="3976" relation="include">
+        </childnode>
+      </node>
+      <node id="3976">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3981">
+        <label>codec2_decode_ps.h</label>
+        <link refid="codec2__decode__ps_8h"/>
+      </node>
+      <node id="3980">
+        <label>codec2.h</label>
+        <link refid="codec2_8h"/>
+        <childnode refid="3981" relation="include">
+        </childnode>
+        <childnode refid="3982" relation="include">
+        </childnode>
+      </node>
+      <node id="3993">
+        <label>ulaw_decode_bs.h</label>
+        <link refid="ulaw__decode__bs_8h"/>
+      </node>
+      <node id="3988">
+        <label>g723_24_encode_sb.h</label>
+        <link refid="g723__24__encode__sb_8h"/>
+      </node>
+      <node id="3992">
+        <label>gsm_fr_encode_sp.h</label>
+        <link refid="gsm__fr__encode__sp_8h"/>
+      </node>
+      <node id="3987">
+        <label>g723_24_decode_bs.h</label>
+        <link refid="g723__24__decode__bs_8h"/>
+      </node>
+      <node id="3978">
+        <label>alaw_decode_bs.h</label>
+        <link refid="alaw__decode__bs_8h"/>
+      </node>
+      <node id="3977">
+        <label>api.h</label>
+        <link refid="gr-vocoder/include/gnuradio/vocoder/api.h"/>
+        <childnode refid="3978" relation="include">
+        </childnode>
+        <childnode refid="3979" relation="include">
+        </childnode>
+        <childnode refid="3980" relation="include">
+        </childnode>
+        <childnode refid="3981" relation="include">
+        </childnode>
+        <childnode refid="3982" relation="include">
+        </childnode>
+        <childnode refid="3983" relation="include">
+        </childnode>
+        <childnode refid="3984" relation="include">
+        </childnode>
+        <childnode refid="3985" relation="include">
+        </childnode>
+        <childnode refid="3986" relation="include">
+        </childnode>
+        <childnode refid="3987" relation="include">
+        </childnode>
+        <childnode refid="3988" relation="include">
+        </childnode>
+        <childnode refid="3989" relation="include">
+        </childnode>
+        <childnode refid="3990" relation="include">
+        </childnode>
+        <childnode refid="3991" relation="include">
+        </childnode>
+        <childnode refid="3992" relation="include">
+        </childnode>
+        <childnode refid="3993" relation="include">
+        </childnode>
+        <childnode refid="3994" relation="include">
+        </childnode>
+      </node>
+      <node id="3983">
+        <label>cvsd_decode_bs.h</label>
+        <link refid="cvsd__decode__bs_8h"/>
+      </node>
+      <node id="3990">
+        <label>g723_40_encode_sb.h</label>
+        <link refid="g723__40__encode__sb_8h"/>
+      </node>
+      <node id="3991">
+        <label>gsm_fr_decode_ps.h</label>
+        <link refid="gsm__fr__decode__ps_8h"/>
+      </node>
+      <node id="3989">
+        <label>g723_40_decode_bs.h</label>
+        <link refid="g723__40__decode__bs_8h"/>
+      </node>
+      <node id="3984">
+        <label>cvsd_encode_sb.h</label>
+        <link refid="cvsd__encode__sb_8h"/>
+      </node>
+      <node id="3979">
+        <label>alaw_encode_sb.h</label>
+        <link refid="alaw__encode__sb_8h"/>
+      </node>
+      <node id="3986">
+        <label>g721_encode_sb.h</label>
+        <link refid="g721__encode__sb_8h"/>
+      </node>
+      <node id="3982">
+        <label>codec2_encode_sp.h</label>
+        <link refid="codec2__encode__sp_8h"/>
+      </node>
+      <node id="3994">
+        <label>ulaw_encode_sb.h</label>
+        <link refid="ulaw__encode__sb_8h"/>
+      </node>
+      <node id="3985">
+        <label>g721_decode_bs.h</label>
+        <link refid="g721__decode__bs_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-vocoder_2include_2gnuradio_2vocoder_2api_8h_1a8a56d8b0d26cf75df04dcad9064a0aeb" prot="public" static="no">
+        <name>VOCODER_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h" line="30" column="12" bodyfile="/home/project/prefix/src/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-vocoder/include/gnuradio/vocoder/api.h"/>
+  </compounddef>
+</doxygen>

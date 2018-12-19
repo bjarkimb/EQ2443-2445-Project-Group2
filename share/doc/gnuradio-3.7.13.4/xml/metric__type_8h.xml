@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="metric__type_8h" kind="file" language="C++">
+    <compoundname>metric_type.h</compoundname>
+    <includedby refid="constellation_8h" local="no">constellation.h</includedby>
+    <includedby refid="calc__metric_8h" local="no">calc_metric.h</includedby>
+    <includedby refid="constellation__metrics__cf_8h" local="no">constellation_metrics_cf.h</includedby>
+    <includedby refid="core__algorithms_8h" local="no">core_algorithms.h</includedby>
+    <invincdepgraph>
+      <node id="23471">
+        <label>metric_type.h</label>
+        <link refid="metric_type.h"/>
+        <childnode refid="23472" relation="include">
+        </childnode>
+        <childnode refid="23482" relation="include">
+        </childnode>
+        <childnode refid="23481" relation="include">
+        </childnode>
+        <childnode refid="23512" relation="include">
+        </childnode>
+      </node>
+      <node id="23515">
+        <label>viterbi_s.h</label>
+        <link refid="viterbi__s_8h"/>
+      </node>
+      <node id="23509">
+        <label>viterbi_combined_si.h</label>
+        <link refid="viterbi__combined__si_8h"/>
+      </node>
+      <node id="23487">
+        <label>pccc_decoder_combined_cb.h</label>
+        <link refid="pccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="23493">
+        <label>sccc_decoder_combined_cb.h</label>
+        <link refid="sccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="23492">
+        <label>pccc_decoder_combined_fs.h</label>
+        <link refid="pccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="23516">
+        <label>siso_f.h</label>
+        <link refid="siso__f_8h"/>
+      </node>
+      <node id="23498">
+        <label>sccc_decoder_combined_fs.h</label>
+        <link refid="sccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="23476">
+        <label>lms_dd_equalizer_cc.h</label>
+        <link refid="lms__dd__equalizer__cc_8h"/>
+      </node>
+      <node id="23486">
+        <label>metrics_s.h</label>
+        <link refid="metrics__s_8h"/>
+      </node>
+      <node id="23504">
+        <label>viterbi_combined_fs.h</label>
+        <link refid="viterbi__combined__fs_8h"/>
+      </node>
+      <node id="23513">
+        <label>viterbi_b.h</label>
+        <link refid="viterbi__b_8h"/>
+      </node>
+      <node id="23480">
+        <label>symbol_sync_ff.h</label>
+        <link refid="symbol__sync__ff_8h"/>
+      </node>
+      <node id="23501">
+        <label>viterbi_combined_cs.h</label>
+        <link refid="viterbi__combined__cs_8h"/>
+      </node>
+      <node id="23478">
+        <label>ofdm_equalizer_static.h</label>
+        <link refid="ofdm__equalizer__static_8h"/>
+      </node>
+      <node id="23481">
+        <label>constellation_metrics_cf.h</label>
+        <link refid="constellation__metrics__cf_8h"/>
+      </node>
+      <node id="23505">
+        <label>viterbi_combined_ib.h</label>
+        <link refid="viterbi__combined__ib_8h"/>
+      </node>
+      <node id="23479">
+        <label>symbol_sync_cc.h</label>
+        <link refid="symbol__sync__cc_8h"/>
+      </node>
+      <node id="23475">
+        <label>constellation_soft_decoder_cf.h</label>
+        <link refid="constellation__soft__decoder__cf_8h"/>
+      </node>
+      <node id="23502">
+        <label>viterbi_combined_fb.h</label>
+        <link refid="viterbi__combined__fb_8h"/>
+      </node>
+      <node id="23510">
+        <label>viterbi_combined_ss.h</label>
+        <link refid="viterbi__combined__ss_8h"/>
+      </node>
+      <node id="23477">
+        <label>ofdm_equalizer_simpledfe.h</label>
+        <link refid="ofdm__equalizer__simpledfe_8h"/>
+      </node>
+      <node id="23514">
+        <label>viterbi_i.h</label>
+        <link refid="viterbi__i_8h"/>
+      </node>
+      <node id="23489">
+        <label>pccc_decoder_combined_cs.h</label>
+        <link refid="pccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="23495">
+        <label>sccc_decoder_combined_cs.h</label>
+        <link refid="sccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="23485">
+        <label>metrics_i.h</label>
+        <link refid="metrics__i_8h"/>
+      </node>
+      <node id="23482">
+        <label>calc_metric.h</label>
+        <link refid="calc__metric_8h"/>
+        <childnode refid="23483" relation="include">
+        </childnode>
+        <childnode refid="23484" relation="include">
+        </childnode>
+        <childnode refid="23485" relation="include">
+        </childnode>
+        <childnode refid="23486" relation="include">
+        </childnode>
+        <childnode refid="23487" relation="include">
+        </childnode>
+        <childnode refid="23488" relation="include">
+        </childnode>
+        <childnode refid="23489" relation="include">
+        </childnode>
+        <childnode refid="23490" relation="include">
+        </childnode>
+        <childnode refid="23491" relation="include">
+        </childnode>
+        <childnode refid="23492" relation="include">
+        </childnode>
+        <childnode refid="23493" relation="include">
+        </childnode>
+        <childnode refid="23494" relation="include">
+        </childnode>
+        <childnode refid="23495" relation="include">
+        </childnode>
+        <childnode refid="23496" relation="include">
+        </childnode>
+        <childnode refid="23497" relation="include">
+        </childnode>
+        <childnode refid="23498" relation="include">
+        </childnode>
+        <childnode refid="23499" relation="include">
+        </childnode>
+        <childnode refid="23500" relation="include">
+        </childnode>
+        <childnode refid="23501" relation="include">
+        </childnode>
+        <childnode refid="23502" relation="include">
+        </childnode>
+        <childnode refid="23503" relation="include">
+        </childnode>
+        <childnode refid="23504" relation="include">
+        </childnode>
+        <childnode refid="23505" relation="include">
+        </childnode>
+        <childnode refid="23506" relation="include">
+        </childnode>
+        <childnode refid="23507" relation="include">
+        </childnode>
+        <childnode refid="23508" relation="include">
+        </childnode>
+        <childnode refid="23509" relation="include">
+        </childnode>
+        <childnode refid="23510" relation="include">
+        </childnode>
+        <childnode refid="23511" relation="include">
+        </childnode>
+      </node>
+      <node id="23506">
+        <label>viterbi_combined_ii.h</label>
+        <link refid="viterbi__combined__ii_8h"/>
+      </node>
+      <node id="23491">
+        <label>pccc_decoder_combined_fi.h</label>
+        <link refid="pccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="23497">
+        <label>sccc_decoder_combined_fi.h</label>
+        <link refid="sccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="23499">
+        <label>viterbi_combined_cb.h</label>
+        <link refid="viterbi__combined__cb_8h"/>
+      </node>
+      <node id="23503">
+        <label>viterbi_combined_fi.h</label>
+        <link refid="viterbi__combined__fi_8h"/>
+      </node>
+      <node id="23484">
+        <label>metrics_f.h</label>
+        <link refid="metrics__f_8h"/>
+      </node>
+      <node id="23472">
+        <label>constellation.h</label>
+        <link refid="constellation_8h"/>
+        <childnode refid="23473" relation="include">
+        </childnode>
+        <childnode refid="23474" relation="include">
+        </childnode>
+        <childnode refid="23475" relation="include">
+        </childnode>
+        <childnode refid="23476" relation="include">
+        </childnode>
+        <childnode refid="23477" relation="include">
+        </childnode>
+        <childnode refid="23478" relation="include">
+        </childnode>
+        <childnode refid="23479" relation="include">
+        </childnode>
+        <childnode refid="23480" relation="include">
+        </childnode>
+        <childnode refid="23481" relation="include">
+        </childnode>
+      </node>
+      <node id="23474">
+        <label>constellation_receiver_cb.h</label>
+        <link refid="constellation__receiver__cb_8h"/>
+      </node>
+      <node id="23508">
+        <label>viterbi_combined_sb.h</label>
+        <link refid="viterbi__combined__sb_8h"/>
+      </node>
+      <node id="23490">
+        <label>pccc_decoder_combined_fb.h</label>
+        <link refid="pccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="23507">
+        <label>viterbi_combined_is.h</label>
+        <link refid="viterbi__combined__is_8h"/>
+      </node>
+      <node id="23512">
+        <label>core_algorithms.h</label>
+        <link refid="core__algorithms_8h"/>
+        <childnode refid="23513" relation="include">
+        </childnode>
+        <childnode refid="23499" relation="include">
+        </childnode>
+        <childnode refid="23500" relation="include">
+        </childnode>
+        <childnode refid="23501" relation="include">
+        </childnode>
+        <childnode refid="23502" relation="include">
+        </childnode>
+        <childnode refid="23503" relation="include">
+        </childnode>
+        <childnode refid="23504" relation="include">
+        </childnode>
+        <childnode refid="23505" relation="include">
+        </childnode>
+        <childnode refid="23506" relation="include">
+        </childnode>
+        <childnode refid="23507" relation="include">
+        </childnode>
+        <childnode refid="23508" relation="include">
+        </childnode>
+        <childnode refid="23509" relation="include">
+        </childnode>
+        <childnode refid="23510" relation="include">
+        </childnode>
+        <childnode refid="23514" relation="include">
+        </childnode>
+        <childnode refid="23515" relation="include">
+        </childnode>
+        <childnode refid="23511" relation="include">
+        </childnode>
+        <childnode refid="23516" relation="include">
+        </childnode>
+      </node>
+      <node id="23496">
+        <label>sccc_decoder_combined_fb.h</label>
+        <link refid="sccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="23488">
+        <label>pccc_decoder_combined_ci.h</label>
+        <link refid="pccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="23494">
+        <label>sccc_decoder_combined_ci.h</label>
+        <link refid="sccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="23511">
+        <label>siso_combined_f.h</label>
+        <link refid="siso__combined__f_8h"/>
+      </node>
+      <node id="23500">
+        <label>viterbi_combined_ci.h</label>
+        <link refid="viterbi__combined__ci_8h"/>
+      </node>
+      <node id="23483">
+        <label>metrics_c.h</label>
+        <link refid="metrics__c_8h"/>
+      </node>
+      <node id="23473">
+        <label>constellation_decoder_cb.h</label>
+        <link refid="constellation__decoder__cb_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1digital">gr::digital</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-digital/include/gnuradio/digital/metric_type.h"/>
+  </compounddef>
+</doxygen>

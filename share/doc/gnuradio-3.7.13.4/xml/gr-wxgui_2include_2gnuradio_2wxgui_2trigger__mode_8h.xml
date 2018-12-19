@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-wxgui_2include_2gnuradio_2wxgui_2trigger__mode_8h" kind="file" language="C++">
+    <compoundname>gr-wxgui/include/gnuradio/wxgui/trigger_mode.h</compoundname>
+    <includedby refid="oscope__guts_8h" local="no">oscope_guts.h</includedby>
+    <includedby refid="oscope__sink__x_8h" local="no">oscope_sink_x.h</includedby>
+    <invincdepgraph>
+      <node id="44071">
+        <label>oscope_sink_f.h</label>
+        <link refid="oscope__sink__f_8h"/>
+      </node>
+      <node id="44068">
+        <label>trigger_mode.h</label>
+        <link refid="gr-wxgui/include/gnuradio/wxgui/trigger_mode.h"/>
+        <childnode refid="44069" relation="include">
+        </childnode>
+        <childnode refid="44070" relation="include">
+        </childnode>
+      </node>
+      <node id="44069">
+        <label>oscope_guts.h</label>
+        <link refid="oscope__guts_8h"/>
+        <childnode refid="44070" relation="include">
+        </childnode>
+      </node>
+      <node id="44070">
+        <label>oscope_sink_x.h</label>
+        <link refid="oscope__sink__x_8h"/>
+        <childnode refid="44071" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1wxgui">gr::wxgui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-wxgui/include/gnuradio/wxgui/trigger_mode.h"/>
+  </compounddef>
+</doxygen>

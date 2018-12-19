@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_ed181bb5c74214ee15c89e7b85e89e6d" kind="dir">
+    <compoundname>gnuradio</compoundname>
+    <innerdir refid="dir_cbd3cb91085d6218079ad96ff42776d1">trellis</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-trellis/include/gnuradio/"/>
+  </compounddef>
+</doxygen>

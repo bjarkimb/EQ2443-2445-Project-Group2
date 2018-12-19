@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d1c22946fffd545b9db421694f4a35c0" kind="dir">
+    <compoundname>analog</compoundname>
+    <innerfile refid="fastnoise__source__c_8h">fastnoise_source_c.h</innerfile>
+    <innerfile refid="fastnoise__source__f_8h">fastnoise_source_f.h</innerfile>
+    <innerfile refid="fastnoise__source__i_8h">fastnoise_source_i.h</innerfile>
+    <innerfile refid="fastnoise__source__s_8h">fastnoise_source_s.h</innerfile>
+    <innerfile refid="noise__source__c_8h">noise_source_c.h</innerfile>
+    <innerfile refid="noise__source__f_8h">noise_source_f.h</innerfile>
+    <innerfile refid="noise__source__i_8h">noise_source_i.h</innerfile>
+    <innerfile refid="noise__source__s_8h">noise_source_s.h</innerfile>
+    <innerfile refid="random__uniform__source__b_8h">random_uniform_source_b.h</innerfile>
+    <innerfile refid="random__uniform__source__i_8h">random_uniform_source_i.h</innerfile>
+    <innerfile refid="random__uniform__source__s_8h">random_uniform_source_s.h</innerfile>
+    <innerfile refid="sig__source__c_8h">sig_source_c.h</innerfile>
+    <innerfile refid="sig__source__f_8h">sig_source_f.h</innerfile>
+    <innerfile refid="sig__source__i_8h">sig_source_i.h</innerfile>
+    <innerfile refid="sig__source__s_8h">sig_source_s.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-analog/include/gnuradio/analog/"/>
+  </compounddef>
+</doxygen>

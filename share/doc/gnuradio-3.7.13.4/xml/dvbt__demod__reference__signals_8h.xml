@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dvbt__demod__reference__signals_8h" kind="file" language="C++">
+    <compoundname>dvbt_demod_reference_signals.h</compoundname>
+    <includes refid="gr-dtv_2include_2gnuradio_2dtv_2api_8h" local="no">gnuradio/dtv/api.h</includes>
+    <includes refid="block_8h" local="no">gnuradio/block.h</includes>
+    <includes refid="dvb__config_8h" local="no">gnuradio/dtv/dvb_config.h</includes>
+    <includes refid="dvbt__config_8h" local="no">gnuradio/dtv/dvbt_config.h</includes>
+    <incdepgraph>
+      <node id="13498">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="13491">
+        <label>gnuradio/runtime_types.h</label>
+        <link refid="runtime__types_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13492" relation="include">
+        </childnode>
+      </node>
+      <node id="13500">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="13477">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="13476">
+        <label>gnuradio/sptr_magic.h</label>
+        <link refid="sptr__magic_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13477" relation="include">
+        </childnode>
+      </node>
+      <node id="13482">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="13511">
+        <label>assert.h</label>
+      </node>
+      <node id="13495">
+        <label>gnuradio/io_signature.h</label>
+        <link refid="io__signature_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13491" relation="include">
+        </childnode>
+      </node>
+      <node id="13486">
+        <label>stdint.h</label>
+      </node>
+      <node id="13490">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="13479" relation="include">
+        </childnode>
+      </node>
+      <node id="13504">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="13515">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="13470">
+        <label>dvbt_demod_reference_signals.h</label>
+        <link refid="dvbt_demod_reference_signals.h"/>
+        <childnode refid="13471" relation="include">
+        </childnode>
+        <childnode refid="13473" relation="include">
+        </childnode>
+        <childnode refid="13516" relation="include">
+        </childnode>
+        <childnode refid="13517" relation="include">
+        </childnode>
+      </node>
+      <node id="13488">
+        <label>stdexcept</label>
+      </node>
+      <node id="13497">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="13496">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13497" relation="include">
+        </childnode>
+        <childnode refid="13498" relation="include">
+        </childnode>
+        <childnode refid="13499" relation="include">
+        </childnode>
+        <childnode refid="13500" relation="include">
+        </childnode>
+        <childnode refid="13501" relation="include">
+        </childnode>
+        <childnode refid="13477" relation="include">
+        </childnode>
+        <childnode refid="13489" relation="include">
+        </childnode>
+      </node>
+      <node id="13485">
+        <label>string</label>
+      </node>
+      <node id="13474">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="13472" relation="include">
+        </childnode>
+      </node>
+      <node id="13472">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="13507">
+        <label>map</label>
+      </node>
+      <node id="13514">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="13517">
+        <label>gnuradio/dtv/dvbt_config.h</label>
+        <link refid="dvbt__config_8h"/>
+      </node>
+      <node id="13481">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="13472" relation="include">
+        </childnode>
+      </node>
+      <node id="13493">
+        <label>stddef.h</label>
+      </node>
+      <node id="13473">
+        <label>gnuradio/block.h</label>
+        <link refid="block_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13475" relation="include">
+        </childnode>
+        <childnode refid="13508" relation="include">
+        </childnode>
+        <childnode refid="13509" relation="include">
+        </childnode>
+      </node>
+      <node id="13503">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="13483">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="13510">
+        <label>sys/types.h</label>
+      </node>
+      <node id="13478">
+        <label>gnuradio/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13479" relation="include">
+        </childnode>
+        <childnode refid="13480" relation="include">
+        </childnode>
+      </node>
+      <node id="13499">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="13509">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="13510" relation="include">
+        </childnode>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13511" relation="include">
+        </childnode>
+        <childnode refid="13505" relation="include">
+        </childnode>
+        <childnode refid="13512" relation="include">
+        </childnode>
+        <childnode refid="13513" relation="include">
+        </childnode>
+        <childnode refid="13514" relation="include">
+        </childnode>
+        <childnode refid="13515" relation="include">
+        </childnode>
+        <childnode refid="13480" relation="include">
+        </childnode>
+      </node>
+      <node id="13489">
+        <label>vector</label>
+      </node>
+      <node id="13501">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="13513">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="13492">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13477" relation="include">
+        </childnode>
+        <childnode refid="13489" relation="include">
+        </childnode>
+        <childnode refid="13493" relation="include">
+        </childnode>
+        <childnode refid="13494" relation="include">
+        </childnode>
+        <childnode refid="13486" relation="include">
+        </childnode>
+      </node>
+      <node id="13516">
+        <label>gnuradio/dtv/dvb_config.h</label>
+        <link refid="dvb__config_8h"/>
+      </node>
+      <node id="13494">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="13484" relation="include">
+        </childnode>
+      </node>
+      <node id="13502">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="13512">
+        <label>time.h</label>
+      </node>
+      <node id="13487">
+        <label>iosfwd</label>
+      </node>
+      <node id="13505">
+        <label>iostream</label>
+      </node>
+      <node id="13479">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13480" relation="include">
+        </childnode>
+        <childnode refid="13477" relation="include">
+        </childnode>
+      </node>
+      <node id="13506">
+        <label>deque</label>
+      </node>
+      <node id="13480">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="13481" relation="include">
+        </childnode>
+        <childnode refid="13482" relation="include">
+        </childnode>
+        <childnode refid="13477" relation="include">
+        </childnode>
+        <childnode refid="13483" relation="include">
+        </childnode>
+        <childnode refid="13484" relation="include">
+        </childnode>
+        <childnode refid="13485" relation="include">
+        </childnode>
+        <childnode refid="13486" relation="include">
+        </childnode>
+        <childnode refid="13487" relation="include">
+        </childnode>
+        <childnode refid="13488" relation="include">
+        </childnode>
+        <childnode refid="13489" relation="include">
+        </childnode>
+        <childnode refid="13490" relation="include">
+        </childnode>
+      </node>
+      <node id="13508">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13480" relation="include">
+        </childnode>
+      </node>
+      <node id="13475">
+        <label>gnuradio/basic_block.h</label>
+        <link refid="basic__block_8h"/>
+        <childnode refid="13474" relation="include">
+        </childnode>
+        <childnode refid="13476" relation="include">
+        </childnode>
+        <childnode refid="13478" relation="include">
+        </childnode>
+        <childnode refid="13491" relation="include">
+        </childnode>
+        <childnode refid="13495" relation="include">
+        </childnode>
+        <childnode refid="13496" relation="include">
+        </childnode>
+        <childnode refid="13502" relation="include">
+        </childnode>
+        <childnode refid="13503" relation="include">
+        </childnode>
+        <childnode refid="13504" relation="include">
+        </childnode>
+        <childnode refid="13500" relation="include">
+        </childnode>
+        <childnode refid="13505" relation="include">
+        </childnode>
+        <childnode refid="13485" relation="include">
+        </childnode>
+        <childnode refid="13506" relation="include">
+        </childnode>
+        <childnode refid="13507" relation="include">
+        </childnode>
+      </node>
+      <node id="13484">
+        <label>complex</label>
+      </node>
+      <node id="13471">
+        <label>gnuradio/dtv/api.h</label>
+        <link refid="gr-dtv_2include_2gnuradio_2dtv_2api_8h"/>
+        <childnode refid="13472" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1dtv_1_1dvbt__demod__reference__signals" prot="public">gr::dtv::dvbt_demod_reference_signals</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1dtv">gr::dtv</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-dtv/include/gnuradio/dtv/dvbt_demod_reference_signals.h"/>
+  </compounddef>
+</doxygen>

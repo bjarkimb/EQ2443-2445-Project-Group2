@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="group__channelizers__blk" kind="group">
+    <compoundname>channelizers_blk</compoundname>
+    <title>Channelizers</title>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__ccc" prot="public">gr::filter::freq_xlating_fir_filter_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__ccf" prot="public">gr::filter::freq_xlating_fir_filter_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__fcc" prot="public">gr::filter::freq_xlating_fir_filter_fcc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__fcf" prot="public">gr::filter::freq_xlating_fir_filter_fcf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__scc" prot="public">gr::filter::freq_xlating_fir_filter_scc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1freq__xlating__fir__filter__scf" prot="public">gr::filter::freq_xlating_fir_filter_scf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__channelizer__ccf" prot="public">gr::filter::pfb_channelizer_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__decimator__ccf" prot="public">gr::filter::pfb_decimator_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__interpolator__ccf" prot="public">gr::filter::pfb_interpolator_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__synthesizer__ccf" prot="public">gr::filter::pfb_synthesizer_ccf</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

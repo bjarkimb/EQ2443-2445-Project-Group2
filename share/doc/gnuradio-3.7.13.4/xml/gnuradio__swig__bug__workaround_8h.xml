@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gnuradio__swig__bug__workaround_8h" kind="file" language="C++">
+    <compoundname>gnuradio_swig_bug_workaround.h</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/swig/gnuradio_swig_bug_workaround.h"/>
+  </compounddef>
+</doxygen>

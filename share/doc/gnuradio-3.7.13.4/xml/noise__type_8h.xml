@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="noise__type_8h" kind="file" language="C++">
+    <compoundname>noise_type.h</compoundname>
+    <includedby refid="fastnoise__source__c_8h" local="no">fastnoise_source_c.h</includedby>
+    <includedby refid="fastnoise__source__f_8h" local="no">fastnoise_source_f.h</includedby>
+    <includedby refid="fastnoise__source__i_8h" local="no">fastnoise_source_i.h</includedby>
+    <includedby refid="fastnoise__source__s_8h" local="no">fastnoise_source_s.h</includedby>
+    <includedby refid="noise__source__c_8h" local="no">noise_source_c.h</includedby>
+    <includedby refid="noise__source__f_8h" local="no">noise_source_f.h</includedby>
+    <includedby refid="noise__source__i_8h" local="no">noise_source_i.h</includedby>
+    <includedby refid="noise__source__s_8h" local="no">noise_source_s.h</includedby>
+    <invincdepgraph>
+      <node id="27010">
+        <label>noise_source_f.h</label>
+        <link refid="noise__source__f_8h"/>
+        <childnode refid="27011" relation="include">
+        </childnode>
+      </node>
+      <node id="27008">
+        <label>fastnoise_source_s.h</label>
+        <link refid="fastnoise__source__s_8h"/>
+      </node>
+      <node id="27005">
+        <label>fastnoise_source_c.h</label>
+        <link refid="fastnoise__source__c_8h"/>
+      </node>
+      <node id="27013">
+        <label>noise_source_s.h</label>
+        <link refid="noise__source__s_8h"/>
+      </node>
+      <node id="27009">
+        <label>noise_source_c.h</label>
+        <link refid="noise__source__c_8h"/>
+      </node>
+      <node id="27004">
+        <label>noise_type.h</label>
+        <link refid="noise_type.h"/>
+        <childnode refid="27005" relation="include">
+        </childnode>
+        <childnode refid="27006" relation="include">
+        </childnode>
+        <childnode refid="27007" relation="include">
+        </childnode>
+        <childnode refid="27008" relation="include">
+        </childnode>
+        <childnode refid="27009" relation="include">
+        </childnode>
+        <childnode refid="27010" relation="include">
+        </childnode>
+        <childnode refid="27012" relation="include">
+        </childnode>
+        <childnode refid="27013" relation="include">
+        </childnode>
+      </node>
+      <node id="27006">
+        <label>fastnoise_source_f.h</label>
+        <link refid="fastnoise__source__f_8h"/>
+      </node>
+      <node id="27007">
+        <label>fastnoise_source_i.h</label>
+        <link refid="fastnoise__source__i_8h"/>
+      </node>
+      <node id="27011">
+        <label>display_qt.h</label>
+        <link refid="display__qt_8h"/>
+      </node>
+      <node id="27012">
+        <label>noise_source_i.h</label>
+        <link refid="noise__source__i_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1analog">gr::analog</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-analog/include/gnuradio/analog/noise_type.h"/>
+  </compounddef>
+</doxygen>

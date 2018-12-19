@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="sys__paths_8h" kind="file" language="C++">
+    <compoundname>sys_paths.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <incdepgraph>
+      <node id="41009">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="41008">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="41009" relation="include">
+        </childnode>
+      </node>
+      <node id="41007">
+        <label>sys_paths.h</label>
+        <link refid="sys_paths.h"/>
+        <childnode refid="41008" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/sys_paths.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polar__decoder__sc__list_8h" kind="file" language="C++">
+    <compoundname>polar_decoder_sc_list.h</compoundname>
+    <includes refid="gr-fec_2include_2gnuradio_2fec_2api_8h" local="no">gnuradio/fec/api.h</includes>
+    <includes refid="polar__decoder__common_8h" local="no">gnuradio/fec/polar_decoder_common.h</includes>
+    <incdepgraph>
+      <node id="32303">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="32302">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="32294">
+        <label>assert.h</label>
+      </node>
+      <node id="32307">
+        <label>stdint.h</label>
+      </node>
+      <node id="32311">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="32312" relation="include">
+        </childnode>
+      </node>
+      <node id="32299">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="32309">
+        <label>stdexcept</label>
+      </node>
+      <node id="32306">
+        <label>string</label>
+      </node>
+      <node id="32293">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="32288" relation="include">
+        </childnode>
+      </node>
+      <node id="32288">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="32298">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="32301">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="32288" relation="include">
+        </childnode>
+      </node>
+      <node id="32313">
+        <label>gnuradio/fec/polar_common.h</label>
+        <link refid="polar__common_8h"/>
+        <childnode refid="32287" relation="include">
+        </childnode>
+      </node>
+      <node id="32304">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="32287">
+        <label>gnuradio/fec/api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="32288" relation="include">
+        </childnode>
+      </node>
+      <node id="32292">
+        <label>sys/types.h</label>
+      </node>
+      <node id="32286">
+        <label>polar_decoder_sc_list.h</label>
+        <link refid="polar_decoder_sc_list.h"/>
+        <childnode refid="32287" relation="include">
+        </childnode>
+        <childnode refid="32289" relation="include">
+        </childnode>
+      </node>
+      <node id="32291">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="32292" relation="include">
+        </childnode>
+        <childnode refid="32293" relation="include">
+        </childnode>
+        <childnode refid="32294" relation="include">
+        </childnode>
+        <childnode refid="32295" relation="include">
+        </childnode>
+        <childnode refid="32296" relation="include">
+        </childnode>
+        <childnode refid="32297" relation="include">
+        </childnode>
+        <childnode refid="32298" relation="include">
+        </childnode>
+        <childnode refid="32299" relation="include">
+        </childnode>
+        <childnode refid="32300" relation="include">
+        </childnode>
+      </node>
+      <node id="32310">
+        <label>vector</label>
+      </node>
+      <node id="32297">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="32296">
+        <label>time.h</label>
+      </node>
+      <node id="32308">
+        <label>iosfwd</label>
+      </node>
+      <node id="32295">
+        <label>iostream</label>
+      </node>
+      <node id="32312">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="32293" relation="include">
+        </childnode>
+        <childnode refid="32300" relation="include">
+        </childnode>
+        <childnode refid="32303" relation="include">
+        </childnode>
+      </node>
+      <node id="32300">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="32301" relation="include">
+        </childnode>
+        <childnode refid="32302" relation="include">
+        </childnode>
+        <childnode refid="32303" relation="include">
+        </childnode>
+        <childnode refid="32304" relation="include">
+        </childnode>
+        <childnode refid="32305" relation="include">
+        </childnode>
+        <childnode refid="32306" relation="include">
+        </childnode>
+        <childnode refid="32307" relation="include">
+        </childnode>
+        <childnode refid="32308" relation="include">
+        </childnode>
+        <childnode refid="32309" relation="include">
+        </childnode>
+        <childnode refid="32310" relation="include">
+        </childnode>
+        <childnode refid="32311" relation="include">
+        </childnode>
+      </node>
+      <node id="32305">
+        <label>complex</label>
+      </node>
+      <node id="32290">
+        <label>gnuradio/fec/generic_decoder.h</label>
+        <link refid="generic__decoder_8h"/>
+        <childnode refid="32287" relation="include">
+        </childnode>
+        <childnode refid="32291" relation="include">
+        </childnode>
+        <childnode refid="32303" relation="include">
+        </childnode>
+        <childnode refid="32299" relation="include">
+        </childnode>
+      </node>
+      <node id="32289">
+        <label>gnuradio/fec/polar_decoder_common.h</label>
+        <link refid="polar__decoder__common_8h"/>
+        <childnode refid="32287" relation="include">
+        </childnode>
+        <childnode refid="32290" relation="include">
+        </childnode>
+        <childnode refid="32313" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1fec_1_1code_1_1polar__decoder__sc__list" prot="public">gr::fec::code::polar_decoder_sc_list</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec">gr::fec</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec_1_1code">gr::fec::code</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec_1_1code_1_1polar">gr::fec::code::polar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/polar_decoder_sc_list.h"/>
+  </compounddef>
+</doxygen>

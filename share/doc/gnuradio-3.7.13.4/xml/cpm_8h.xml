@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="cpm_8h" kind="file" language="C++">
+    <compoundname>cpm.h</compoundname>
+    <includes refid="gr-analog_2include_2gnuradio_2analog_2api_8h" local="no">gnuradio/analog/api.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="cpmmod__bc_8h" local="no">cpmmod_bc.h</includedby>
+    <incdepgraph>
+      <node id="10463">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10464">
+        <label>vector</label>
+      </node>
+      <node id="10461">
+        <label>cpm.h</label>
+        <link refid="cpm.h"/>
+        <childnode refid="10462" relation="include">
+        </childnode>
+        <childnode refid="10464" relation="include">
+        </childnode>
+      </node>
+      <node id="10462">
+        <label>gnuradio/analog/api.h</label>
+        <link refid="gr-analog_2include_2gnuradio_2analog_2api_8h"/>
+        <childnode refid="10463" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10466">
+        <label>cpmmod_bc.h</label>
+        <link refid="cpmmod__bc_8h"/>
+      </node>
+      <node id="10465">
+        <label>cpm.h</label>
+        <link refid="cpm.h"/>
+        <childnode refid="10466" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1analog_1_1cpm" prot="public">gr::analog::cpm</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1analog">gr::analog</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-analog/include/gnuradio/analog/cpm.h"/>
+  </compounddef>
+</doxygen>

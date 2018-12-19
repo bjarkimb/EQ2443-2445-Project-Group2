@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="endianness_8h" kind="file" language="C++">
+    <compoundname>endianness.h</compoundname>
+    <includedby refid="packed__to__unpacked__bb_8h" local="no">packed_to_unpacked_bb.h</includedby>
+    <includedby refid="packed__to__unpacked__ii_8h" local="no">packed_to_unpacked_ii.h</includedby>
+    <includedby refid="packed__to__unpacked__ss_8h" local="no">packed_to_unpacked_ss.h</includedby>
+    <includedby refid="unpacked__to__packed__bb_8h" local="no">unpacked_to_packed_bb.h</includedby>
+    <includedby refid="unpacked__to__packed__ii_8h" local="no">unpacked_to_packed_ii.h</includedby>
+    <includedby refid="unpacked__to__packed__ss_8h" local="no">unpacked_to_packed_ss.h</includedby>
+    <includedby refid="repack__bits__bb_8h" local="no">repack_bits_bb.h</includedby>
+    <invincdepgraph>
+      <node id="14543">
+        <label>unpacked_to_packed_ss.h</label>
+        <link refid="unpacked__to__packed__ss_8h"/>
+      </node>
+      <node id="14541">
+        <label>unpacked_to_packed_bb.h</label>
+        <link refid="unpacked__to__packed__bb_8h"/>
+      </node>
+      <node id="14542">
+        <label>unpacked_to_packed_ii.h</label>
+        <link refid="unpacked__to__packed__ii_8h"/>
+      </node>
+      <node id="14539">
+        <label>packed_to_unpacked_ii.h</label>
+        <link refid="packed__to__unpacked__ii_8h"/>
+      </node>
+      <node id="14538">
+        <label>packed_to_unpacked_bb.h</label>
+        <link refid="packed__to__unpacked__bb_8h"/>
+      </node>
+      <node id="14540">
+        <label>packed_to_unpacked_ss.h</label>
+        <link refid="packed__to__unpacked__ss_8h"/>
+      </node>
+      <node id="14544">
+        <label>repack_bits_bb.h</label>
+        <link refid="repack__bits__bb_8h"/>
+      </node>
+      <node id="14537">
+        <label>endianness.h</label>
+        <link refid="endianness.h"/>
+        <childnode refid="14538" relation="include">
+        </childnode>
+        <childnode refid="14539" relation="include">
+        </childnode>
+        <childnode refid="14540" relation="include">
+        </childnode>
+        <childnode refid="14541" relation="include">
+        </childnode>
+        <childnode refid="14542" relation="include">
+        </childnode>
+        <childnode refid="14543" relation="include">
+        </childnode>
+        <childnode refid="14544" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/endianness.h"/>
+  </compounddef>
+</doxygen>

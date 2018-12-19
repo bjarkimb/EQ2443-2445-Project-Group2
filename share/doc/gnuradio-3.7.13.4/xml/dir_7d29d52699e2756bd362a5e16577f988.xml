@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_7d29d52699e2756bd362a5e16577f988" kind="dir">
+    <compoundname>gr-filter</compoundname>
+    <innerdir refid="dir_0cde7da6be9f4d1e7fdc00368d444cde">include</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-filter/"/>
+  </compounddef>
+</doxygen>

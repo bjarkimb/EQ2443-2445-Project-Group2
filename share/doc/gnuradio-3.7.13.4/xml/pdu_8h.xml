@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="pdu_8h" kind="file" language="C++">
+    <compoundname>pdu.h</compoundname>
+    <includes refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h" local="no">gnuradio/blocks/api.h</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includes refid="pmt_8h" local="no">pmt/pmt.h</includes>
+    <includedby refid="pdu__to__tagged__stream_8h" local="no">pdu_to_tagged_stream.h</includedby>
+    <includedby refid="tagged__stream__to__pdu_8h" local="no">tagged_stream_to_pdu.h</includedby>
+    <incdepgraph>
+      <node id="29550">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="29549">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="29553">
+        <label>stdint.h</label>
+      </node>
+      <node id="29557">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="29558" relation="include">
+        </childnode>
+      </node>
+      <node id="29555">
+        <label>stdexcept</label>
+      </node>
+      <node id="29552">
+        <label>string</label>
+      </node>
+      <node id="29559">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="29544" relation="include">
+        </childnode>
+      </node>
+      <node id="29544">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="29548">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="29544" relation="include">
+        </childnode>
+      </node>
+      <node id="29551">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="29556">
+        <label>vector</label>
+      </node>
+      <node id="29545">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="29546" relation="include">
+        </childnode>
+      </node>
+      <node id="29554">
+        <label>iosfwd</label>
+      </node>
+      <node id="29543">
+        <label>gnuradio/blocks/api.h</label>
+        <link refid="gr-blocks_2include_2gnuradio_2blocks_2api_8h"/>
+        <childnode refid="29544" relation="include">
+        </childnode>
+      </node>
+      <node id="29558">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="29559" relation="include">
+        </childnode>
+        <childnode refid="29547" relation="include">
+        </childnode>
+        <childnode refid="29550" relation="include">
+        </childnode>
+      </node>
+      <node id="29547">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="29548" relation="include">
+        </childnode>
+        <childnode refid="29549" relation="include">
+        </childnode>
+        <childnode refid="29550" relation="include">
+        </childnode>
+        <childnode refid="29551" relation="include">
+        </childnode>
+        <childnode refid="29546" relation="include">
+        </childnode>
+        <childnode refid="29552" relation="include">
+        </childnode>
+        <childnode refid="29553" relation="include">
+        </childnode>
+        <childnode refid="29554" relation="include">
+        </childnode>
+        <childnode refid="29555" relation="include">
+        </childnode>
+        <childnode refid="29556" relation="include">
+        </childnode>
+        <childnode refid="29557" relation="include">
+        </childnode>
+      </node>
+      <node id="29546">
+        <label>complex</label>
+      </node>
+      <node id="29542">
+        <label>pdu.h</label>
+        <link refid="pdu.h"/>
+        <childnode refid="29543" relation="include">
+        </childnode>
+        <childnode refid="29545" relation="include">
+        </childnode>
+        <childnode refid="29547" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="29562">
+        <label>tagged_stream_to_pdu.h</label>
+        <link refid="tagged__stream__to__pdu_8h"/>
+      </node>
+      <node id="29561">
+        <label>pdu_to_tagged_stream.h</label>
+        <link refid="pdu__to__tagged__stream_8h"/>
+      </node>
+      <node id="29560">
+        <label>pdu.h</label>
+        <link refid="pdu.h"/>
+        <childnode refid="29561" relation="include">
+        </childnode>
+        <childnode refid="29562" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks_1_1pdu">gr::blocks::pdu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-blocks/include/gnuradio/blocks/pdu.h"/>
+  </compounddef>
+</doxygen>

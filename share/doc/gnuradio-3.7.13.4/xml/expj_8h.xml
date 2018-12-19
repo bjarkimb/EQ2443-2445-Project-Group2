@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="expj_8h" kind="file" language="C++">
+    <compoundname>expj.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="sincos_8h" local="no">gnuradio/sincos.h</includes>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2types_8h" local="no">gnuradio/types.h</includes>
+    <incdepgraph>
+      <node id="14633">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="14628">
+        <label>expj.h</label>
+        <link refid="expj.h"/>
+        <childnode refid="14629" relation="include">
+        </childnode>
+        <childnode refid="14631" relation="include">
+        </childnode>
+        <childnode refid="14632" relation="include">
+        </childnode>
+      </node>
+      <node id="14638">
+        <label>stdint.h</label>
+      </node>
+      <node id="14630">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="14629">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="14630" relation="include">
+        </childnode>
+      </node>
+      <node id="14635">
+        <label>stddef.h</label>
+      </node>
+      <node id="14634">
+        <label>vector</label>
+      </node>
+      <node id="14631">
+        <label>gnuradio/sincos.h</label>
+        <link refid="sincos_8h"/>
+        <childnode refid="14629" relation="include">
+        </childnode>
+      </node>
+      <node id="14632">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="14629" relation="include">
+        </childnode>
+        <childnode refid="14633" relation="include">
+        </childnode>
+        <childnode refid="14634" relation="include">
+        </childnode>
+        <childnode refid="14635" relation="include">
+        </childnode>
+        <childnode refid="14636" relation="include">
+        </childnode>
+        <childnode refid="14638" relation="include">
+        </childnode>
+      </node>
+      <node id="14636">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="14637" relation="include">
+        </childnode>
+      </node>
+      <node id="14637">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="expj_8h_1a7d0144e5774158b746199c1da4d5b5ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>static gr_complex gr_expj</definition>
+        <argsstring>(float phase)</argsstring>
+        <name>gr_expj</name>
+        <param>
+          <type>float</type>
+          <declname>phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/expj.h" line="30" column="1" bodyfile="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/expj.h" bodystart="30" bodyend="35"/>
+        <references refid="namespacegr_1aa254de637456cdc476a79191eb660519">gr::sincosf</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/expj.h"/>
+  </compounddef>
+</doxygen>

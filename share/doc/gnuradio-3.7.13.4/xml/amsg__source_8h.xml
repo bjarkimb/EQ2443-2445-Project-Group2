@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="amsg__source_8h" kind="file" language="C++">
+    <compoundname>amsg_source.h</compoundname>
+    <includes local="no">uhd/usrp/multi_usrp.hpp</includes>
+    <includes refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h" local="no">gnuradio/uhd/api.h</includes>
+    <includes refid="msg__queue_8h" local="no">gnuradio/msg_queue.h</includes>
+    <incdepgraph>
+      <node id="1264">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="1266">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="1255">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="1260">
+        <label>stdint.h</label>
+      </node>
+      <node id="1263">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="1253">
+        <label>gnuradio/message.h</label>
+        <link refid="message_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1261" relation="include">
+        </childnode>
+      </node>
+      <node id="1262">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1263" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1265" relation="include">
+        </childnode>
+        <childnode refid="1266" relation="include">
+        </childnode>
+        <childnode refid="1267" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+      <node id="1261">
+        <label>string</label>
+      </node>
+      <node id="1251">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="1250">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="1251" relation="include">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>uhd/config.hpp</label>
+      </node>
+      <node id="1257">
+        <label>stddef.h</label>
+      </node>
+      <node id="1247">
+        <label>gnuradio/uhd/api.h</label>
+        <link refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h"/>
+        <childnode refid="1248" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>gnuradio/msg_handler.h</label>
+        <link refid="msg__handler_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1253" relation="include">
+        </childnode>
+      </node>
+      <node id="1249">
+        <label>gnuradio/msg_queue.h</label>
+        <link refid="msg__queue_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="1256">
+        <label>vector</label>
+      </node>
+      <node id="1267">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="1254">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1260" relation="include">
+        </childnode>
+      </node>
+      <node id="1258">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="1259" relation="include">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>amsg_source.h</label>
+        <link refid="amsg_source.h"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1249" relation="include">
+        </childnode>
+      </node>
+      <node id="1246">
+        <label>uhd/usrp/multi_usrp.hpp</label>
+      </node>
+      <node id="1259">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1uhd_1_1amsg__source" prot="public">gr::uhd::amsg_source</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1uhd">gr::uhd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-uhd/include/gnuradio/uhd/amsg_source.h"/>
+  </compounddef>
+</doxygen>

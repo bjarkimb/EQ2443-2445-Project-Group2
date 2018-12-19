@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1correctiq_1_1correctiq" kind="class"><name>gr::correctiq::correctiq</name>
+    <member refid="classgr_1_1correctiq_1_1correctiq_1a47074739db61b90fad7cc5f6de7ceea0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq_1a9d61282d9481acf04d80cfbdb2d72a54" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1correctiq_1_1correctiq__auto" kind="class"><name>gr::correctiq::correctiq_auto</name>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1a06aff6af8bf9ce677723c56b7d85a66d" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1a7ddfdaf516d7e3e9f0f6de837ffdbd86" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1aa68df929aa15650bd7290bf05ba431aa" kind="function"><name>get_freq</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1a4f1c7d1d8b5e0f0d1c6c870bd1265606" kind="function"><name>get_gain</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1adcd24dd018455d2240aafe728be7603a" kind="function"><name>set_freq</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__auto_1ada5cf3835d72f0afc952a84cb9ad2774" kind="function"><name>set_gain</name></member>
+  </compound>
+  <compound refid="classgr_1_1correctiq_1_1correctiq__man" kind="class"><name>gr::correctiq::correctiq_man</name>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1a194a90a2cedf3fe0314ab5aa21f72bff" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1aea2e1218d1aaad8fa4883e320d13abac" kind="function"><name>get_real</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1affd50ce44886298e01396792700e407d" kind="function"><name>get_imag</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1af4e77de3398e2a54e02ab80039ea72c8" kind="function"><name>set_real</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1a158d9b42a7f8e30545060754ebcac483" kind="function"><name>set_imag</name></member>
+    <member refid="classgr_1_1correctiq_1_1correctiq__man_1a06a60c6769b7fcf9680f502daada2b25" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1correctiq" kind="namespace"><name>gr::correctiq</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a1929bb1667c5ae340e732ca7da24bac8" kind="define"><name>CORRECTIQ_API</name></member>
+  </compound>
+  <compound refid="correctiq_8h" kind="file"><name>correctiq.h</name>
+  </compound>
+  <compound refid="correctiq__auto_8h" kind="file"><name>correctiq_auto.h</name>
+  </compound>
+  <compound refid="correctiq__man_8h" kind="file"><name>correctiq_man.h</name>
+  </compound>
+  <compound refid="dir_9f7bf322118fd671b7ab4dd83ff3c88e" kind="dir"><name>/home/project/prefix/gr-correctiq-master/include/correctiq</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/project/prefix/gr-correctiq-master/include</name>
+  </compound>
+</doxygenindex>

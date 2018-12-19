@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1fec_1_1code_1_1polar" kind="namespace" language="C++">
+    <compoundname>gr::fec::code::polar</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/polar_decoder_sc_list.h" line="34" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="encode__ccsds__27__bb_8h" kind="file" language="C++">
+    <compoundname>encode_ccsds_27_bb.h</compoundname>
+    <includes refid="gr-fec_2include_2gnuradio_2fec_2api_8h" local="no">gnuradio/fec/api.h</includes>
+    <includes refid="sync__interpolator_8h" local="no">gnuradio/sync_interpolator.h</includes>
+    <incdepgraph>
+      <node id="14120">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="14093">
+        <label>gnuradio/sync_interpolator.h</label>
+        <link refid="sync__interpolator_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14095" relation="include">
+        </childnode>
+      </node>
+      <node id="14113">
+        <label>gnuradio/runtime_types.h</label>
+        <link refid="runtime__types_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14114" relation="include">
+        </childnode>
+      </node>
+      <node id="14122">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="14099">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="14098">
+        <label>gnuradio/sptr_magic.h</label>
+        <link refid="sptr__magic_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14099" relation="include">
+        </childnode>
+      </node>
+      <node id="14104">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="14133">
+        <label>assert.h</label>
+      </node>
+      <node id="14117">
+        <label>gnuradio/io_signature.h</label>
+        <link refid="io__signature_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14113" relation="include">
+        </childnode>
+      </node>
+      <node id="14108">
+        <label>stdint.h</label>
+      </node>
+      <node id="14112">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="14101" relation="include">
+        </childnode>
+      </node>
+      <node id="14126">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="14137">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="14110">
+        <label>stdexcept</label>
+      </node>
+      <node id="14119">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="14118">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14119" relation="include">
+        </childnode>
+        <childnode refid="14120" relation="include">
+        </childnode>
+        <childnode refid="14121" relation="include">
+        </childnode>
+        <childnode refid="14122" relation="include">
+        </childnode>
+        <childnode refid="14123" relation="include">
+        </childnode>
+        <childnode refid="14099" relation="include">
+        </childnode>
+        <childnode refid="14111" relation="include">
+        </childnode>
+      </node>
+      <node id="14107">
+        <label>string</label>
+      </node>
+      <node id="14094">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="14092" relation="include">
+        </childnode>
+      </node>
+      <node id="14092">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="14129">
+        <label>map</label>
+      </node>
+      <node id="14136">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="14103">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="14092" relation="include">
+        </childnode>
+      </node>
+      <node id="14115">
+        <label>stddef.h</label>
+      </node>
+      <node id="14096">
+        <label>gnuradio/block.h</label>
+        <link refid="block_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14097" relation="include">
+        </childnode>
+        <childnode refid="14130" relation="include">
+        </childnode>
+        <childnode refid="14131" relation="include">
+        </childnode>
+      </node>
+      <node id="14125">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="14105">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="14091">
+        <label>gnuradio/fec/api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="14092" relation="include">
+        </childnode>
+      </node>
+      <node id="14132">
+        <label>sys/types.h</label>
+      </node>
+      <node id="14100">
+        <label>gnuradio/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14101" relation="include">
+        </childnode>
+        <childnode refid="14102" relation="include">
+        </childnode>
+      </node>
+      <node id="14121">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="14131">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="14132" relation="include">
+        </childnode>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14133" relation="include">
+        </childnode>
+        <childnode refid="14127" relation="include">
+        </childnode>
+        <childnode refid="14134" relation="include">
+        </childnode>
+        <childnode refid="14135" relation="include">
+        </childnode>
+        <childnode refid="14136" relation="include">
+        </childnode>
+        <childnode refid="14137" relation="include">
+        </childnode>
+        <childnode refid="14102" relation="include">
+        </childnode>
+      </node>
+      <node id="14111">
+        <label>vector</label>
+      </node>
+      <node id="14123">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="14135">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="14114">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14099" relation="include">
+        </childnode>
+        <childnode refid="14111" relation="include">
+        </childnode>
+        <childnode refid="14115" relation="include">
+        </childnode>
+        <childnode refid="14116" relation="include">
+        </childnode>
+        <childnode refid="14108" relation="include">
+        </childnode>
+      </node>
+      <node id="14116">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="14106" relation="include">
+        </childnode>
+      </node>
+      <node id="14095">
+        <label>gnuradio/sync_block.h</label>
+        <link refid="sync__block_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14096" relation="include">
+        </childnode>
+      </node>
+      <node id="14124">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="14134">
+        <label>time.h</label>
+      </node>
+      <node id="14109">
+        <label>iosfwd</label>
+      </node>
+      <node id="14127">
+        <label>iostream</label>
+      </node>
+      <node id="14101">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14102" relation="include">
+        </childnode>
+        <childnode refid="14099" relation="include">
+        </childnode>
+      </node>
+      <node id="14128">
+        <label>deque</label>
+      </node>
+      <node id="14102">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="14103" relation="include">
+        </childnode>
+        <childnode refid="14104" relation="include">
+        </childnode>
+        <childnode refid="14099" relation="include">
+        </childnode>
+        <childnode refid="14105" relation="include">
+        </childnode>
+        <childnode refid="14106" relation="include">
+        </childnode>
+        <childnode refid="14107" relation="include">
+        </childnode>
+        <childnode refid="14108" relation="include">
+        </childnode>
+        <childnode refid="14109" relation="include">
+        </childnode>
+        <childnode refid="14110" relation="include">
+        </childnode>
+        <childnode refid="14111" relation="include">
+        </childnode>
+        <childnode refid="14112" relation="include">
+        </childnode>
+      </node>
+      <node id="14130">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14102" relation="include">
+        </childnode>
+      </node>
+      <node id="14090">
+        <label>encode_ccsds_27_bb.h</label>
+        <link refid="encode_ccsds_27_bb.h"/>
+        <childnode refid="14091" relation="include">
+        </childnode>
+        <childnode refid="14093" relation="include">
+        </childnode>
+      </node>
+      <node id="14097">
+        <label>gnuradio/basic_block.h</label>
+        <link refid="basic__block_8h"/>
+        <childnode refid="14094" relation="include">
+        </childnode>
+        <childnode refid="14098" relation="include">
+        </childnode>
+        <childnode refid="14100" relation="include">
+        </childnode>
+        <childnode refid="14113" relation="include">
+        </childnode>
+        <childnode refid="14117" relation="include">
+        </childnode>
+        <childnode refid="14118" relation="include">
+        </childnode>
+        <childnode refid="14124" relation="include">
+        </childnode>
+        <childnode refid="14125" relation="include">
+        </childnode>
+        <childnode refid="14126" relation="include">
+        </childnode>
+        <childnode refid="14122" relation="include">
+        </childnode>
+        <childnode refid="14127" relation="include">
+        </childnode>
+        <childnode refid="14107" relation="include">
+        </childnode>
+        <childnode refid="14128" relation="include">
+        </childnode>
+        <childnode refid="14129" relation="include">
+        </childnode>
+      </node>
+      <node id="14106">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1fec_1_1encode__ccsds__27__bb" prot="public">gr::fec::encode_ccsds_27_bb</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec">gr::fec</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/encode_ccsds_27_bb.h"/>
+  </compounddef>
+</doxygen>

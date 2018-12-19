@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-pager_2include_2gnuradio_2pager_2api_8h" kind="file" language="C++">
+    <compoundname>gr-pager/include/gnuradio/pager/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="flex__deinterleave_8h" local="no">flex_deinterleave.h</includedby>
+    <includedby refid="flex__frame_8h" local="no">flex_frame.h</includedby>
+    <includedby refid="flex__parse_8h" local="no">flex_parse.h</includedby>
+    <includedby refid="flex__sync_8h" local="no">flex_sync.h</includedby>
+    <includedby refid="slicer__fb_8h" local="no">slicer_fb.h</includedby>
+    <incdepgraph>
+      <node id="3848">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="3847">
+        <label>api.h</label>
+        <link refid="gr-pager/include/gnuradio/pager/api.h"/>
+        <childnode refid="3848" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3851">
+        <label>flex_frame.h</label>
+        <link refid="flex__frame_8h"/>
+      </node>
+      <node id="3852">
+        <label>flex_parse.h</label>
+        <link refid="flex__parse_8h"/>
+      </node>
+      <node id="3850">
+        <label>flex_deinterleave.h</label>
+        <link refid="flex__deinterleave_8h"/>
+      </node>
+      <node id="3854">
+        <label>slicer_fb.h</label>
+        <link refid="slicer__fb_8h"/>
+      </node>
+      <node id="3853">
+        <label>flex_sync.h</label>
+        <link refid="flex__sync_8h"/>
+      </node>
+      <node id="3849">
+        <label>api.h</label>
+        <link refid="gr-pager/include/gnuradio/pager/api.h"/>
+        <childnode refid="3850" relation="include">
+        </childnode>
+        <childnode refid="3851" relation="include">
+        </childnode>
+        <childnode refid="3852" relation="include">
+        </childnode>
+        <childnode refid="3853" relation="include">
+        </childnode>
+        <childnode refid="3854" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-pager_2include_2gnuradio_2pager_2api_8h_1a0466fe431406887375cfa789a185150e" prot="public" static="no">
+        <name>PAGER_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-pager/include/gnuradio/pager/api.h" line="30" column="12" bodyfile="/home/project/prefix/src/gnuradio/gr-pager/include/gnuradio/pager/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-pager/include/gnuradio/pager/api.h"/>
+  </compounddef>
+</doxygen>

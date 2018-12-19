@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="HistogramDisplayPlot_8h" kind="file" language="C++">
+    <compoundname>HistogramDisplayPlot.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">vector</includes>
+    <includes refid="DisplayPlot_8h" local="no">gnuradio/qtgui/DisplayPlot.h</includes>
+    <includedby refid="histogramdisplayform_8h" local="no">histogramdisplayform.h</includedby>
+    <incdepgraph>
+      <node id="19819">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="19821">
+        <label>qwt_plot_canvas.h</label>
+      </node>
+      <node id="19815">
+        <label>stdint.h</label>
+      </node>
+      <node id="19831">
+        <label>gnuradio/qtgui/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="19832" relation="include">
+        </childnode>
+        <childnode refid="19833" relation="include">
+        </childnode>
+        <childnode refid="19835" relation="include">
+        </childnode>
+        <childnode refid="19836" relation="include">
+        </childnode>
+        <childnode refid="19837" relation="include">
+        </childnode>
+        <childnode refid="19838" relation="include">
+        </childnode>
+      </node>
+      <node id="19833">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="19834" relation="include">
+        </childnode>
+      </node>
+      <node id="19834">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="19826">
+        <label>qwt_plot_panner.h</label>
+      </node>
+      <node id="19820">
+        <label>qwt_painter.h</label>
+      </node>
+      <node id="19816">
+        <label>cstdio</label>
+      </node>
+      <node id="19839">
+        <label>qwt_legend_item.h</label>
+      </node>
+      <node id="19817">
+        <label>vector</label>
+      </node>
+      <node id="19829">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="19823">
+        <label>qwt_scale_engine.h</label>
+      </node>
+      <node id="19837">
+        <label>QString</label>
+      </node>
+      <node id="19818">
+        <label>gnuradio/qtgui/DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="19815" relation="include">
+        </childnode>
+        <childnode refid="19816" relation="include">
+        </childnode>
+        <childnode refid="19817" relation="include">
+        </childnode>
+        <childnode refid="19819" relation="include">
+        </childnode>
+        <childnode refid="19820" relation="include">
+        </childnode>
+        <childnode refid="19821" relation="include">
+        </childnode>
+        <childnode refid="19822" relation="include">
+        </childnode>
+        <childnode refid="19823" relation="include">
+        </childnode>
+        <childnode refid="19824" relation="include">
+        </childnode>
+        <childnode refid="19825" relation="include">
+        </childnode>
+        <childnode refid="19826" relation="include">
+        </childnode>
+        <childnode refid="19827" relation="include">
+        </childnode>
+        <childnode refid="19828" relation="include">
+        </childnode>
+        <childnode refid="19829" relation="include">
+        </childnode>
+        <childnode refid="19830" relation="include">
+        </childnode>
+        <childnode refid="19831" relation="include">
+        </childnode>
+        <childnode refid="19839" relation="include">
+        </childnode>
+      </node>
+      <node id="19828">
+        <label>qwt_plot_marker.h</label>
+      </node>
+      <node id="19824">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="19832">
+        <label>qevent.h</label>
+      </node>
+      <node id="19825">
+        <label>qwt_plot_zoomer.h</label>
+      </node>
+      <node id="19827">
+        <label>qwt_plot_magnifier.h</label>
+      </node>
+      <node id="19830">
+        <label>qwt_legend.h</label>
+      </node>
+      <node id="19836">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="19822">
+        <label>qwt_plot_curve.h</label>
+      </node>
+      <node id="19814">
+        <label>HistogramDisplayPlot.h</label>
+        <link refid="HistogramDisplayPlot.h"/>
+        <childnode refid="19815" relation="include">
+        </childnode>
+        <childnode refid="19816" relation="include">
+        </childnode>
+        <childnode refid="19817" relation="include">
+        </childnode>
+        <childnode refid="19818" relation="include">
+        </childnode>
+      </node>
+      <node id="19835">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="19838">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="19841">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="19840">
+        <label>HistogramDisplayPlot.h</label>
+        <link refid="HistogramDisplayPlot.h"/>
+        <childnode refid="19841" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classHistogramDisplayPlot" prot="public">HistogramDisplayPlot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/HistogramDisplayPlot.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rpcserver__booter__thrift_8h" kind="file" language="C++">
+    <compoundname>rpcserver_booter_thrift.h</compoundname>
+    <includes refid="rpcserver__booter__base_8h" local="no">gnuradio/rpcserver_booter_base.h</includes>
+    <includes refid="thrift__server__template_8h" local="no">gnuradio/thrift_server_template.h</includes>
+    <includes local="yes">thrift/ControlPort.h</includes>
+    <incdepgraph>
+      <node id="35443">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="35445">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="35447">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="35458">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="35450">
+        <label>assert.h</label>
+      </node>
+      <node id="35433">
+        <label>gnuradio/rpcserver_booter_base.h</label>
+        <link refid="rpcserver__booter__base_8h"/>
+        <childnode refid="35434" relation="include">
+        </childnode>
+        <childnode refid="35435" relation="include">
+        </childnode>
+      </node>
+      <node id="35474">
+        <label>thrift/transport/TBufferTransports.h</label>
+      </node>
+      <node id="35461">
+        <label>stdint.h</label>
+      </node>
+      <node id="35473">
+        <label>thrift/transport/TServerSocket.h</label>
+      </node>
+      <node id="35464">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="35465" relation="include">
+        </childnode>
+      </node>
+      <node id="35455">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="35463">
+        <label>stdexcept</label>
+      </node>
+      <node id="35442">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="35441">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="35438" relation="include">
+        </childnode>
+        <childnode refid="35442" relation="include">
+        </childnode>
+        <childnode refid="35443" relation="include">
+        </childnode>
+        <childnode refid="35444" relation="include">
+        </childnode>
+        <childnode refid="35445" relation="include">
+        </childnode>
+        <childnode refid="35446" relation="include">
+        </childnode>
+        <childnode refid="35447" relation="include">
+        </childnode>
+        <childnode refid="35435" relation="include">
+        </childnode>
+      </node>
+      <node id="35434">
+        <label>string</label>
+      </node>
+      <node id="35439">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="35438">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="35439" relation="include">
+        </childnode>
+      </node>
+      <node id="35440">
+        <label>map</label>
+      </node>
+      <node id="35454">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="35466">
+        <label>gnuradio/thrift_application_base.h</label>
+        <link refid="thrift__application__base_8h"/>
+        <childnode refid="35438" relation="include">
+        </childnode>
+        <childnode refid="35448" relation="include">
+        </childnode>
+        <childnode refid="35437" relation="include">
+        </childnode>
+        <childnode refid="35441" relation="include">
+        </childnode>
+        <childnode refid="35467" relation="include">
+        </childnode>
+        <childnode refid="35468" relation="include">
+        </childnode>
+      </node>
+      <node id="35469">
+        <label>thrift/server/TSimpleServer.h</label>
+      </node>
+      <node id="35457">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="35439" relation="include">
+        </childnode>
+      </node>
+      <node id="35475">
+        <label>thrift/ControlPort.h</label>
+      </node>
+      <node id="35459">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="35467">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="35449">
+        <label>sys/types.h</label>
+      </node>
+      <node id="35436">
+        <label>gnuradio/thrift_server_template.h</label>
+        <link refid="thrift__server__template_8h"/>
+        <childnode refid="35437" relation="include">
+        </childnode>
+        <childnode refid="35448" relation="include">
+        </childnode>
+        <childnode refid="35466" relation="include">
+        </childnode>
+        <childnode refid="35451" relation="include">
+        </childnode>
+        <childnode refid="35469" relation="include">
+        </childnode>
+        <childnode refid="35470" relation="include">
+        </childnode>
+        <childnode refid="35471" relation="include">
+        </childnode>
+        <childnode refid="35472" relation="include">
+        </childnode>
+        <childnode refid="35473" relation="include">
+        </childnode>
+        <childnode refid="35474" relation="include">
+        </childnode>
+        <childnode refid="35475" relation="include">
+        </childnode>
+      </node>
+      <node id="35444">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="35448">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="35449" relation="include">
+        </childnode>
+        <childnode refid="35438" relation="include">
+        </childnode>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35451" relation="include">
+        </childnode>
+        <childnode refid="35452" relation="include">
+        </childnode>
+        <childnode refid="35453" relation="include">
+        </childnode>
+        <childnode refid="35454" relation="include">
+        </childnode>
+        <childnode refid="35455" relation="include">
+        </childnode>
+        <childnode refid="35456" relation="include">
+        </childnode>
+      </node>
+      <node id="35435">
+        <label>vector</label>
+      </node>
+      <node id="35446">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="35453">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="35470">
+        <label>thrift/server/TThreadPoolServer.h</label>
+      </node>
+      <node id="35471">
+        <label>thrift/concurrency/ThreadManager.h</label>
+      </node>
+      <node id="35452">
+        <label>time.h</label>
+      </node>
+      <node id="35432">
+        <label>rpcserver_booter_thrift.h</label>
+        <link refid="rpcserver_booter_thrift.h"/>
+        <childnode refid="35433" relation="include">
+        </childnode>
+        <childnode refid="35436" relation="include">
+        </childnode>
+        <childnode refid="35475" relation="include">
+        </childnode>
+      </node>
+      <node id="35462">
+        <label>iosfwd</label>
+      </node>
+      <node id="35468">
+        <label>boost/scoped_ptr.hpp</label>
+      </node>
+      <node id="35472">
+        <label>thrift/concurrency/PlatformThreadFactory.h</label>
+      </node>
+      <node id="35451">
+        <label>iostream</label>
+      </node>
+      <node id="35465">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="35438" relation="include">
+        </childnode>
+        <childnode refid="35456" relation="include">
+        </childnode>
+        <childnode refid="35447" relation="include">
+        </childnode>
+      </node>
+      <node id="35456">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="35457" relation="include">
+        </childnode>
+        <childnode refid="35458" relation="include">
+        </childnode>
+        <childnode refid="35447" relation="include">
+        </childnode>
+        <childnode refid="35459" relation="include">
+        </childnode>
+        <childnode refid="35460" relation="include">
+        </childnode>
+        <childnode refid="35434" relation="include">
+        </childnode>
+        <childnode refid="35461" relation="include">
+        </childnode>
+        <childnode refid="35462" relation="include">
+        </childnode>
+        <childnode refid="35463" relation="include">
+        </childnode>
+        <childnode refid="35435" relation="include">
+        </childnode>
+        <childnode refid="35464" relation="include">
+        </childnode>
+      </node>
+      <node id="35437">
+        <label>gnuradio/prefs.h</label>
+        <link refid="prefs_8h"/>
+        <childnode refid="35438" relation="include">
+        </childnode>
+        <childnode refid="35434" relation="include">
+        </childnode>
+        <childnode refid="35440" relation="include">
+        </childnode>
+        <childnode refid="35441" relation="include">
+        </childnode>
+      </node>
+      <node id="35460">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classrpcserver__booter__thrift" prot="public">rpcserver_booter_thrift</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_thrift.h"/>
+  </compounddef>
+</doxygen>

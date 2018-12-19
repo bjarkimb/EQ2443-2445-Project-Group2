@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="iir__filter__ccd_8h" kind="file" language="C++">
+    <compoundname>iir_filter_ccd.h</compoundname>
+    <includes refid="gr-filter_2include_2gnuradio_2filter_2api_8h" local="no">gnuradio/filter/api.h</includes>
+    <includes refid="sync__block_8h" local="no">gnuradio/sync_block.h</includes>
+    <incdepgraph>
+      <node id="20072">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="20065">
+        <label>gnuradio/runtime_types.h</label>
+        <link refid="runtime__types_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20066" relation="include">
+        </childnode>
+      </node>
+      <node id="20074">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="20051">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="20050">
+        <label>gnuradio/sptr_magic.h</label>
+        <link refid="sptr__magic_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20051" relation="include">
+        </childnode>
+      </node>
+      <node id="20056">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="20085">
+        <label>assert.h</label>
+      </node>
+      <node id="20069">
+        <label>gnuradio/io_signature.h</label>
+        <link refid="io__signature_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20065" relation="include">
+        </childnode>
+      </node>
+      <node id="20060">
+        <label>stdint.h</label>
+      </node>
+      <node id="20064">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="20053" relation="include">
+        </childnode>
+      </node>
+      <node id="20078">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="20089">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="20062">
+        <label>stdexcept</label>
+      </node>
+      <node id="20071">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="20070">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20071" relation="include">
+        </childnode>
+        <childnode refid="20072" relation="include">
+        </childnode>
+        <childnode refid="20073" relation="include">
+        </childnode>
+        <childnode refid="20074" relation="include">
+        </childnode>
+        <childnode refid="20075" relation="include">
+        </childnode>
+        <childnode refid="20051" relation="include">
+        </childnode>
+        <childnode refid="20063" relation="include">
+        </childnode>
+      </node>
+      <node id="20059">
+        <label>string</label>
+      </node>
+      <node id="20047">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="20045" relation="include">
+        </childnode>
+      </node>
+      <node id="20045">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="20081">
+        <label>map</label>
+      </node>
+      <node id="20088">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="20055">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="20045" relation="include">
+        </childnode>
+      </node>
+      <node id="20067">
+        <label>stddef.h</label>
+      </node>
+      <node id="20048">
+        <label>gnuradio/block.h</label>
+        <link refid="block_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20049" relation="include">
+        </childnode>
+        <childnode refid="20082" relation="include">
+        </childnode>
+        <childnode refid="20083" relation="include">
+        </childnode>
+      </node>
+      <node id="20077">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="20057">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="20043">
+        <label>iir_filter_ccd.h</label>
+        <link refid="iir_filter_ccd.h"/>
+        <childnode refid="20044" relation="include">
+        </childnode>
+        <childnode refid="20046" relation="include">
+        </childnode>
+      </node>
+      <node id="20084">
+        <label>sys/types.h</label>
+      </node>
+      <node id="20052">
+        <label>gnuradio/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20053" relation="include">
+        </childnode>
+        <childnode refid="20054" relation="include">
+        </childnode>
+      </node>
+      <node id="20073">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="20083">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="20084" relation="include">
+        </childnode>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20085" relation="include">
+        </childnode>
+        <childnode refid="20079" relation="include">
+        </childnode>
+        <childnode refid="20086" relation="include">
+        </childnode>
+        <childnode refid="20087" relation="include">
+        </childnode>
+        <childnode refid="20088" relation="include">
+        </childnode>
+        <childnode refid="20089" relation="include">
+        </childnode>
+        <childnode refid="20054" relation="include">
+        </childnode>
+      </node>
+      <node id="20063">
+        <label>vector</label>
+      </node>
+      <node id="20075">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="20087">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="20066">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20051" relation="include">
+        </childnode>
+        <childnode refid="20063" relation="include">
+        </childnode>
+        <childnode refid="20067" relation="include">
+        </childnode>
+        <childnode refid="20068" relation="include">
+        </childnode>
+        <childnode refid="20060" relation="include">
+        </childnode>
+      </node>
+      <node id="20068">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="20058" relation="include">
+        </childnode>
+      </node>
+      <node id="20046">
+        <label>gnuradio/sync_block.h</label>
+        <link refid="sync__block_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20048" relation="include">
+        </childnode>
+      </node>
+      <node id="20076">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="20086">
+        <label>time.h</label>
+      </node>
+      <node id="20061">
+        <label>iosfwd</label>
+      </node>
+      <node id="20044">
+        <label>gnuradio/filter/api.h</label>
+        <link refid="gr-filter_2include_2gnuradio_2filter_2api_8h"/>
+        <childnode refid="20045" relation="include">
+        </childnode>
+      </node>
+      <node id="20079">
+        <label>iostream</label>
+      </node>
+      <node id="20053">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20054" relation="include">
+        </childnode>
+        <childnode refid="20051" relation="include">
+        </childnode>
+      </node>
+      <node id="20080">
+        <label>deque</label>
+      </node>
+      <node id="20054">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="20055" relation="include">
+        </childnode>
+        <childnode refid="20056" relation="include">
+        </childnode>
+        <childnode refid="20051" relation="include">
+        </childnode>
+        <childnode refid="20057" relation="include">
+        </childnode>
+        <childnode refid="20058" relation="include">
+        </childnode>
+        <childnode refid="20059" relation="include">
+        </childnode>
+        <childnode refid="20060" relation="include">
+        </childnode>
+        <childnode refid="20061" relation="include">
+        </childnode>
+        <childnode refid="20062" relation="include">
+        </childnode>
+        <childnode refid="20063" relation="include">
+        </childnode>
+        <childnode refid="20064" relation="include">
+        </childnode>
+      </node>
+      <node id="20082">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20054" relation="include">
+        </childnode>
+      </node>
+      <node id="20049">
+        <label>gnuradio/basic_block.h</label>
+        <link refid="basic__block_8h"/>
+        <childnode refid="20047" relation="include">
+        </childnode>
+        <childnode refid="20050" relation="include">
+        </childnode>
+        <childnode refid="20052" relation="include">
+        </childnode>
+        <childnode refid="20065" relation="include">
+        </childnode>
+        <childnode refid="20069" relation="include">
+        </childnode>
+        <childnode refid="20070" relation="include">
+        </childnode>
+        <childnode refid="20076" relation="include">
+        </childnode>
+        <childnode refid="20077" relation="include">
+        </childnode>
+        <childnode refid="20078" relation="include">
+        </childnode>
+        <childnode refid="20074" relation="include">
+        </childnode>
+        <childnode refid="20079" relation="include">
+        </childnode>
+        <childnode refid="20059" relation="include">
+        </childnode>
+        <childnode refid="20080" relation="include">
+        </childnode>
+        <childnode refid="20081" relation="include">
+        </childnode>
+      </node>
+      <node id="20058">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1iir__filter__ccd" prot="public">gr::filter::iir_filter_ccd</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-filter/include/gnuradio/filter/iir_filter_ccd.h"/>
+  </compounddef>
+</doxygen>

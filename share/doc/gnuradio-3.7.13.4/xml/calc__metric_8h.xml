@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="calc__metric_8h" kind="file" language="C++">
+    <compoundname>calc_metric.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includes refid="metric__type_8h" local="no">gnuradio/digital/metric_type.h</includes>
+    <includedby refid="metrics__c_8h" local="no">metrics_c.h</includedby>
+    <includedby refid="metrics__f_8h" local="no">metrics_f.h</includedby>
+    <includedby refid="metrics__i_8h" local="no">metrics_i.h</includedby>
+    <includedby refid="metrics__s_8h" local="no">metrics_s.h</includedby>
+    <includedby refid="pccc__decoder__combined__cb_8h" local="no">pccc_decoder_combined_cb.h</includedby>
+    <includedby refid="pccc__decoder__combined__ci_8h" local="no">pccc_decoder_combined_ci.h</includedby>
+    <includedby refid="pccc__decoder__combined__cs_8h" local="no">pccc_decoder_combined_cs.h</includedby>
+    <includedby refid="pccc__decoder__combined__fb_8h" local="no">pccc_decoder_combined_fb.h</includedby>
+    <includedby refid="pccc__decoder__combined__fi_8h" local="no">pccc_decoder_combined_fi.h</includedby>
+    <includedby refid="pccc__decoder__combined__fs_8h" local="no">pccc_decoder_combined_fs.h</includedby>
+    <includedby refid="sccc__decoder__combined__cb_8h" local="no">sccc_decoder_combined_cb.h</includedby>
+    <includedby refid="sccc__decoder__combined__ci_8h" local="no">sccc_decoder_combined_ci.h</includedby>
+    <includedby refid="sccc__decoder__combined__cs_8h" local="no">sccc_decoder_combined_cs.h</includedby>
+    <includedby refid="sccc__decoder__combined__fb_8h" local="no">sccc_decoder_combined_fb.h</includedby>
+    <includedby refid="sccc__decoder__combined__fi_8h" local="no">sccc_decoder_combined_fi.h</includedby>
+    <includedby refid="sccc__decoder__combined__fs_8h" local="no">sccc_decoder_combined_fs.h</includedby>
+    <includedby refid="viterbi__combined__cb_8h" local="no">viterbi_combined_cb.h</includedby>
+    <includedby refid="viterbi__combined__ci_8h" local="no">viterbi_combined_ci.h</includedby>
+    <includedby refid="viterbi__combined__cs_8h" local="no">viterbi_combined_cs.h</includedby>
+    <includedby refid="viterbi__combined__fb_8h" local="no">viterbi_combined_fb.h</includedby>
+    <includedby refid="viterbi__combined__fi_8h" local="no">viterbi_combined_fi.h</includedby>
+    <includedby refid="viterbi__combined__fs_8h" local="no">viterbi_combined_fs.h</includedby>
+    <includedby refid="viterbi__combined__ib_8h" local="no">viterbi_combined_ib.h</includedby>
+    <includedby refid="viterbi__combined__ii_8h" local="no">viterbi_combined_ii.h</includedby>
+    <includedby refid="viterbi__combined__is_8h" local="no">viterbi_combined_is.h</includedby>
+    <includedby refid="viterbi__combined__sb_8h" local="no">viterbi_combined_sb.h</includedby>
+    <includedby refid="viterbi__combined__si_8h" local="no">viterbi_combined_si.h</includedby>
+    <includedby refid="viterbi__combined__ss_8h" local="no">viterbi_combined_ss.h</includedby>
+    <includedby refid="siso__combined__f_8h" local="no">siso_combined_f.h</includedby>
+    <incdepgraph>
+      <node id="7748">
+        <label>gnuradio/digital/metric_type.h</label>
+        <link refid="metric__type_8h"/>
+      </node>
+      <node id="7744">
+        <label>calc_metric.h</label>
+        <link refid="calc_metric.h"/>
+        <childnode refid="7745" relation="include">
+        </childnode>
+        <childnode refid="7746" relation="include">
+        </childnode>
+        <childnode refid="7748" relation="include">
+        </childnode>
+      </node>
+      <node id="7745">
+        <label>vector</label>
+      </node>
+      <node id="7746">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="7747" relation="include">
+        </childnode>
+      </node>
+      <node id="7747">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7776">
+        <label>viterbi_combined_si.h</label>
+        <link refid="viterbi__combined__si_8h"/>
+      </node>
+      <node id="7754">
+        <label>pccc_decoder_combined_cb.h</label>
+        <link refid="pccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="7760">
+        <label>sccc_decoder_combined_cb.h</label>
+        <link refid="sccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="7759">
+        <label>pccc_decoder_combined_fs.h</label>
+        <link refid="pccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="7765">
+        <label>sccc_decoder_combined_fs.h</label>
+        <link refid="sccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="7753">
+        <label>metrics_s.h</label>
+        <link refid="metrics__s_8h"/>
+      </node>
+      <node id="7771">
+        <label>viterbi_combined_fs.h</label>
+        <link refid="viterbi__combined__fs_8h"/>
+      </node>
+      <node id="7768">
+        <label>viterbi_combined_cs.h</label>
+        <link refid="viterbi__combined__cs_8h"/>
+      </node>
+      <node id="7772">
+        <label>viterbi_combined_ib.h</label>
+        <link refid="viterbi__combined__ib_8h"/>
+      </node>
+      <node id="7769">
+        <label>viterbi_combined_fb.h</label>
+        <link refid="viterbi__combined__fb_8h"/>
+      </node>
+      <node id="7777">
+        <label>viterbi_combined_ss.h</label>
+        <link refid="viterbi__combined__ss_8h"/>
+      </node>
+      <node id="7756">
+        <label>pccc_decoder_combined_cs.h</label>
+        <link refid="pccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="7762">
+        <label>sccc_decoder_combined_cs.h</label>
+        <link refid="sccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="7752">
+        <label>metrics_i.h</label>
+        <link refid="metrics__i_8h"/>
+      </node>
+      <node id="7749">
+        <label>calc_metric.h</label>
+        <link refid="calc_metric.h"/>
+        <childnode refid="7750" relation="include">
+        </childnode>
+        <childnode refid="7751" relation="include">
+        </childnode>
+        <childnode refid="7752" relation="include">
+        </childnode>
+        <childnode refid="7753" relation="include">
+        </childnode>
+        <childnode refid="7754" relation="include">
+        </childnode>
+        <childnode refid="7755" relation="include">
+        </childnode>
+        <childnode refid="7756" relation="include">
+        </childnode>
+        <childnode refid="7757" relation="include">
+        </childnode>
+        <childnode refid="7758" relation="include">
+        </childnode>
+        <childnode refid="7759" relation="include">
+        </childnode>
+        <childnode refid="7760" relation="include">
+        </childnode>
+        <childnode refid="7761" relation="include">
+        </childnode>
+        <childnode refid="7762" relation="include">
+        </childnode>
+        <childnode refid="7763" relation="include">
+        </childnode>
+        <childnode refid="7764" relation="include">
+        </childnode>
+        <childnode refid="7765" relation="include">
+        </childnode>
+        <childnode refid="7766" relation="include">
+        </childnode>
+        <childnode refid="7767" relation="include">
+        </childnode>
+        <childnode refid="7768" relation="include">
+        </childnode>
+        <childnode refid="7769" relation="include">
+        </childnode>
+        <childnode refid="7770" relation="include">
+        </childnode>
+        <childnode refid="7771" relation="include">
+        </childnode>
+        <childnode refid="7772" relation="include">
+        </childnode>
+        <childnode refid="7773" relation="include">
+        </childnode>
+        <childnode refid="7774" relation="include">
+        </childnode>
+        <childnode refid="7775" relation="include">
+        </childnode>
+        <childnode refid="7776" relation="include">
+        </childnode>
+        <childnode refid="7777" relation="include">
+        </childnode>
+        <childnode refid="7778" relation="include">
+        </childnode>
+      </node>
+      <node id="7773">
+        <label>viterbi_combined_ii.h</label>
+        <link refid="viterbi__combined__ii_8h"/>
+      </node>
+      <node id="7758">
+        <label>pccc_decoder_combined_fi.h</label>
+        <link refid="pccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="7764">
+        <label>sccc_decoder_combined_fi.h</label>
+        <link refid="sccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="7766">
+        <label>viterbi_combined_cb.h</label>
+        <link refid="viterbi__combined__cb_8h"/>
+      </node>
+      <node id="7770">
+        <label>viterbi_combined_fi.h</label>
+        <link refid="viterbi__combined__fi_8h"/>
+      </node>
+      <node id="7751">
+        <label>metrics_f.h</label>
+        <link refid="metrics__f_8h"/>
+      </node>
+      <node id="7775">
+        <label>viterbi_combined_sb.h</label>
+        <link refid="viterbi__combined__sb_8h"/>
+      </node>
+      <node id="7757">
+        <label>pccc_decoder_combined_fb.h</label>
+        <link refid="pccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="7774">
+        <label>viterbi_combined_is.h</label>
+        <link refid="viterbi__combined__is_8h"/>
+      </node>
+      <node id="7763">
+        <label>sccc_decoder_combined_fb.h</label>
+        <link refid="sccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="7755">
+        <label>pccc_decoder_combined_ci.h</label>
+        <link refid="pccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="7761">
+        <label>sccc_decoder_combined_ci.h</label>
+        <link refid="sccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="7778">
+        <label>siso_combined_f.h</label>
+        <link refid="siso__combined__f_8h"/>
+      </node>
+      <node id="7767">
+        <label>viterbi_combined_ci.h</label>
+        <link refid="viterbi__combined__ci_8h"/>
+      </node>
+      <node id="7750">
+        <label>metrics_c.h</label>
+        <link refid="metrics__c_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1trellis">gr::trellis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-trellis/include/gnuradio/trellis/calc_metric.h"/>
+  </compounddef>
+</doxygen>

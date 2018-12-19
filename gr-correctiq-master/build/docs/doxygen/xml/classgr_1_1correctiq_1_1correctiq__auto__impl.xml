@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1correctiq_1_1correctiq__auto__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::correctiq::correctiq_auto_impl</compoundname>
+    <basecompoundref refid="classgr_1_1correctiq_1_1correctiq__auto" prot="public" virt="non-virtual">gr::correctiq::correctiq_auto</basecompoundref>
+    <includes refid="correctiq__auto__impl_8h" local="no">correctiq_auto_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1aa4c9eb6d7c4be21e72f361b4bd630deb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::avg_real</definition>
+        <argsstring></argsstring>
+        <name>avg_real</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="33" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a4de6631a0e0a2f20fb7634deff2c18df" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::avg_img</definition>
+        <argsstring></argsstring>
+        <name>avg_img</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="34" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a92eab84e45032c0623abe1ea762e3c1c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::ratio</definition>
+        <argsstring></argsstring>
+        <name>ratio</name>
+        <initializer>=1e-05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="35" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a85687734a3c08528adce13cb544af9ec" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="37" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a3b033084fb7fc168645cac769415a781" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="38" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a972b9428ce57c1b179a4ad984b6a50ae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::d_gain</definition>
+        <argsstring></argsstring>
+        <name>d_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="39" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a29b75f53645985fda7cf95b0d2d9dd6f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::correctiq::correctiq_auto_impl::d_syncWindow</definition>
+        <argsstring></argsstring>
+        <name>d_syncWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="40" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1abfb2840ae77cf1bed37569eb8edbfc63" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::correctiq::correctiq_auto_impl::syncCounter</definition>
+        <argsstring></argsstring>
+        <name>syncCounter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="42" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a0acbe2f75fa9bda5579881f694657bb2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::correctiq::correctiq_auto_impl::synchronized</definition>
+        <argsstring></argsstring>
+        <name>synchronized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="43" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a52fb8fcce0855d310d8ff49319379bd7" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::correctiq::correctiq_auto_impl::d_max_syncSamples</definition>
+        <argsstring></argsstring>
+        <name>d_max_syncSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="45" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a7cf7f0bcbcb1e1ef23464ae8de077e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::correctiq::correctiq_auto_impl::correctiq_auto_impl</definition>
+        <argsstring>(float samp_rate, float freq, float gain, float syncWindow)</argsstring>
+        <name>correctiq_auto_impl</name>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>syncWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a385bda3ea8c4b77fdcfee7d74b6d72ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::correctiq::correctiq_auto_impl::~correctiq_auto_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~correctiq_auto_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::correctiq::correctiq_auto_impl::set_synchronized</definition>
+        <argsstring>()</argsstring>
+        <name>set_synchronized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="51" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="51" bodyend="51"/>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a602acf0b294df264833e2b0e9537e573">get_freq</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a25f43f33b079c25e4ecadf6b25bf87b9">get_gain</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f99dab6207754a0b93a0b03a97a36fd">set_freq</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1ab0d2d0a1f65068d49a0eedc3f9a6dc47">set_gain</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f6a3e63a4d53e51fbc2d86df784986f">setup_rpc</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a6c1fc60a850e0032dba57580b4a721d3">testCPU</references>
+        <references refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a38b7c783187f74a9ccbc9794f634e173">work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f6a3e63a4d53e51fbc2d86df784986f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::correctiq::correctiq_auto_impl::setup_rpc</definition>
+        <argsstring>()</argsstring>
+        <name>setup_rpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="52" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a602acf0b294df264833e2b0e9537e573" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float gr::correctiq::correctiq_auto_impl::get_freq</definition>
+        <argsstring>()</argsstring>
+        <name>get_freq</name>
+        <reimplements refid="classgr_1_1correctiq_1_1correctiq__auto_1aa68df929aa15650bd7290bf05ba431aa">get_freq</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="54" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a25f43f33b079c25e4ecadf6b25bf87b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float gr::correctiq::correctiq_auto_impl::get_gain</definition>
+        <argsstring>()</argsstring>
+        <name>get_gain</name>
+        <reimplements refid="classgr_1_1correctiq_1_1correctiq__auto_1a4f1c7d1d8b5e0f0d1c6c870bd1265606">get_gain</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="55" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f99dab6207754a0b93a0b03a97a36fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::correctiq::correctiq_auto_impl::set_freq</definition>
+        <argsstring>(float newValue)</argsstring>
+        <name>set_freq</name>
+        <reimplements refid="classgr_1_1correctiq_1_1correctiq__auto_1adcd24dd018455d2240aafe728be7603a">set_freq</reimplements>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="57" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1ab0d2d0a1f65068d49a0eedc3f9a6dc47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::correctiq::correctiq_auto_impl::set_gain</definition>
+        <argsstring>(float newValue)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classgr_1_1correctiq_1_1correctiq__auto_1ada5cf3835d72f0afc952a84cb9ad2774">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="58" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a6c1fc60a850e0032dba57580b4a721d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::correctiq::correctiq_auto_impl::testCPU</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>testCPU</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="60" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__auto__impl_1a38b7c783187f74a9ccbc9794f634e173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::correctiq::correctiq_auto_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="64" column="1"/>
+        <referencedby refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" compoundref="correctiq__auto__impl_8h" startline="51" endline="51">set_synchronized</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>sync_block</label>
+      </node>
+      <node id="12">
+        <label>gr::correctiq::correctiq_auto_impl</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__auto__impl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::correctiq::correctiq_auto</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__auto"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>sync_block</label>
+      </node>
+      <node id="15">
+        <label>gr::correctiq::correctiq_auto_impl</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__auto__impl"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::correctiq::correctiq_auto</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__auto"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" line="30" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/correctiq_auto_impl.h" bodystart="29" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a4de6631a0e0a2f20fb7634deff2c18df" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>avg_img</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1aa4c9eb6d7c4be21e72f361b4bd630deb" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>avg_real</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a7cf7f0bcbcb1e1ef23464ae8de077e69" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>correctiq_auto_impl</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a3b033084fb7fc168645cac769415a781" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>d_freq</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a972b9428ce57c1b179a4ad984b6a50ae" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>d_gain</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a52fb8fcce0855d310d8ff49319379bd7" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>d_max_syncSamples</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a85687734a3c08528adce13cb544af9ec" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a29b75f53645985fda7cf95b0d2d9dd6f" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>d_syncWindow</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a602acf0b294df264833e2b0e9537e573" prot="public" virt="virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>get_freq</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a25f43f33b079c25e4ecadf6b25bf87b9" prot="public" virt="virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>get_gain</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto_1a7ddfdaf516d7e3e9f0f6de837ffdbd86" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a92eab84e45032c0623abe1ea762e3c1c" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>ratio</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f99dab6207754a0b93a0b03a97a36fd" prot="public" virt="virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>set_freq</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1ab0d2d0a1f65068d49a0eedc3f9a6dc47" prot="public" virt="virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abc016d1e0acdf5194ef981c80c604821" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>set_synchronized</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a8f6a3e63a4d53e51fbc2d86df784986f" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>setup_rpc</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto_1a06aff6af8bf9ce677723c56b7d85a66d" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1abfb2840ae77cf1bed37569eb8edbfc63" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>syncCounter</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a0acbe2f75fa9bda5579881f694657bb2" prot="private" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>synchronized</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a6c1fc60a850e0032dba57580b4a721d3" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>testCPU</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a38b7c783187f74a9ccbc9794f634e173" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__auto__impl_1a385bda3ea8c4b77fdcfee7d74b6d72ce" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_auto_impl</scope><name>~correctiq_auto_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

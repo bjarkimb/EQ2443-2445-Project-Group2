@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_5ffee620c43a49f2600b01f25ade9751" kind="dir">
+    <compoundname>gnuradio</compoundname>
+    <innerdir refid="dir_d1c22946fffd545b9db421694f4a35c0">analog</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-analog/include/gnuradio/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="single__pole__iir_8h" kind="file" language="C++">
+    <compoundname>single_pole_iir.h</compoundname>
+    <includes refid="gr-filter_2include_2gnuradio_2filter_2api_8h" local="no">gnuradio/filter/api.h</includes>
+    <includes local="no">stdexcept</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includedby refid="fpll_8h" local="no">fpll.h</includedby>
+    <includedby refid="slicer__agc__impl_8h" local="no">slicer_agc_impl.h</includedby>
+    <includedby refid="sssr__impl_8h" local="no">sssr_impl.h</includedby>
+    <includedby refid="single__pole__iir__filter__cc_8h" local="no">single_pole_iir_filter_cc.h</includedby>
+    <includedby refid="single__pole__iir__filter__ff_8h" local="no">single_pole_iir_filter_ff.h</includedby>
+    <incdepgraph>
+      <node id="37780">
+        <label>stdexcept</label>
+      </node>
+      <node id="37779">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="37777">
+        <label>single_pole_iir.h</label>
+        <link refid="single_pole_iir.h"/>
+        <childnode refid="37778" relation="include">
+        </childnode>
+        <childnode refid="37780" relation="include">
+        </childnode>
+        <childnode refid="37781" relation="include">
+        </childnode>
+      </node>
+      <node id="37781">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="37782" relation="include">
+        </childnode>
+      </node>
+      <node id="37778">
+        <label>gnuradio/filter/api.h</label>
+        <link refid="gr-filter_2include_2gnuradio_2filter_2api_8h"/>
+        <childnode refid="37779" relation="include">
+        </childnode>
+      </node>
+      <node id="37782">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="37787">
+        <label>bit_timing_loop.h</label>
+        <link refid="bit__timing__loop_8h"/>
+      </node>
+      <node id="37788">
+        <label>single_pole_iir_filter_cc.h</label>
+        <link refid="single__pole__iir__filter__cc_8h"/>
+      </node>
+      <node id="37783">
+        <label>single_pole_iir.h</label>
+        <link refid="single_pole_iir.h"/>
+        <childnode refid="37784" relation="include">
+        </childnode>
+        <childnode refid="37785" relation="include">
+        </childnode>
+        <childnode refid="37786" relation="include">
+        </childnode>
+        <childnode refid="37788" relation="include">
+        </childnode>
+        <childnode refid="37789" relation="include">
+        </childnode>
+      </node>
+      <node id="37789">
+        <label>single_pole_iir_filter_ff.h</label>
+        <link refid="single__pole__iir__filter__ff_8h"/>
+      </node>
+      <node id="37785">
+        <label>slicer_agc_impl.h</label>
+        <link refid="slicer__agc__impl_8h"/>
+      </node>
+      <node id="37786">
+        <label>sssr_impl.h</label>
+        <link refid="sssr__impl_8h"/>
+        <childnode refid="37787" relation="include">
+        </childnode>
+      </node>
+      <node id="37784">
+        <label>fpll.h</label>
+        <link refid="fpll_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir" prot="public">gr::filter::single_pole_iir</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1single__pole__iir_3_01gr__complex_00_01i__type_00_01double_01_4" prot="public">gr::filter::single_pole_iir&lt; gr_complex, i_type, double &gt;</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-filter/include/gnuradio/filter/single_pole_iir.h"/>
+  </compounddef>
+</doxygen>

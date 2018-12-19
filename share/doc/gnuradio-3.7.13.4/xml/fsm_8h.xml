@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="fsm_8h" kind="file" language="C++">
+    <compoundname>fsm.h</compoundname>
+    <includes refid="gr-trellis_2include_2gnuradio_2trellis_2api_8h" local="no">gnuradio/trellis/api.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">iosfwd</includes>
+    <includedby refid="encoder__bb_8h" local="no">encoder_bb.h</includedby>
+    <includedby refid="encoder__bi_8h" local="no">encoder_bi.h</includedby>
+    <includedby refid="encoder__bs_8h" local="no">encoder_bs.h</includedby>
+    <includedby refid="encoder__ii_8h" local="no">encoder_ii.h</includedby>
+    <includedby refid="encoder__si_8h" local="no">encoder_si.h</includedby>
+    <includedby refid="encoder__ss_8h" local="no">encoder_ss.h</includedby>
+    <includedby refid="pccc__decoder__b_8h" local="no">pccc_decoder_b.h</includedby>
+    <includedby refid="pccc__decoder__combined__cb_8h" local="no">pccc_decoder_combined_cb.h</includedby>
+    <includedby refid="pccc__decoder__combined__ci_8h" local="no">pccc_decoder_combined_ci.h</includedby>
+    <includedby refid="pccc__decoder__combined__cs_8h" local="no">pccc_decoder_combined_cs.h</includedby>
+    <includedby refid="pccc__decoder__combined__fb_8h" local="no">pccc_decoder_combined_fb.h</includedby>
+    <includedby refid="pccc__decoder__combined__fi_8h" local="no">pccc_decoder_combined_fi.h</includedby>
+    <includedby refid="pccc__decoder__combined__fs_8h" local="no">pccc_decoder_combined_fs.h</includedby>
+    <includedby refid="pccc__decoder__i_8h" local="no">pccc_decoder_i.h</includedby>
+    <includedby refid="pccc__decoder__s_8h" local="no">pccc_decoder_s.h</includedby>
+    <includedby refid="pccc__encoder__bb_8h" local="no">pccc_encoder_bb.h</includedby>
+    <includedby refid="pccc__encoder__bi_8h" local="no">pccc_encoder_bi.h</includedby>
+    <includedby refid="pccc__encoder__bs_8h" local="no">pccc_encoder_bs.h</includedby>
+    <includedby refid="pccc__encoder__ii_8h" local="no">pccc_encoder_ii.h</includedby>
+    <includedby refid="pccc__encoder__si_8h" local="no">pccc_encoder_si.h</includedby>
+    <includedby refid="pccc__encoder__ss_8h" local="no">pccc_encoder_ss.h</includedby>
+    <includedby refid="sccc__decoder__b_8h" local="no">sccc_decoder_b.h</includedby>
+    <includedby refid="sccc__decoder__combined__cb_8h" local="no">sccc_decoder_combined_cb.h</includedby>
+    <includedby refid="sccc__decoder__combined__ci_8h" local="no">sccc_decoder_combined_ci.h</includedby>
+    <includedby refid="sccc__decoder__combined__cs_8h" local="no">sccc_decoder_combined_cs.h</includedby>
+    <includedby refid="sccc__decoder__combined__fb_8h" local="no">sccc_decoder_combined_fb.h</includedby>
+    <includedby refid="sccc__decoder__combined__fi_8h" local="no">sccc_decoder_combined_fi.h</includedby>
+    <includedby refid="sccc__decoder__combined__fs_8h" local="no">sccc_decoder_combined_fs.h</includedby>
+    <includedby refid="sccc__decoder__i_8h" local="no">sccc_decoder_i.h</includedby>
+    <includedby refid="sccc__decoder__s_8h" local="no">sccc_decoder_s.h</includedby>
+    <includedby refid="sccc__encoder__bb_8h" local="no">sccc_encoder_bb.h</includedby>
+    <includedby refid="sccc__encoder__bi_8h" local="no">sccc_encoder_bi.h</includedby>
+    <includedby refid="sccc__encoder__bs_8h" local="no">sccc_encoder_bs.h</includedby>
+    <includedby refid="sccc__encoder__ii_8h" local="no">sccc_encoder_ii.h</includedby>
+    <includedby refid="sccc__encoder__si_8h" local="no">sccc_encoder_si.h</includedby>
+    <includedby refid="sccc__encoder__ss_8h" local="no">sccc_encoder_ss.h</includedby>
+    <includedby refid="viterbi__b_8h" local="no">viterbi_b.h</includedby>
+    <includedby refid="viterbi__combined__cb_8h" local="no">viterbi_combined_cb.h</includedby>
+    <includedby refid="viterbi__combined__ci_8h" local="no">viterbi_combined_ci.h</includedby>
+    <includedby refid="viterbi__combined__cs_8h" local="no">viterbi_combined_cs.h</includedby>
+    <includedby refid="viterbi__combined__fb_8h" local="no">viterbi_combined_fb.h</includedby>
+    <includedby refid="viterbi__combined__fi_8h" local="no">viterbi_combined_fi.h</includedby>
+    <includedby refid="viterbi__combined__fs_8h" local="no">viterbi_combined_fs.h</includedby>
+    <includedby refid="viterbi__combined__ib_8h" local="no">viterbi_combined_ib.h</includedby>
+    <includedby refid="viterbi__combined__ii_8h" local="no">viterbi_combined_ii.h</includedby>
+    <includedby refid="viterbi__combined__is_8h" local="no">viterbi_combined_is.h</includedby>
+    <includedby refid="viterbi__combined__sb_8h" local="no">viterbi_combined_sb.h</includedby>
+    <includedby refid="viterbi__combined__si_8h" local="no">viterbi_combined_si.h</includedby>
+    <includedby refid="viterbi__combined__ss_8h" local="no">viterbi_combined_ss.h</includedby>
+    <includedby refid="viterbi__i_8h" local="no">viterbi_i.h</includedby>
+    <includedby refid="viterbi__s_8h" local="no">viterbi_s.h</includedby>
+    <includedby refid="core__algorithms_8h" local="no">core_algorithms.h</includedby>
+    <includedby refid="siso__combined__f_8h" local="no">siso_combined_f.h</includedby>
+    <includedby refid="siso__f_8h" local="no">siso_f.h</includedby>
+    <incdepgraph>
+      <node id="17687">
+        <label>fsm.h</label>
+        <link refid="fsm.h"/>
+        <childnode refid="17688" relation="include">
+        </childnode>
+        <childnode refid="17690" relation="include">
+        </childnode>
+        <childnode refid="17691" relation="include">
+        </childnode>
+      </node>
+      <node id="17689">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="17690">
+        <label>vector</label>
+      </node>
+      <node id="17688">
+        <label>gnuradio/trellis/api.h</label>
+        <link refid="gr-trellis_2include_2gnuradio_2trellis_2api_8h"/>
+        <childnode refid="17689" relation="include">
+        </childnode>
+      </node>
+      <node id="17691">
+        <label>iosfwd</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="17743">
+        <label>viterbi_s.h</label>
+        <link refid="viterbi__s_8h"/>
+      </node>
+      <node id="17725">
+        <label>sccc_encoder_bs.h</label>
+        <link refid="sccc__encoder__bs_8h"/>
+      </node>
+      <node id="17740">
+        <label>viterbi_combined_si.h</label>
+        <link refid="viterbi__combined__si_8h"/>
+      </node>
+      <node id="17700">
+        <label>pccc_decoder_combined_cb.h</label>
+        <link refid="pccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="17715">
+        <label>sccc_decoder_combined_cb.h</label>
+        <link refid="sccc__decoder__combined__cb_8h"/>
+      </node>
+      <node id="17705">
+        <label>pccc_decoder_combined_fs.h</label>
+        <link refid="pccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="17746">
+        <label>siso_f.h</label>
+        <link refid="siso__f_8h"/>
+      </node>
+      <node id="17720">
+        <label>sccc_decoder_combined_fs.h</label>
+        <link refid="sccc__decoder__combined__fs_8h"/>
+      </node>
+      <node id="17694">
+        <label>encoder_bi.h</label>
+        <link refid="encoder__bi_8h"/>
+      </node>
+      <node id="17711">
+        <label>pccc_encoder_ii.h</label>
+        <link refid="pccc__encoder__ii_8h"/>
+      </node>
+      <node id="17706">
+        <label>pccc_decoder_i.h</label>
+        <link refid="pccc__decoder__i_8h"/>
+      </node>
+      <node id="17735">
+        <label>viterbi_combined_fs.h</label>
+        <link refid="viterbi__combined__fs_8h"/>
+      </node>
+      <node id="17729">
+        <label>viterbi_b.h</label>
+        <link refid="viterbi__b_8h"/>
+      </node>
+      <node id="17726">
+        <label>sccc_encoder_ii.h</label>
+        <link refid="sccc__encoder__ii_8h"/>
+      </node>
+      <node id="17721">
+        <label>sccc_decoder_i.h</label>
+        <link refid="sccc__decoder__i_8h"/>
+      </node>
+      <node id="17732">
+        <label>viterbi_combined_cs.h</label>
+        <link refid="viterbi__combined__cs_8h"/>
+      </node>
+      <node id="17708">
+        <label>pccc_encoder_bb.h</label>
+        <link refid="pccc__encoder__bb_8h"/>
+      </node>
+      <node id="17723">
+        <label>sccc_encoder_bb.h</label>
+        <link refid="sccc__encoder__bb_8h"/>
+      </node>
+      <node id="17736">
+        <label>viterbi_combined_ib.h</label>
+        <link refid="viterbi__combined__ib_8h"/>
+      </node>
+      <node id="17692">
+        <label>fsm.h</label>
+        <link refid="fsm.h"/>
+        <childnode refid="17693" relation="include">
+        </childnode>
+        <childnode refid="17694" relation="include">
+        </childnode>
+        <childnode refid="17695" relation="include">
+        </childnode>
+        <childnode refid="17696" relation="include">
+        </childnode>
+        <childnode refid="17697" relation="include">
+        </childnode>
+        <childnode refid="17698" relation="include">
+        </childnode>
+        <childnode refid="17699" relation="include">
+        </childnode>
+        <childnode refid="17700" relation="include">
+        </childnode>
+        <childnode refid="17701" relation="include">
+        </childnode>
+        <childnode refid="17702" relation="include">
+        </childnode>
+        <childnode refid="17703" relation="include">
+        </childnode>
+        <childnode refid="17704" relation="include">
+        </childnode>
+        <childnode refid="17705" relation="include">
+        </childnode>
+        <childnode refid="17706" relation="include">
+        </childnode>
+        <childnode refid="17707" relation="include">
+        </childnode>
+        <childnode refid="17708" relation="include">
+        </childnode>
+        <childnode refid="17709" relation="include">
+        </childnode>
+        <childnode refid="17710" relation="include">
+        </childnode>
+        <childnode refid="17711" relation="include">
+        </childnode>
+        <childnode refid="17712" relation="include">
+        </childnode>
+        <childnode refid="17713" relation="include">
+        </childnode>
+        <childnode refid="17714" relation="include">
+        </childnode>
+        <childnode refid="17715" relation="include">
+        </childnode>
+        <childnode refid="17716" relation="include">
+        </childnode>
+        <childnode refid="17717" relation="include">
+        </childnode>
+        <childnode refid="17718" relation="include">
+        </childnode>
+        <childnode refid="17719" relation="include">
+        </childnode>
+        <childnode refid="17720" relation="include">
+        </childnode>
+        <childnode refid="17721" relation="include">
+        </childnode>
+        <childnode refid="17722" relation="include">
+        </childnode>
+        <childnode refid="17723" relation="include">
+        </childnode>
+        <childnode refid="17724" relation="include">
+        </childnode>
+        <childnode refid="17725" relation="include">
+        </childnode>
+        <childnode refid="17726" relation="include">
+        </childnode>
+        <childnode refid="17727" relation="include">
+        </childnode>
+        <childnode refid="17728" relation="include">
+        </childnode>
+        <childnode refid="17729" relation="include">
+        </childnode>
+        <childnode refid="17730" relation="include">
+        </childnode>
+        <childnode refid="17731" relation="include">
+        </childnode>
+        <childnode refid="17732" relation="include">
+        </childnode>
+        <childnode refid="17733" relation="include">
+        </childnode>
+        <childnode refid="17734" relation="include">
+        </childnode>
+        <childnode refid="17735" relation="include">
+        </childnode>
+        <childnode refid="17736" relation="include">
+        </childnode>
+        <childnode refid="17737" relation="include">
+        </childnode>
+        <childnode refid="17738" relation="include">
+        </childnode>
+        <childnode refid="17739" relation="include">
+        </childnode>
+        <childnode refid="17740" relation="include">
+        </childnode>
+        <childnode refid="17741" relation="include">
+        </childnode>
+        <childnode refid="17742" relation="include">
+        </childnode>
+        <childnode refid="17743" relation="include">
+        </childnode>
+        <childnode refid="17744" relation="include">
+        </childnode>
+        <childnode refid="17745" relation="include">
+        </childnode>
+        <childnode refid="17746" relation="include">
+        </childnode>
+      </node>
+      <node id="17733">
+        <label>viterbi_combined_fb.h</label>
+        <link refid="viterbi__combined__fb_8h"/>
+      </node>
+      <node id="17712">
+        <label>pccc_encoder_si.h</label>
+        <link refid="pccc__encoder__si_8h"/>
+      </node>
+      <node id="17699">
+        <label>pccc_decoder_b.h</label>
+        <link refid="pccc__decoder__b_8h"/>
+      </node>
+      <node id="17741">
+        <label>viterbi_combined_ss.h</label>
+        <link refid="viterbi__combined__ss_8h"/>
+      </node>
+      <node id="17742">
+        <label>viterbi_i.h</label>
+        <link refid="viterbi__i_8h"/>
+      </node>
+      <node id="17702">
+        <label>pccc_decoder_combined_cs.h</label>
+        <link refid="pccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="17714">
+        <label>sccc_decoder_b.h</label>
+        <link refid="sccc__decoder__b_8h"/>
+      </node>
+      <node id="17693">
+        <label>encoder_bb.h</label>
+        <link refid="encoder__bb_8h"/>
+      </node>
+      <node id="17717">
+        <label>sccc_decoder_combined_cs.h</label>
+        <link refid="sccc__decoder__combined__cs_8h"/>
+      </node>
+      <node id="17707">
+        <label>pccc_decoder_s.h</label>
+        <link refid="pccc__decoder__s_8h"/>
+      </node>
+      <node id="17709">
+        <label>pccc_encoder_bi.h</label>
+        <link refid="pccc__encoder__bi_8h"/>
+      </node>
+      <node id="17724">
+        <label>sccc_encoder_bi.h</label>
+        <link refid="sccc__encoder__bi_8h"/>
+      </node>
+      <node id="17737">
+        <label>viterbi_combined_ii.h</label>
+        <link refid="viterbi__combined__ii_8h"/>
+      </node>
+      <node id="17704">
+        <label>pccc_decoder_combined_fi.h</label>
+        <link refid="pccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="17695">
+        <label>encoder_bs.h</label>
+        <link refid="encoder__bs_8h"/>
+      </node>
+      <node id="17719">
+        <label>sccc_decoder_combined_fi.h</label>
+        <link refid="sccc__decoder__combined__fi_8h"/>
+      </node>
+      <node id="17730">
+        <label>viterbi_combined_cb.h</label>
+        <link refid="viterbi__combined__cb_8h"/>
+      </node>
+      <node id="17734">
+        <label>viterbi_combined_fi.h</label>
+        <link refid="viterbi__combined__fi_8h"/>
+      </node>
+      <node id="17698">
+        <label>encoder_ss.h</label>
+        <link refid="encoder__ss_8h"/>
+      </node>
+      <node id="17727">
+        <label>sccc_encoder_si.h</label>
+        <link refid="sccc__encoder__si_8h"/>
+      </node>
+      <node id="17713">
+        <label>pccc_encoder_ss.h</label>
+        <link refid="pccc__encoder__ss_8h"/>
+      </node>
+      <node id="17739">
+        <label>viterbi_combined_sb.h</label>
+        <link refid="viterbi__combined__sb_8h"/>
+      </node>
+      <node id="17703">
+        <label>pccc_decoder_combined_fb.h</label>
+        <link refid="pccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="17738">
+        <label>viterbi_combined_is.h</label>
+        <link refid="viterbi__combined__is_8h"/>
+      </node>
+      <node id="17744">
+        <label>core_algorithms.h</label>
+        <link refid="core__algorithms_8h"/>
+        <childnode refid="17729" relation="include">
+        </childnode>
+        <childnode refid="17730" relation="include">
+        </childnode>
+        <childnode refid="17731" relation="include">
+        </childnode>
+        <childnode refid="17732" relation="include">
+        </childnode>
+        <childnode refid="17733" relation="include">
+        </childnode>
+        <childnode refid="17734" relation="include">
+        </childnode>
+        <childnode refid="17735" relation="include">
+        </childnode>
+        <childnode refid="17736" relation="include">
+        </childnode>
+        <childnode refid="17737" relation="include">
+        </childnode>
+        <childnode refid="17738" relation="include">
+        </childnode>
+        <childnode refid="17739" relation="include">
+        </childnode>
+        <childnode refid="17740" relation="include">
+        </childnode>
+        <childnode refid="17741" relation="include">
+        </childnode>
+        <childnode refid="17742" relation="include">
+        </childnode>
+        <childnode refid="17743" relation="include">
+        </childnode>
+        <childnode refid="17745" relation="include">
+        </childnode>
+        <childnode refid="17746" relation="include">
+        </childnode>
+      </node>
+      <node id="17718">
+        <label>sccc_decoder_combined_fb.h</label>
+        <link refid="sccc__decoder__combined__fb_8h"/>
+      </node>
+      <node id="17722">
+        <label>sccc_decoder_s.h</label>
+        <link refid="sccc__decoder__s_8h"/>
+      </node>
+      <node id="17701">
+        <label>pccc_decoder_combined_ci.h</label>
+        <link refid="pccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="17716">
+        <label>sccc_decoder_combined_ci.h</label>
+        <link refid="sccc__decoder__combined__ci_8h"/>
+      </node>
+      <node id="17697">
+        <label>encoder_si.h</label>
+        <link refid="encoder__si_8h"/>
+      </node>
+      <node id="17745">
+        <label>siso_combined_f.h</label>
+        <link refid="siso__combined__f_8h"/>
+      </node>
+      <node id="17731">
+        <label>viterbi_combined_ci.h</label>
+        <link refid="viterbi__combined__ci_8h"/>
+      </node>
+      <node id="17696">
+        <label>encoder_ii.h</label>
+        <link refid="encoder__ii_8h"/>
+      </node>
+      <node id="17710">
+        <label>pccc_encoder_bs.h</label>
+        <link refid="pccc__encoder__bs_8h"/>
+      </node>
+      <node id="17728">
+        <label>sccc_encoder_ss.h</label>
+        <link refid="sccc__encoder__ss_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1trellis_1_1fsm" prot="public">gr::trellis::fsm</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1trellis">gr::trellis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-trellis/include/gnuradio/trellis/fsm.h"/>
+  </compounddef>
+</doxygen>

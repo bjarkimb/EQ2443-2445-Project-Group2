@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="clSComplex_8h" kind="file" language="C++">
+    <compoundname>clSComplex.h</compoundname>
+    <innerclass refid="structComplexStruct" prot="public">ComplexStruct</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="clSComplex_8h_1a9341a7900a6a09fd5219aae2606b9268" prot="public" static="no">
+        <type>struct <ref refid="structComplexStruct" kindref="compound">ComplexStruct</ref></type>
+        <definition>typedef struct ComplexStruct SComplex</definition>
+        <argsstring></argsstring>
+        <name>SComplex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" line="56" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h"/>
+  </compounddef>
+</doxygen>

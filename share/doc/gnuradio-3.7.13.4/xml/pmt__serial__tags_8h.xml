@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="pmt__serial__tags_8h" kind="file" language="C++">
+    <compoundname>pmt_serial_tags.h</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643f" prot="public" static="no">
+        <name>pst_tags</name>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa49fb5964f55b63e42035a610d5afbf4a" prot="public">
+          <name>PST_TRUE</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643faa9e6c0def4137925cc74ebd03fbd9519" prot="public">
+          <name>PST_FALSE</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa397e42fd67422f10f1b848d169c89558" prot="public">
+          <name>PST_SYMBOL</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa8d646134d42cb6e0368b7552ecc5029a" prot="public">
+          <name>PST_INT32</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa8394fdd47cc001b9e5d727eddc06da55" prot="public">
+          <name>PST_DOUBLE</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa74f51bb8c387453ba5bc6c454a28030c" prot="public">
+          <name>PST_COMPLEX</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fae67fa8010eae601877eb01e022a52a61" prot="public">
+          <name>PST_NULL</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa7f64249c0ce0459639ff48d87702f4b9" prot="public">
+          <name>PST_PAIR</name>
+          <initializer>= 0x07</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa804b9f2295f281ac7d8a023839f7869b" prot="public">
+          <name>PST_VECTOR</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa3271ba56f54af48079171f445551faea" prot="public">
+          <name>PST_DICT</name>
+          <initializer>= 0x09</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa6ab55b879f1e365bab55ca37cec5df5c" prot="public">
+          <name>PST_UNIFORM_VECTOR</name>
+          <initializer>= 0x0a</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa1f266e375ec1877b1cd401a7e97d0207" prot="public">
+          <name>PST_UINT64</name>
+          <initializer>= 0x0b</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fac788cbffbe4c1d52557499a21d43ed59" prot="public">
+          <name>PST_TUPLE</name>
+          <initializer>= 0x0c</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643faa30441ae13fb11bb4a64078c8ae54887" prot="public">
+          <name>UVI_ENDIAN_MASK</name>
+          <initializer>= 0x80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643faf5c3589495f5645e9636639588023e5e" prot="public">
+          <name>UVI_SUBTYPE_MASK</name>
+          <initializer>= 0x7f</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa27f7fe99a2b4041c93a73fac505d446e" prot="public">
+          <name>UVI_LITTLE_ENDIAN</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643faef4b0e789648d30c7685e561c71650f0" prot="public">
+          <name>UVI_BIG_ENDIAN</name>
+          <initializer>= 0x80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa06f5d508e4179e6596b587309be01760" prot="public">
+          <name>UVI_U8</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa9769671df8aa2d2f9c93ba3f7e02caa2" prot="public">
+          <name>UVI_S8</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fab9dd89f1ce8ffa07c84543ca7ac758db" prot="public">
+          <name>UVI_U16</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643faea5ec295dfd55c2e8ebdabee2dec755b" prot="public">
+          <name>UVI_S16</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fad8abddcaafd65f20d37688d2ef28dfb3" prot="public">
+          <name>UVI_U32</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643facc5995dfeb07a1f162088745eb7c1349" prot="public">
+          <name>UVI_S32</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fae47db25eed2ca9c85e59f2290a26bad2" prot="public">
+          <name>UVI_U64</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa2c88d83b6633b1ba5cb98fff873f9fcf" prot="public">
+          <name>UVI_S64</name>
+          <initializer>= 0x07</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa34bdb025bab155f561a0d5acb2f63680" prot="public">
+          <name>UVI_F32</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa82fe1ba1660cd447b2d7a3f54247d2ac" prot="public">
+          <name>UVI_F64</name>
+          <initializer>= 0x09</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643facb573791568045b7fbd75fb939902e22" prot="public">
+          <name>UVI_C32</name>
+          <initializer>= 0x0a</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa35747b2ff95859bc8d6f229041bcd100" prot="public">
+          <name>UVI_C64</name>
+          <initializer>= 0x0b</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fa36c12a4c96af679ad676781d5eabeee8" prot="public">
+          <name>PST_COMMENT</name>
+          <initializer>= 0x3b</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pmt__serial__tags_8h_1abdf3c401a44b88c89208285f00d6643fab31454d3960ff6565c177ad7965463cd" prot="public">
+          <name>PST_COMMENT_END</name>
+          <initializer>= 0x0a</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/pmt/pmt_serial_tags.h" line="29" column="1" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/pmt/pmt_serial_tags.h" bodystart="29" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/pmt/pmt_serial_tags.h"/>
+  </compounddef>
+</doxygen>

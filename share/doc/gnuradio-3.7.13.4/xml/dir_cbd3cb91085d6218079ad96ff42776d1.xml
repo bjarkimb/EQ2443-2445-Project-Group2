@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_cbd3cb91085d6218079ad96ff42776d1" kind="dir">
+    <compoundname>trellis</compoundname>
+    <innerfile refid="encoder__bb_8h">encoder_bb.h</innerfile>
+    <innerfile refid="encoder__bi_8h">encoder_bi.h</innerfile>
+    <innerfile refid="encoder__bs_8h">encoder_bs.h</innerfile>
+    <innerfile refid="encoder__ii_8h">encoder_ii.h</innerfile>
+    <innerfile refid="encoder__si_8h">encoder_si.h</innerfile>
+    <innerfile refid="encoder__ss_8h">encoder_ss.h</innerfile>
+    <innerfile refid="metrics__c_8h">metrics_c.h</innerfile>
+    <innerfile refid="metrics__f_8h">metrics_f.h</innerfile>
+    <innerfile refid="metrics__i_8h">metrics_i.h</innerfile>
+    <innerfile refid="metrics__s_8h">metrics_s.h</innerfile>
+    <innerfile refid="pccc__decoder__b_8h">pccc_decoder_b.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__cb_8h">pccc_decoder_combined_cb.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__ci_8h">pccc_decoder_combined_ci.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__cs_8h">pccc_decoder_combined_cs.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__fb_8h">pccc_decoder_combined_fb.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__fi_8h">pccc_decoder_combined_fi.h</innerfile>
+    <innerfile refid="pccc__decoder__combined__fs_8h">pccc_decoder_combined_fs.h</innerfile>
+    <innerfile refid="pccc__decoder__i_8h">pccc_decoder_i.h</innerfile>
+    <innerfile refid="pccc__decoder__s_8h">pccc_decoder_s.h</innerfile>
+    <innerfile refid="pccc__encoder__bb_8h">pccc_encoder_bb.h</innerfile>
+    <innerfile refid="pccc__encoder__bi_8h">pccc_encoder_bi.h</innerfile>
+    <innerfile refid="pccc__encoder__bs_8h">pccc_encoder_bs.h</innerfile>
+    <innerfile refid="pccc__encoder__ii_8h">pccc_encoder_ii.h</innerfile>
+    <innerfile refid="pccc__encoder__si_8h">pccc_encoder_si.h</innerfile>
+    <innerfile refid="pccc__encoder__ss_8h">pccc_encoder_ss.h</innerfile>
+    <innerfile refid="sccc__decoder__b_8h">sccc_decoder_b.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__cb_8h">sccc_decoder_combined_cb.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__ci_8h">sccc_decoder_combined_ci.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__cs_8h">sccc_decoder_combined_cs.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__fb_8h">sccc_decoder_combined_fb.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__fi_8h">sccc_decoder_combined_fi.h</innerfile>
+    <innerfile refid="sccc__decoder__combined__fs_8h">sccc_decoder_combined_fs.h</innerfile>
+    <innerfile refid="sccc__decoder__i_8h">sccc_decoder_i.h</innerfile>
+    <innerfile refid="sccc__decoder__s_8h">sccc_decoder_s.h</innerfile>
+    <innerfile refid="sccc__encoder__bb_8h">sccc_encoder_bb.h</innerfile>
+    <innerfile refid="sccc__encoder__bi_8h">sccc_encoder_bi.h</innerfile>
+    <innerfile refid="sccc__encoder__bs_8h">sccc_encoder_bs.h</innerfile>
+    <innerfile refid="sccc__encoder__ii_8h">sccc_encoder_ii.h</innerfile>
+    <innerfile refid="sccc__encoder__si_8h">sccc_encoder_si.h</innerfile>
+    <innerfile refid="sccc__encoder__ss_8h">sccc_encoder_ss.h</innerfile>
+    <innerfile refid="viterbi__b_8h">viterbi_b.h</innerfile>
+    <innerfile refid="viterbi__combined__cb_8h">viterbi_combined_cb.h</innerfile>
+    <innerfile refid="viterbi__combined__ci_8h">viterbi_combined_ci.h</innerfile>
+    <innerfile refid="viterbi__combined__cs_8h">viterbi_combined_cs.h</innerfile>
+    <innerfile refid="viterbi__combined__fb_8h">viterbi_combined_fb.h</innerfile>
+    <innerfile refid="viterbi__combined__fi_8h">viterbi_combined_fi.h</innerfile>
+    <innerfile refid="viterbi__combined__fs_8h">viterbi_combined_fs.h</innerfile>
+    <innerfile refid="viterbi__combined__ib_8h">viterbi_combined_ib.h</innerfile>
+    <innerfile refid="viterbi__combined__ii_8h">viterbi_combined_ii.h</innerfile>
+    <innerfile refid="viterbi__combined__is_8h">viterbi_combined_is.h</innerfile>
+    <innerfile refid="viterbi__combined__sb_8h">viterbi_combined_sb.h</innerfile>
+    <innerfile refid="viterbi__combined__si_8h">viterbi_combined_si.h</innerfile>
+    <innerfile refid="viterbi__combined__ss_8h">viterbi_combined_ss.h</innerfile>
+    <innerfile refid="viterbi__i_8h">viterbi_i.h</innerfile>
+    <innerfile refid="viterbi__s_8h">viterbi_s.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-trellis/include/gnuradio/trellis/"/>
+  </compounddef>
+</doxygen>

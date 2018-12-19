@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="group__boolean__operators__blk" kind="group">
+    <compoundname>boolean_operators_blk</compoundname>
+    <title>Boolean Operators</title>
+    <innerclass refid="classgr_1_1blocks_1_1abs__ff" prot="public">gr::blocks::abs_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1abs__ii" prot="public">gr::blocks::abs_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1abs__ss" prot="public">gr::blocks::abs_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__bb" prot="public">gr::blocks::and_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__const__bb" prot="public">gr::blocks::and_const_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__const__ii" prot="public">gr::blocks::and_const_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__const__ss" prot="public">gr::blocks::and_const_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__ii" prot="public">gr::blocks::and_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1and__ss" prot="public">gr::blocks::and_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1not__bb" prot="public">gr::blocks::not_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1not__ii" prot="public">gr::blocks::not_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1not__ss" prot="public">gr::blocks::not_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1or__bb" prot="public">gr::blocks::or_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1or__ii" prot="public">gr::blocks::or_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1or__ss" prot="public">gr::blocks::or_ss</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1xor__bb" prot="public">gr::blocks::xor_bb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1xor__ii" prot="public">gr::blocks::xor_ii</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1xor__ss" prot="public">gr::blocks::xor_ss</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

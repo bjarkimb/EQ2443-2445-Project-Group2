@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1correctiq" kind="namespace" language="C++">
+    <compoundname>gr::correctiq</compoundname>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq" prot="public">gr::correctiq::correctiq</innerclass>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq__auto" prot="public">gr::correctiq::correctiq_auto</innerclass>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq__auto__impl" prot="public">gr::correctiq::correctiq_auto_impl</innerclass>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq__impl" prot="public">gr::correctiq::correctiq_impl</innerclass>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq__man" prot="public">gr::correctiq::correctiq_man</innerclass>
+    <innerclass refid="classgr_1_1correctiq_1_1correctiq__man__impl" prot="public">gr::correctiq::correctiq_man_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

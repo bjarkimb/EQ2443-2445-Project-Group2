@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="oscope__guts_8h" kind="file" language="C++">
+    <compoundname>oscope_guts.h</compoundname>
+    <includes refid="gr-wxgui_2include_2gnuradio_2wxgui_2api_8h" local="no">gnuradio/wxgui/api.h</includes>
+    <includes refid="gr-wxgui_2include_2gnuradio_2wxgui_2trigger__mode_8h" local="no">gnuradio/wxgui/trigger_mode.h</includes>
+    <includes refid="msg__queue_8h" local="no">gnuradio/msg_queue.h</includes>
+    <includedby refid="oscope__sink__x_8h" local="no">oscope_sink_x.h</includedby>
+    <incdepgraph>
+      <node id="28161">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="28144">
+        <label>gnuradio/wxgui/api.h</label>
+        <link refid="gr-wxgui_2include_2gnuradio_2wxgui_2api_8h"/>
+        <childnode refid="28145" relation="include">
+        </childnode>
+      </node>
+      <node id="28163">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="28152">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="28157">
+        <label>stdint.h</label>
+      </node>
+      <node id="28160">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="28150">
+        <label>gnuradio/message.h</label>
+        <link refid="message_8h"/>
+        <childnode refid="28148" relation="include">
+        </childnode>
+        <childnode refid="28151" relation="include">
+        </childnode>
+        <childnode refid="28158" relation="include">
+        </childnode>
+      </node>
+      <node id="28159">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="28148" relation="include">
+        </childnode>
+        <childnode refid="28160" relation="include">
+        </childnode>
+        <childnode refid="28161" relation="include">
+        </childnode>
+        <childnode refid="28162" relation="include">
+        </childnode>
+        <childnode refid="28163" relation="include">
+        </childnode>
+        <childnode refid="28164" relation="include">
+        </childnode>
+        <childnode refid="28152" relation="include">
+        </childnode>
+        <childnode refid="28153" relation="include">
+        </childnode>
+      </node>
+      <node id="28158">
+        <label>string</label>
+      </node>
+      <node id="28148">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="28145" relation="include">
+        </childnode>
+      </node>
+      <node id="28145">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="28154">
+        <label>stddef.h</label>
+      </node>
+      <node id="28149">
+        <label>gnuradio/msg_handler.h</label>
+        <link refid="msg__handler_8h"/>
+        <childnode refid="28148" relation="include">
+        </childnode>
+        <childnode refid="28150" relation="include">
+        </childnode>
+      </node>
+      <node id="28147">
+        <label>gnuradio/msg_queue.h</label>
+        <link refid="msg__queue_8h"/>
+        <childnode refid="28148" relation="include">
+        </childnode>
+        <childnode refid="28149" relation="include">
+        </childnode>
+        <childnode refid="28159" relation="include">
+        </childnode>
+      </node>
+      <node id="28162">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="28153">
+        <label>vector</label>
+      </node>
+      <node id="28164">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="28151">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="28148" relation="include">
+        </childnode>
+        <childnode refid="28152" relation="include">
+        </childnode>
+        <childnode refid="28153" relation="include">
+        </childnode>
+        <childnode refid="28154" relation="include">
+        </childnode>
+        <childnode refid="28155" relation="include">
+        </childnode>
+        <childnode refid="28157" relation="include">
+        </childnode>
+      </node>
+      <node id="28155">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="28156" relation="include">
+        </childnode>
+      </node>
+      <node id="28146">
+        <label>gnuradio/wxgui/trigger_mode.h</label>
+        <link refid="gr-wxgui_2include_2gnuradio_2wxgui_2trigger__mode_8h"/>
+      </node>
+      <node id="28156">
+        <label>complex</label>
+      </node>
+      <node id="28143">
+        <label>oscope_guts.h</label>
+        <link refid="oscope_guts.h"/>
+        <childnode refid="28144" relation="include">
+        </childnode>
+        <childnode refid="28146" relation="include">
+        </childnode>
+        <childnode refid="28147" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="28167">
+        <label>oscope_sink_f.h</label>
+        <link refid="oscope__sink__f_8h"/>
+      </node>
+      <node id="28165">
+        <label>oscope_guts.h</label>
+        <link refid="oscope_guts.h"/>
+        <childnode refid="28166" relation="include">
+        </childnode>
+      </node>
+      <node id="28166">
+        <label>oscope_sink_x.h</label>
+        <link refid="oscope__sink__x_8h"/>
+        <childnode refid="28167" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1wxgui_1_1oscope__guts" prot="public">gr::wxgui::oscope_guts</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1wxgui">gr::wxgui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-wxgui/include/gnuradio/wxgui/oscope_guts.h"/>
+  </compounddef>
+</doxygen>

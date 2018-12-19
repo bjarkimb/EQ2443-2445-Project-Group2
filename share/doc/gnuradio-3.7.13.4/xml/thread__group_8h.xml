@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="thread__group_8h" kind="file" language="C++">
+    <compoundname>thread_group.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="thread_8h" local="no">gnuradio/thread/thread.h</includes>
+    <includes local="no">boost/utility.hpp</includes>
+    <includes local="no">boost/thread/shared_mutex.hpp</includes>
+    <includes local="no">boost/function.hpp</includes>
+    <incdepgraph>
+      <node id="43082">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="43084">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="43086">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="43077">
+        <label>thread_group.h</label>
+        <link refid="thread_group.h"/>
+        <childnode refid="43078" relation="include">
+        </childnode>
+        <childnode refid="43080" relation="include">
+        </childnode>
+        <childnode refid="43088" relation="include">
+        </childnode>
+        <childnode refid="43089" relation="include">
+        </childnode>
+        <childnode refid="43090" relation="include">
+        </childnode>
+      </node>
+      <node id="43081">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="43080">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="43078" relation="include">
+        </childnode>
+        <childnode refid="43081" relation="include">
+        </childnode>
+        <childnode refid="43082" relation="include">
+        </childnode>
+        <childnode refid="43083" relation="include">
+        </childnode>
+        <childnode refid="43084" relation="include">
+        </childnode>
+        <childnode refid="43085" relation="include">
+        </childnode>
+        <childnode refid="43086" relation="include">
+        </childnode>
+        <childnode refid="43087" relation="include">
+        </childnode>
+      </node>
+      <node id="43079">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="43078">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="43079" relation="include">
+        </childnode>
+      </node>
+      <node id="43090">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="43083">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="43087">
+        <label>vector</label>
+      </node>
+      <node id="43085">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="43088">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="43089">
+        <label>boost/thread/shared_mutex.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1thread_1_1thread__group" prot="public">gr::thread::thread_group</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1thread">gr::thread</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/thread/thread_group.h"/>
+  </compounddef>
+</doxygen>

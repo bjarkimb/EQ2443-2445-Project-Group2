@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="flex__frame_8h" kind="file" language="C++">
+    <compoundname>flex_frame.h</compoundname>
+    <includes refid="gr-pager_2include_2gnuradio_2pager_2api_8h" local="no">gnuradio/pager/api.h</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <incdepgraph>
+      <node id="16192">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="16189">
+        <label>flex_frame.h</label>
+        <link refid="flex_frame.h"/>
+        <childnode refid="16190" relation="include">
+        </childnode>
+        <childnode refid="16192" relation="include">
+        </childnode>
+      </node>
+      <node id="16191">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="16190">
+        <label>gnuradio/pager/api.h</label>
+        <link refid="gr-pager_2include_2gnuradio_2pager_2api_8h"/>
+        <childnode refid="16191" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1pager_1_1flex__frame" prot="public">gr::pager::flex_frame</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1pager">gr::pager</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-pager/include/gnuradio/pager/flex_frame.h"/>
+  </compounddef>
+</doxygen>

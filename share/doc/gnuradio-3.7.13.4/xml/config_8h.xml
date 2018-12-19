@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="config_8h" kind="file" language="C++">
+    <compoundname>config.h</compoundname>
+    <includedby refid="rpcserver__selector_8h" local="no">rpcserver_selector.h</includedby>
+    <invincdepgraph>
+      <node id="9428">
+        <label>rpcregisterhelpers.h</label>
+        <link refid="rpcregisterhelpers_8h"/>
+        <childnode refid="9429" relation="include">
+        </childnode>
+        <childnode refid="9430" relation="include">
+        </childnode>
+      </node>
+      <node id="9430">
+        <label>ctrlport_probe_c.h</label>
+        <link refid="ctrlport__probe__c_8h"/>
+      </node>
+      <node id="9427">
+        <label>rpcserver_selector.h</label>
+        <link refid="rpcserver__selector_8h"/>
+        <childnode refid="9428" relation="include">
+        </childnode>
+      </node>
+      <node id="9426">
+        <label>config.h</label>
+        <link refid="config.h"/>
+        <childnode refid="9427" relation="include">
+        </childnode>
+      </node>
+      <node id="9429">
+        <label>pycallback_object.h</label>
+        <link refid="pycallback__object_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="config_8h_1adc9208b77af7662b249fffddf1e80f05" prot="public" static="no">
+        <name>TRY_SHM_VMCIRCBUF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" line="25" column="9" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1aa1d9032f84a84242d1cc0ccd45430ae4" prot="public" static="no">
+        <name>GR_PERFORMANCE_COUNTERS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" line="28" column="9" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a7141d07920883c03580157e4e03fed42" prot="public" static="no">
+        <name>GR_CTRLPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" line="31" column="9" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a9d642d742efafd3ebf92667f44b4520b" prot="public" static="no">
+        <name>GR_RPCSERVER_ENABLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" line="34" column="9" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8h_1a7457af07cebb678e24f1a2f92858f028" prot="public" static="no">
+        <name>GR_RPCSERVER_THRIFT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" line="37" column="9" bodyfile="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gnuradio-runtime/include/gnuradio/config.h"/>
+  </compounddef>
+</doxygen>

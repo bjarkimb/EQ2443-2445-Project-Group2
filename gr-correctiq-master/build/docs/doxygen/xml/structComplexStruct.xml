@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structComplexStruct" kind="struct" language="C++" prot="public">
+    <compoundname>ComplexStruct</compoundname>
+    <includes refid="clSComplex_8h" local="no">clSComplex.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structComplexStruct_1a53ef20db23ac921365f71e6e5575e9eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ComplexStruct::real</definition>
+        <argsstring></argsstring>
+        <name>real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" line="13" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structComplexStruct_1adb22bfd1730ea7747317740c1f21c51b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ComplexStruct::imag</definition>
+        <argsstring></argsstring>
+        <name>imag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" line="14" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" line="12" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/lib/clSComplex.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structComplexStruct_1adb22bfd1730ea7747317740c1f21c51b" prot="public" virt="non-virtual"><scope>ComplexStruct</scope><name>imag</name></member>
+      <member refid="structComplexStruct_1a53ef20db23ac921365f71e6e5575e9eb" prot="public" virt="non-virtual"><scope>ComplexStruct</scope><name>real</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="prefs_8h" kind="file" language="C++">
+    <compoundname>prefs.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">map</includes>
+    <includes refid="thread_8h" local="no">gnuradio/thread/thread.h</includes>
+    <includedby refid="thrift__application__base_8h" local="no">thrift_application_base.h</includedby>
+    <includedby refid="thrift__server__template_8h" local="no">thrift_server_template.h</includedby>
+    <incdepgraph>
+      <node id="32463">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="32465">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="32467">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="32462">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="32461">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="32457" relation="include">
+        </childnode>
+        <childnode refid="32462" relation="include">
+        </childnode>
+        <childnode refid="32463" relation="include">
+        </childnode>
+        <childnode refid="32464" relation="include">
+        </childnode>
+        <childnode refid="32465" relation="include">
+        </childnode>
+        <childnode refid="32466" relation="include">
+        </childnode>
+        <childnode refid="32467" relation="include">
+        </childnode>
+        <childnode refid="32468" relation="include">
+        </childnode>
+      </node>
+      <node id="32459">
+        <label>string</label>
+      </node>
+      <node id="32458">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="32457">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="32458" relation="include">
+        </childnode>
+      </node>
+      <node id="32460">
+        <label>map</label>
+      </node>
+      <node id="32464">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="32468">
+        <label>vector</label>
+      </node>
+      <node id="32466">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="32456">
+        <label>prefs.h</label>
+        <link refid="prefs.h"/>
+        <childnode refid="32457" relation="include">
+        </childnode>
+        <childnode refid="32459" relation="include">
+        </childnode>
+        <childnode refid="32460" relation="include">
+        </childnode>
+        <childnode refid="32461" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="32470">
+        <label>thrift_application_base.h</label>
+        <link refid="thrift__application__base_8h"/>
+        <childnode refid="32471" relation="include">
+        </childnode>
+      </node>
+      <node id="32471">
+        <label>thrift_server_template.h</label>
+        <link refid="thrift__server__template_8h"/>
+        <childnode refid="32472" relation="include">
+        </childnode>
+      </node>
+      <node id="32472">
+        <label>rpcserver_booter_thrift.h</label>
+        <link refid="rpcserver__booter__thrift_8h"/>
+      </node>
+      <node id="32469">
+        <label>prefs.h</label>
+        <link refid="prefs.h"/>
+        <childnode refid="32470" relation="include">
+        </childnode>
+        <childnode refid="32471" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1prefs" prot="public">gr::prefs</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/prefs.h"/>
+  </compounddef>
+</doxygen>

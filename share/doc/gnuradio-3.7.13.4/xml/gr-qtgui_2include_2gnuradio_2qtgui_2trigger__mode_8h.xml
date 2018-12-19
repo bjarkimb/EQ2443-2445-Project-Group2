@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-qtgui_2include_2gnuradio_2qtgui_2trigger__mode_8h" kind="file" language="C++">
+    <compoundname>gr-qtgui/include/gnuradio/qtgui/trigger_mode.h</compoundname>
+    <includedby refid="const__sink__c_8h" local="no">const_sink_c.h</includedby>
+    <includedby refid="form__menus_8h" local="no">form_menus.h</includedby>
+    <includedby refid="freq__sink__c_8h" local="no">freq_sink_c.h</includedby>
+    <includedby refid="freq__sink__f_8h" local="no">freq_sink_f.h</includedby>
+    <includedby refid="number__sink_8h" local="no">number_sink.h</includedby>
+    <includedby refid="time__sink__c_8h" local="no">time_sink_c.h</includedby>
+    <includedby refid="time__sink__f_8h" local="no">time_sink_f.h</includedby>
+    <invincdepgraph>
+      <node id="44047">
+        <label>trigger_mode.h</label>
+        <link refid="gr-qtgui/include/gnuradio/qtgui/trigger_mode.h"/>
+        <childnode refid="44048" relation="include">
+        </childnode>
+        <childnode refid="44049" relation="include">
+        </childnode>
+        <childnode refid="44061" relation="include">
+        </childnode>
+        <childnode refid="44062" relation="include">
+        </childnode>
+        <childnode refid="44064" relation="include">
+        </childnode>
+        <childnode refid="44065" relation="include">
+        </childnode>
+        <childnode refid="44066" relation="include">
+        </childnode>
+      </node>
+      <node id="44050">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="44051" relation="include">
+        </childnode>
+        <childnode refid="44052" relation="include">
+        </childnode>
+        <childnode refid="44053" relation="include">
+        </childnode>
+        <childnode refid="44054" relation="include">
+        </childnode>
+        <childnode refid="44055" relation="include">
+        </childnode>
+        <childnode refid="44056" relation="include">
+        </childnode>
+        <childnode refid="44057" relation="include">
+        </childnode>
+        <childnode refid="44058" relation="include">
+        </childnode>
+        <childnode refid="44059" relation="include">
+        </childnode>
+      </node>
+      <node id="44062">
+        <label>freq_sink_f.h</label>
+        <link refid="freq__sink__f_8h"/>
+        <childnode refid="44063" relation="include">
+        </childnode>
+      </node>
+      <node id="44048">
+        <label>const_sink_c.h</label>
+        <link refid="const__sink__c_8h"/>
+      </node>
+      <node id="44058">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="44064">
+        <label>number_sink.h</label>
+        <link refid="number__sink_8h"/>
+      </node>
+      <node id="44056">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="44055" relation="include">
+        </childnode>
+      </node>
+      <node id="44049">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="44050" relation="include">
+        </childnode>
+        <childnode refid="44060" relation="include">
+        </childnode>
+      </node>
+      <node id="44055">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="44052">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="44065">
+        <label>time_sink_c.h</label>
+        <link refid="time__sink__c_8h"/>
+      </node>
+      <node id="44051">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="44060">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="44053">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="44052" relation="include">
+        </childnode>
+      </node>
+      <node id="44061">
+        <label>freq_sink_c.h</label>
+        <link refid="freq__sink__c_8h"/>
+      </node>
+      <node id="44059">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="44057">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="44066">
+        <label>time_sink_f.h</label>
+        <link refid="time__sink__f_8h"/>
+        <childnode refid="44063" relation="include">
+        </childnode>
+      </node>
+      <node id="44063">
+        <label>display_qt.h</label>
+        <link refid="display__qt_8h"/>
+      </node>
+      <node id="44054">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1qtgui">gr::qtgui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/trigger_mode.h"/>
+  </compounddef>
+</doxygen>

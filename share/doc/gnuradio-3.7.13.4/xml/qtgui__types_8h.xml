@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="qtgui__types_8h" kind="file" language="C++">
+    <compoundname>qtgui_types.h</compoundname>
+    <includes local="no">qwt_color_map.h</includes>
+    <includes local="no">qwt_scale_draw.h</includes>
+    <includes refid="high__res__timer_8h" local="no">gnuradio/high_res_timer.h</includes>
+    <includedby refid="edit__box__msg_8h" local="no">edit_box_msg.h</includedby>
+    <includedby refid="form__menus_8h" local="no">form_menus.h</includedby>
+    <includedby refid="number__sink_8h" local="no">number_sink.h</includedby>
+    <incdepgraph>
+      <node id="33947">
+        <label>qwt_color_map.h</label>
+      </node>
+      <node id="33946">
+        <label>qtgui_types.h</label>
+        <link refid="qtgui_types.h"/>
+        <childnode refid="33947" relation="include">
+        </childnode>
+        <childnode refid="33948" relation="include">
+        </childnode>
+        <childnode refid="33949" relation="include">
+        </childnode>
+      </node>
+      <node id="33951">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="33950">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="33951" relation="include">
+        </childnode>
+      </node>
+      <node id="33952">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="33949">
+        <label>gnuradio/high_res_timer.h</label>
+        <link refid="high__res__timer_8h"/>
+        <childnode refid="33950" relation="include">
+        </childnode>
+        <childnode refid="33952" relation="include">
+        </childnode>
+      </node>
+      <node id="33948">
+        <label>qwt_scale_draw.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="33956">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="33957" relation="include">
+        </childnode>
+        <childnode refid="33958" relation="include">
+        </childnode>
+        <childnode refid="33959" relation="include">
+        </childnode>
+        <childnode refid="33960" relation="include">
+        </childnode>
+        <childnode refid="33961" relation="include">
+        </childnode>
+        <childnode refid="33962" relation="include">
+        </childnode>
+        <childnode refid="33963" relation="include">
+        </childnode>
+        <childnode refid="33964" relation="include">
+        </childnode>
+        <childnode refid="33965" relation="include">
+        </childnode>
+      </node>
+      <node id="33954">
+        <label>edit_box_msg.h</label>
+        <link refid="edit__box__msg_8h"/>
+      </node>
+      <node id="33953">
+        <label>qtgui_types.h</label>
+        <link refid="qtgui_types.h"/>
+        <childnode refid="33954" relation="include">
+        </childnode>
+        <childnode refid="33955" relation="include">
+        </childnode>
+        <childnode refid="33967" relation="include">
+        </childnode>
+      </node>
+      <node id="33964">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="33967">
+        <label>number_sink.h</label>
+        <link refid="number__sink_8h"/>
+      </node>
+      <node id="33962">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="33961" relation="include">
+        </childnode>
+      </node>
+      <node id="33955">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="33956" relation="include">
+        </childnode>
+        <childnode refid="33966" relation="include">
+        </childnode>
+      </node>
+      <node id="33961">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="33958">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="33957">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="33966">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="33959">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="33958" relation="include">
+        </childnode>
+      </node>
+      <node id="33965">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="33963">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="33960">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classFreqOffsetAndPrecisionClass" prot="public">FreqOffsetAndPrecisionClass</innerclass>
+    <innerclass refid="classTimeScaleData" prot="public">TimeScaleData</innerclass>
+    <innerclass refid="classFreqDisplayScaleDraw" prot="public">FreqDisplayScaleDraw</innerclass>
+    <innerclass refid="classColorMap__MultiColor" prot="public">ColorMap_MultiColor</innerclass>
+    <innerclass refid="classColorMap__WhiteHot" prot="public">ColorMap_WhiteHot</innerclass>
+    <innerclass refid="classColorMap__BlackHot" prot="public">ColorMap_BlackHot</innerclass>
+    <innerclass refid="classColorMap__Incandescent" prot="public">ColorMap_Incandescent</innerclass>
+    <innerclass refid="classColorMap__Sunset" prot="public">ColorMap_Sunset</innerclass>
+    <innerclass refid="classColorMap__Cool" prot="public">ColorMap_Cool</innerclass>
+    <innerclass refid="classColorMap__UserDefined" prot="public">ColorMap_UserDefined</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1qtgui">gr::qtgui</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7" prot="public" static="no">
+        <name>@1</name>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7af3311c0443330173129460c1035a74c4" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_MULTI_COLOR</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7a7996b573a19504e4317cc1e997e4e884" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_WHITE_HOT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7a39ef1bf913743434916e9b3aa3b5f4eb" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_BLACK_HOT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7a927d8c8ee26ef9841c0f8567cbb4bb00" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_INCANDESCENT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7a8d7a10f3fdeae9837c0c375d851f4e0d" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_USER_DEFINED</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7ae9f6091601a5026528704f5abf59b2ab" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_SUNSET</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qtgui__types_8h_1adf764cbdea00d65edcd07bb9953ad2b7abac73e17a48664ee5b618fd6d5ddf483" prot="public">
+          <name>INTENSITY_COLOR_MAP_TYPE_COOL</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="170" column="1" bodyfile="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="170" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h"/>
+  </compounddef>
+</doxygen>

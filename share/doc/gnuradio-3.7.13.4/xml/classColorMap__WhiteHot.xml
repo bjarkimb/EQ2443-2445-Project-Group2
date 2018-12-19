@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classColorMap__WhiteHot" kind="class" language="C++" prot="public">
+    <compoundname>ColorMap_WhiteHot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QwtLinearColorMap</basecompoundref>
+    <includes refid="qtgui__types_8h" local="no">gnuradio/qtgui/qtgui_types.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classColorMap__WhiteHot_1a2989cbe90adee30953e2a4c98821606c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ColorMap_WhiteHot::ColorMap_WhiteHot</definition>
+        <argsstring>()</argsstring>
+        <name>ColorMap_WhiteHot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="195" column="1" bodyfile="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="195" bodyend="198"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3454">
+        <label>QwtLinearColorMap</label>
+      </node>
+      <node id="3453">
+        <label>ColorMap_WhiteHot</label>
+        <link refid="classColorMap__WhiteHot"/>
+        <childnode refid="3454" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3456">
+        <label>QwtLinearColorMap</label>
+      </node>
+      <node id="3455">
+        <label>ColorMap_WhiteHot</label>
+        <link refid="classColorMap__WhiteHot"/>
+        <childnode refid="3456" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" line="193" column="1" bodyfile="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/qtgui_types.h" bodystart="192" bodyend="199"/>
+    <listofallmembers>
+      <member refid="classColorMap__WhiteHot_1a2989cbe90adee30953e2a4c98821606c" prot="public" virt="non-virtual"><scope>ColorMap_WhiteHot</scope><name>ColorMap_WhiteHot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

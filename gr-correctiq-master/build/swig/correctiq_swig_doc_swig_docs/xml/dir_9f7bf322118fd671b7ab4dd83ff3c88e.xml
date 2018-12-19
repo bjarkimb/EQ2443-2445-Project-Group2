@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_9f7bf322118fd671b7ab4dd83ff3c88e" kind="dir">
+    <compoundname>/home/project/prefix/gr-correctiq-master/include/correctiq</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="correctiq_8h">correctiq.h</innerfile>
+    <innerfile refid="correctiq__auto_8h">correctiq_auto.h</innerfile>
+    <innerfile refid="correctiq__man_8h">correctiq_man.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/"/>
+  </compounddef>
+</doxygen>

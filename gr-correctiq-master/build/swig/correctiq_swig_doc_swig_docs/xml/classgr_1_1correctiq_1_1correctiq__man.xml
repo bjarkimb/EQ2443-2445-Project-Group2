@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1correctiq_1_1correctiq__man" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::correctiq::correctiq_man</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="correctiq__man_8h" local="no">correctiq_man.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1correctiq_1_1correctiq__man_1a194a90a2cedf3fe0314ab5aa21f72bff" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1correctiq_1_1correctiq__man" kindref="compound">correctiq_man</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;correctiq_man&gt; gr::correctiq::correctiq_man::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="39" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__man_1aea2e1218d1aaad8fa4883e320d13abac" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::correctiq::correctiq_man::get_real</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_real</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1correctiq_1_1correctiq" kindref="compound">correctiq::correctiq</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1correctiq_1_1correctiq" kindref="compound">correctiq::correctiq</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1correctiq_1_1correctiq_1a9d61282d9481acf04d80cfbdb2d72a54" kindref="member">correctiq::correctiq::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__man_1affd50ce44886298e01396792700e407d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::correctiq::correctiq_man::get_imag</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_imag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__man_1af4e77de3398e2a54e02ab80039ea72c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::correctiq::correctiq_man::set_real</definition>
+        <argsstring>(float newValue)=0</argsstring>
+        <name>set_real</name>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__man_1a158d9b42a7f8e30545060754ebcac483" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::correctiq::correctiq_man::set_imag</definition>
+        <argsstring>(float newValue)=0</argsstring>
+        <name>set_imag</name>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1correctiq_1_1correctiq__man_1a06a60c6769b7fcf9680f502daada2b25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1correctiq_1_1correctiq__man_1a194a90a2cedf3fe0314ab5aa21f72bff" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::correctiq::correctiq_man::make</definition>
+        <argsstring>(float real, float imag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>imag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::correctiq::correctiq_man</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__man"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="10">
+        <label>gr::correctiq::correctiq_man</label>
+        <link refid="classgr_1_1correctiq_1_1correctiq__man"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" line="37" column="1" bodyfile="/home/project/prefix/gr-correctiq-master/include/correctiq/correctiq_man.h" bodystart="36" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1affd50ce44886298e01396792700e407d" prot="public" virt="pure-virtual"><scope>gr::correctiq::correctiq_man</scope><name>get_imag</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1aea2e1218d1aaad8fa4883e320d13abac" prot="public" virt="pure-virtual"><scope>gr::correctiq::correctiq_man</scope><name>get_real</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1a06a60c6769b7fcf9680f502daada2b25" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_man</scope><name>make</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1a158d9b42a7f8e30545060754ebcac483" prot="public" virt="pure-virtual"><scope>gr::correctiq::correctiq_man</scope><name>set_imag</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1af4e77de3398e2a54e02ab80039ea72c8" prot="public" virt="pure-virtual"><scope>gr::correctiq::correctiq_man</scope><name>set_real</name></member>
+      <member refid="classgr_1_1correctiq_1_1correctiq__man_1a194a90a2cedf3fe0314ab5aa21f72bff" prot="public" virt="non-virtual"><scope>gr::correctiq::correctiq_man</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rpcmanager__base_8h" kind="file" language="C++">
+    <compoundname>rpcmanager_base.h</compoundname>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includedby refid="rpcmanager_8h" local="no">rpcmanager.h</includedby>
+    <includedby refid="rpcserver__aggregator_8h" local="no">rpcserver_aggregator.h</includedby>
+    <incdepgraph>
+      <node id="35261">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="35260">
+        <label>rpcmanager_base.h</label>
+        <link refid="rpcmanager_base.h"/>
+        <childnode refid="35261" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="35264">
+        <label>rpcregisterhelpers.h</label>
+        <link refid="rpcregisterhelpers_8h"/>
+        <childnode refid="35265" relation="include">
+        </childnode>
+        <childnode refid="35266" relation="include">
+        </childnode>
+      </node>
+      <node id="35266">
+        <label>ctrlport_probe_c.h</label>
+        <link refid="ctrlport__probe__c_8h"/>
+      </node>
+      <node id="35268">
+        <label>rpcserver_booter_aggregator.h</label>
+        <link refid="rpcserver__booter__aggregator_8h"/>
+        <childnode refid="35263" relation="include">
+        </childnode>
+      </node>
+      <node id="35267">
+        <label>rpcserver_aggregator.h</label>
+        <link refid="rpcserver__aggregator_8h"/>
+        <childnode refid="35268" relation="include">
+        </childnode>
+      </node>
+      <node id="35263">
+        <label>rpcmanager.h</label>
+        <link refid="rpcmanager_8h"/>
+        <childnode refid="35264" relation="include">
+        </childnode>
+      </node>
+      <node id="35265">
+        <label>pycallback_object.h</label>
+        <link refid="pycallback__object_8h"/>
+      </node>
+      <node id="35262">
+        <label>rpcmanager_base.h</label>
+        <link refid="rpcmanager_base.h"/>
+        <childnode refid="35263" relation="include">
+        </childnode>
+        <childnode refid="35267" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classrpcmanager__base" prot="public">rpcmanager_base</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/rpcmanager_base.h"/>
+  </compounddef>
+</doxygen>

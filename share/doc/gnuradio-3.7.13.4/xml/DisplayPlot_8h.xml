@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="DisplayPlot_8h" kind="file" language="C++">
+    <compoundname>DisplayPlot.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">qwt_plot.h</includes>
+    <includes local="no">qwt_painter.h</includes>
+    <includes local="no">qwt_plot_canvas.h</includes>
+    <includes local="no">qwt_plot_curve.h</includes>
+    <includes local="no">qwt_scale_engine.h</includes>
+    <includes local="no">qwt_scale_widget.h</includes>
+    <includes local="no">qwt_plot_zoomer.h</includes>
+    <includes local="no">qwt_plot_panner.h</includes>
+    <includes local="no">qwt_plot_magnifier.h</includes>
+    <includes local="no">qwt_plot_marker.h</includes>
+    <includes local="no">qwt_symbol.h</includes>
+    <includes local="no">qwt_legend.h</includes>
+    <includes refid="utils_8h" local="no">gnuradio/qtgui/utils.h</includes>
+    <includes local="no">qwt_legend_item.h</includes>
+    <includedby refid="ConstellationDisplayPlot_8h" local="no">ConstellationDisplayPlot.h</includedby>
+    <includedby refid="displayform_8h" local="no">displayform.h</includedby>
+    <includedby refid="FrequencyDisplayPlot_8h" local="no">FrequencyDisplayPlot.h</includedby>
+    <includedby refid="HistogramDisplayPlot_8h" local="no">HistogramDisplayPlot.h</includedby>
+    <includedby refid="TimeDomainDisplayPlot_8h" local="no">TimeDomainDisplayPlot.h</includedby>
+    <includedby refid="TimeRasterDisplayPlot_8h" local="no">TimeRasterDisplayPlot.h</includedby>
+    <includedby refid="VectorDisplayPlot_8h" local="no">VectorDisplayPlot.h</includedby>
+    <includedby refid="WaterfallDisplayPlot_8h" local="no">WaterfallDisplayPlot.h</includedby>
+    <incdepgraph>
+      <node id="11981">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="11983">
+        <label>qwt_plot_canvas.h</label>
+      </node>
+      <node id="11978">
+        <label>stdint.h</label>
+      </node>
+      <node id="11993">
+        <label>gnuradio/qtgui/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="11994" relation="include">
+        </childnode>
+        <childnode refid="11995" relation="include">
+        </childnode>
+        <childnode refid="11997" relation="include">
+        </childnode>
+        <childnode refid="11998" relation="include">
+        </childnode>
+        <childnode refid="11999" relation="include">
+        </childnode>
+        <childnode refid="12000" relation="include">
+        </childnode>
+      </node>
+      <node id="11995">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="11996" relation="include">
+        </childnode>
+      </node>
+      <node id="11996">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="11988">
+        <label>qwt_plot_panner.h</label>
+      </node>
+      <node id="11982">
+        <label>qwt_painter.h</label>
+      </node>
+      <node id="11979">
+        <label>cstdio</label>
+      </node>
+      <node id="12001">
+        <label>qwt_legend_item.h</label>
+      </node>
+      <node id="11980">
+        <label>vector</label>
+      </node>
+      <node id="11991">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="11985">
+        <label>qwt_scale_engine.h</label>
+      </node>
+      <node id="11999">
+        <label>QString</label>
+      </node>
+      <node id="11977">
+        <label>DisplayPlot.h</label>
+        <link refid="DisplayPlot.h"/>
+        <childnode refid="11978" relation="include">
+        </childnode>
+        <childnode refid="11979" relation="include">
+        </childnode>
+        <childnode refid="11980" relation="include">
+        </childnode>
+        <childnode refid="11981" relation="include">
+        </childnode>
+        <childnode refid="11982" relation="include">
+        </childnode>
+        <childnode refid="11983" relation="include">
+        </childnode>
+        <childnode refid="11984" relation="include">
+        </childnode>
+        <childnode refid="11985" relation="include">
+        </childnode>
+        <childnode refid="11986" relation="include">
+        </childnode>
+        <childnode refid="11987" relation="include">
+        </childnode>
+        <childnode refid="11988" relation="include">
+        </childnode>
+        <childnode refid="11989" relation="include">
+        </childnode>
+        <childnode refid="11990" relation="include">
+        </childnode>
+        <childnode refid="11991" relation="include">
+        </childnode>
+        <childnode refid="11992" relation="include">
+        </childnode>
+        <childnode refid="11993" relation="include">
+        </childnode>
+        <childnode refid="12001" relation="include">
+        </childnode>
+      </node>
+      <node id="11990">
+        <label>qwt_plot_marker.h</label>
+      </node>
+      <node id="11986">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="11994">
+        <label>qevent.h</label>
+      </node>
+      <node id="11987">
+        <label>qwt_plot_zoomer.h</label>
+      </node>
+      <node id="11989">
+        <label>qwt_plot_magnifier.h</label>
+      </node>
+      <node id="11992">
+        <label>qwt_legend.h</label>
+      </node>
+      <node id="11998">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="11984">
+        <label>qwt_plot_curve.h</label>
+      </node>
+      <node id="11997">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="12000">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12007">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="12004" relation="include">
+        </childnode>
+        <childnode refid="12008" relation="include">
+        </childnode>
+        <childnode refid="12009" relation="include">
+        </childnode>
+        <childnode refid="12010" relation="include">
+        </childnode>
+        <childnode refid="12011" relation="include">
+        </childnode>
+        <childnode refid="12012" relation="include">
+        </childnode>
+        <childnode refid="12013" relation="include">
+        </childnode>
+        <childnode refid="12014" relation="include">
+        </childnode>
+        <childnode refid="12015" relation="include">
+        </childnode>
+      </node>
+      <node id="12014">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="12016">
+        <label>FrequencyDisplayPlot.h</label>
+        <link refid="FrequencyDisplayPlot_8h"/>
+        <childnode refid="12009" relation="include">
+        </childnode>
+        <childnode refid="12005" relation="include">
+        </childnode>
+      </node>
+      <node id="12012">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="12011" relation="include">
+        </childnode>
+      </node>
+      <node id="12021">
+        <label>WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="12005" relation="include">
+        </childnode>
+        <childnode refid="12015" relation="include">
+        </childnode>
+      </node>
+      <node id="12011">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="12008">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="12004">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="12019">
+        <label>TimeRasterDisplayPlot.h</label>
+        <link refid="TimeRasterDisplayPlot_8h"/>
+        <childnode refid="12013" relation="include">
+        </childnode>
+      </node>
+      <node id="12003">
+        <label>ConstellationDisplayPlot.h</label>
+        <link refid="ConstellationDisplayPlot_8h"/>
+        <childnode refid="12004" relation="include">
+        </childnode>
+        <childnode refid="12005" relation="include">
+        </childnode>
+      </node>
+      <node id="12002">
+        <label>DisplayPlot.h</label>
+        <link refid="DisplayPlot.h"/>
+        <childnode refid="12003" relation="include">
+        </childnode>
+        <childnode refid="12007" relation="include">
+        </childnode>
+        <childnode refid="12016" relation="include">
+        </childnode>
+        <childnode refid="12017" relation="include">
+        </childnode>
+        <childnode refid="12018" relation="include">
+        </childnode>
+        <childnode refid="12019" relation="include">
+        </childnode>
+        <childnode refid="12020" relation="include">
+        </childnode>
+        <childnode refid="12021" relation="include">
+        </childnode>
+      </node>
+      <node id="12009">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="12008" relation="include">
+        </childnode>
+      </node>
+      <node id="12006">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="12005" relation="include">
+        </childnode>
+      </node>
+      <node id="12018">
+        <label>TimeDomainDisplayPlot.h</label>
+        <link refid="TimeDomainDisplayPlot_8h"/>
+        <childnode refid="12005" relation="include">
+        </childnode>
+        <childnode refid="12012" relation="include">
+        </childnode>
+      </node>
+      <node id="12015">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="12005">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="12006" relation="include">
+        </childnode>
+      </node>
+      <node id="12013">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="12020">
+        <label>VectorDisplayPlot.h</label>
+        <link refid="VectorDisplayPlot_8h"/>
+        <childnode refid="12014" relation="include">
+        </childnode>
+      </node>
+      <node id="12010">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="12017">
+        <label>HistogramDisplayPlot.h</label>
+        <link refid="HistogramDisplayPlot_8h"/>
+        <childnode refid="12010" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classDisplayPlot" prot="public">DisplayPlot</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="DisplayPlot_8h_1a88b79998a87850be2acd5b68e7d937c4" prot="public" static="no">
+        <type>QList&lt; QColor &gt;</type>
+        <definition>typedef QList&lt;QColor&gt; QColorList</definition>
+        <argsstring></argsstring>
+        <name>QColorList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/DisplayPlot.h" line="47" column="1" bodyfile="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/DisplayPlot.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/DisplayPlot.h"/>
+  </compounddef>
+</doxygen>

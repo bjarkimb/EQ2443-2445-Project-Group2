@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="timing__error__detector__type_8h" kind="file" language="C++">
+    <compoundname>timing_error_detector_type.h</compoundname>
+    <includedby refid="symbol__sync__cc_8h" local="no">symbol_sync_cc.h</includedby>
+    <includedby refid="symbol__sync__ff_8h" local="no">symbol_sync_ff.h</includedby>
+    <invincdepgraph>
+      <node id="43766">
+        <label>symbol_sync_ff.h</label>
+        <link refid="symbol__sync__ff_8h"/>
+      </node>
+      <node id="43764">
+        <label>timing_error_detector_type.h</label>
+        <link refid="timing_error_detector_type.h"/>
+        <childnode refid="43765" relation="include">
+        </childnode>
+        <childnode refid="43766" relation="include">
+        </childnode>
+      </node>
+      <node id="43765">
+        <label>symbol_sync_cc.h</label>
+        <link refid="symbol__sync__cc_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1digital">gr::digital</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-digital/include/gnuradio/digital/timing_error_detector_type.h"/>
+  </compounddef>
+</doxygen>

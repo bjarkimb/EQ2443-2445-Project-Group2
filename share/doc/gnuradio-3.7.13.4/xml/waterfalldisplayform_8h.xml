@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="waterfalldisplayform_8h" kind="file" language="C++">
+    <compoundname>waterfalldisplayform.h</compoundname>
+    <includes refid="spectrumUpdateEvents_8h" local="no">gnuradio/qtgui/spectrumUpdateEvents.h</includes>
+    <includes refid="WaterfallDisplayPlot_8h" local="no">gnuradio/qtgui/WaterfallDisplayPlot.h</includes>
+    <includes local="no">QtGui/QtGui</includes>
+    <includes local="no">vector</includes>
+    <includes refid="firdes_8h" local="no">gnuradio/filter/firdes.h</includes>
+    <includes refid="displayform_8h" local="no">gnuradio/qtgui/displayform.h</includes>
+    <incdepgraph>
+      <node id="47826">
+        <label>gnuradio/qtgui/trigger_mode.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2trigger__mode_8h"/>
+      </node>
+      <node id="47811">
+        <label>gnuradio/filter/firdes.h</label>
+        <link refid="firdes_8h"/>
+        <childnode refid="47812" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47813" relation="include">
+        </childnode>
+        <childnode refid="47814" relation="include">
+        </childnode>
+        <childnode refid="47815" relation="include">
+        </childnode>
+      </node>
+      <node id="47786">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="47817">
+        <label>gnuradio/qtgui/displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="47760" relation="include">
+        </childnode>
+        <childnode refid="47770" relation="include">
+        </childnode>
+        <childnode refid="47810" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47818" relation="include">
+        </childnode>
+        <childnode refid="47819" relation="include">
+        </childnode>
+        <childnode refid="47785" relation="include">
+        </childnode>
+        <childnode refid="47820" relation="include">
+        </childnode>
+      </node>
+      <node id="47810">
+        <label>QtGui/QtGui</label>
+      </node>
+      <node id="47775">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="47774">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="47788">
+        <label>qwt_plot_canvas.h</label>
+      </node>
+      <node id="47824">
+        <label>qwt_color_map.h</label>
+      </node>
+      <node id="47808">
+        <label>qglobal.h</label>
+      </node>
+      <node id="47761">
+        <label>stdint.h</label>
+      </node>
+      <node id="47760">
+        <label>gnuradio/qtgui/spectrumUpdateEvents.h</label>
+        <link refid="spectrumUpdateEvents_8h"/>
+        <childnode refid="47761" relation="include">
+        </childnode>
+        <childnode refid="47762" relation="include">
+        </childnode>
+        <childnode refid="47763" relation="include">
+        </childnode>
+        <childnode refid="47764" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47766" relation="include">
+        </childnode>
+        <childnode refid="47770" relation="include">
+        </childnode>
+        <childnode refid="47771" relation="include">
+        </childnode>
+      </node>
+      <node id="47815">
+        <label>gnuradio/fft/window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="47816" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47813" relation="include">
+        </childnode>
+        <childnode refid="47814" relation="include">
+        </childnode>
+      </node>
+      <node id="47823">
+        <label>gnuradio/qtgui/qtgui_types.h</label>
+        <link refid="qtgui__types_8h"/>
+        <childnode refid="47824" relation="include">
+        </childnode>
+        <childnode refid="47825" relation="include">
+        </childnode>
+        <childnode refid="47766" relation="include">
+        </childnode>
+      </node>
+      <node id="47780">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="47781" relation="include">
+        </childnode>
+      </node>
+      <node id="47816">
+        <label>gnuradio/fft/api.h</label>
+        <link refid="gr-fft_2include_2gnuradio_2fft_2api_8h"/>
+        <childnode refid="47768" relation="include">
+        </childnode>
+      </node>
+      <node id="47809">
+        <label>qwt_plot_rasteritem.h</label>
+      </node>
+      <node id="47798">
+        <label>gnuradio/qtgui/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="47799" relation="include">
+        </childnode>
+        <childnode refid="47770" relation="include">
+        </childnode>
+        <childnode refid="47800" relation="include">
+        </childnode>
+        <childnode refid="47801" relation="include">
+        </childnode>
+        <childnode refid="47763" relation="include">
+        </childnode>
+        <childnode refid="47802" relation="include">
+        </childnode>
+      </node>
+      <node id="47770">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="47768" relation="include">
+        </childnode>
+      </node>
+      <node id="47762">
+        <label>QEvent</label>
+      </node>
+      <node id="47813">
+        <label>cmath</label>
+      </node>
+      <node id="47779">
+        <label>stdexcept</label>
+      </node>
+      <node id="47777">
+        <label>string</label>
+      </node>
+      <node id="47768">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="47767">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="47768" relation="include">
+        </childnode>
+      </node>
+      <node id="47773">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="47768" relation="include">
+        </childnode>
+      </node>
+      <node id="47793">
+        <label>qwt_plot_panner.h</label>
+      </node>
+      <node id="47820">
+        <label>gnuradio/qtgui/form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="47779" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47810" relation="include">
+        </childnode>
+        <childnode refid="47821" relation="include">
+        </childnode>
+        <childnode refid="47822" relation="include">
+        </childnode>
+        <childnode refid="47796" relation="include">
+        </childnode>
+        <childnode refid="47811" relation="include">
+        </childnode>
+        <childnode refid="47823" relation="include">
+        </childnode>
+        <childnode refid="47826" relation="include">
+        </childnode>
+      </node>
+      <node id="47782">
+        <label>gnuradio/qtgui/WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="47761" relation="include">
+        </childnode>
+        <childnode refid="47783" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47784" relation="include">
+        </childnode>
+        <childnode refid="47785" relation="include">
+        </childnode>
+        <childnode refid="47804" relation="include">
+        </childnode>
+        <childnode refid="47766" relation="include">
+        </childnode>
+        <childnode refid="47807" relation="include">
+        </childnode>
+      </node>
+      <node id="47787">
+        <label>qwt_painter.h</label>
+      </node>
+      <node id="47776">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="47821">
+        <label>QtGui/QIntValidator</label>
+      </node>
+      <node id="47819">
+        <label>qwt_plot_layout.h</label>
+      </node>
+      <node id="47805">
+        <label>qwt_raster_data.h</label>
+      </node>
+      <node id="47769">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="47783">
+        <label>cstdio</label>
+      </node>
+      <node id="47803">
+        <label>qwt_legend_item.h</label>
+      </node>
+      <node id="47818">
+        <label>qwt_plot_grid.h</label>
+      </node>
+      <node id="47765">
+        <label>vector</label>
+      </node>
+      <node id="47796">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="47790">
+        <label>qwt_scale_engine.h</label>
+      </node>
+      <node id="47763">
+        <label>QString</label>
+      </node>
+      <node id="47814">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="47764" relation="include">
+        </childnode>
+      </node>
+      <node id="47785">
+        <label>gnuradio/qtgui/DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="47761" relation="include">
+        </childnode>
+        <childnode refid="47783" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47786" relation="include">
+        </childnode>
+        <childnode refid="47787" relation="include">
+        </childnode>
+        <childnode refid="47788" relation="include">
+        </childnode>
+        <childnode refid="47789" relation="include">
+        </childnode>
+        <childnode refid="47790" relation="include">
+        </childnode>
+        <childnode refid="47791" relation="include">
+        </childnode>
+        <childnode refid="47792" relation="include">
+        </childnode>
+        <childnode refid="47793" relation="include">
+        </childnode>
+        <childnode refid="47794" relation="include">
+        </childnode>
+        <childnode refid="47795" relation="include">
+        </childnode>
+        <childnode refid="47796" relation="include">
+        </childnode>
+        <childnode refid="47797" relation="include">
+        </childnode>
+        <childnode refid="47798" relation="include">
+        </childnode>
+        <childnode refid="47803" relation="include">
+        </childnode>
+      </node>
+      <node id="47766">
+        <label>gnuradio/high_res_timer.h</label>
+        <link refid="high__res__timer_8h"/>
+        <childnode refid="47767" relation="include">
+        </childnode>
+        <childnode refid="47769" relation="include">
+        </childnode>
+      </node>
+      <node id="47784">
+        <label>qwt_plot_spectrogram.h</label>
+      </node>
+      <node id="47795">
+        <label>qwt_plot_marker.h</label>
+      </node>
+      <node id="47778">
+        <label>iosfwd</label>
+      </node>
+      <node id="47791">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="47812">
+        <label>gnuradio/filter/api.h</label>
+        <link refid="gr-filter_2include_2gnuradio_2filter_2api_8h"/>
+        <childnode refid="47768" relation="include">
+        </childnode>
+      </node>
+      <node id="47799">
+        <label>qevent.h</label>
+      </node>
+      <node id="47781">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="47767" relation="include">
+        </childnode>
+        <childnode refid="47772" relation="include">
+        </childnode>
+        <childnode refid="47775" relation="include">
+        </childnode>
+      </node>
+      <node id="47792">
+        <label>qwt_plot_zoomer.h</label>
+      </node>
+      <node id="47804">
+        <label>gnuradio/qtgui/waterfallGlobalData.h</label>
+        <link refid="waterfallGlobalData_8h"/>
+        <childnode refid="47805" relation="include">
+        </childnode>
+        <childnode refid="47806" relation="include">
+        </childnode>
+      </node>
+      <node id="47772">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="47773" relation="include">
+        </childnode>
+        <childnode refid="47774" relation="include">
+        </childnode>
+        <childnode refid="47775" relation="include">
+        </childnode>
+        <childnode refid="47776" relation="include">
+        </childnode>
+        <childnode refid="47764" relation="include">
+        </childnode>
+        <childnode refid="47777" relation="include">
+        </childnode>
+        <childnode refid="47761" relation="include">
+        </childnode>
+        <childnode refid="47778" relation="include">
+        </childnode>
+        <childnode refid="47779" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47780" relation="include">
+        </childnode>
+      </node>
+      <node id="47822">
+        <label>QtGui/QDoubleValidator</label>
+      </node>
+      <node id="47794">
+        <label>qwt_plot_magnifier.h</label>
+      </node>
+      <node id="47797">
+        <label>qwt_legend.h</label>
+      </node>
+      <node id="47801">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="47771">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="47767" relation="include">
+        </childnode>
+        <childnode refid="47772" relation="include">
+        </childnode>
+      </node>
+      <node id="47759">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform.h"/>
+        <childnode refid="47760" relation="include">
+        </childnode>
+        <childnode refid="47782" relation="include">
+        </childnode>
+        <childnode refid="47810" relation="include">
+        </childnode>
+        <childnode refid="47765" relation="include">
+        </childnode>
+        <childnode refid="47811" relation="include">
+        </childnode>
+        <childnode refid="47817" relation="include">
+        </childnode>
+      </node>
+      <node id="47807">
+        <label>gnuradio/qtgui/plot_waterfall.h</label>
+        <link refid="plot__waterfall_8h"/>
+        <childnode refid="47808" relation="include">
+        </childnode>
+        <childnode refid="47804" relation="include">
+        </childnode>
+        <childnode refid="47809" relation="include">
+        </childnode>
+      </node>
+      <node id="47825">
+        <label>qwt_scale_draw.h</label>
+      </node>
+      <node id="47789">
+        <label>qwt_plot_curve.h</label>
+      </node>
+      <node id="47764">
+        <label>complex</label>
+      </node>
+      <node id="47800">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="47806">
+        <label>inttypes.h</label>
+      </node>
+      <node id="47802">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classWaterfallDisplayForm" prot="public">WaterfallDisplayForm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/waterfalldisplayform.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="group__resamplers__blk" kind="group">
+    <compoundname>resamplers_blk</compoundname>
+    <title>Resamplers</title>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__ccc" prot="public">gr::filter::rational_resampler_base_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__ccf" prot="public">gr::filter::rational_resampler_base_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__fcc" prot="public">gr::filter::rational_resampler_base_fcc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__fff" prot="public">gr::filter::rational_resampler_base_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__fsf" prot="public">gr::filter::rational_resampler_base_fsf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1rational__resampler__base__scc" prot="public">gr::filter::rational_resampler_base_scc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__cc" prot="public">gr::filter::fractional_interpolator_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__interpolator__ff" prot="public">gr::filter::fractional_interpolator_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__resampler__cc" prot="public">gr::filter::fractional_resampler_cc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1fractional__resampler__ff" prot="public">gr::filter::fractional_resampler_ff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__ccf" prot="public">gr::filter::kernel::pfb_arb_resampler_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1pfb__arb__resampler__fff" prot="public">gr::filter::kernel::pfb_arb_resampler_fff</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccc" prot="public">gr::filter::pfb_arb_resampler_ccc</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__ccf" prot="public">gr::filter::pfb_arb_resampler_ccf</innerclass>
+    <innerclass refid="classgr_1_1filter_1_1pfb__arb__resampler__fff" prot="public">gr::filter::pfb_arb_resampler_fff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

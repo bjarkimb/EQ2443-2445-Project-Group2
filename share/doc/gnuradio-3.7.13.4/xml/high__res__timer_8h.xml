@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="high__res__timer_8h" kind="file" language="C++">
+    <compoundname>high_res_timer.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes local="no">boost/date_time/posix_time/posix_time.hpp</includes>
+    <includedby refid="block__detail_8h" local="no">block_detail.h</includedby>
+    <includedby refid="qtgui__types_8h" local="no">qtgui_types.h</includedby>
+    <includedby refid="spectrumUpdateEvents_8h" local="no">spectrumUpdateEvents.h</includedby>
+    <includedby refid="TimeRasterDisplayPlot_8h" local="no">TimeRasterDisplayPlot.h</includedby>
+    <includedby refid="WaterfallDisplayPlot_8h" local="no">WaterfallDisplayPlot.h</includedby>
+    <incdepgraph>
+      <node id="19575">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="19574">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="19575" relation="include">
+        </childnode>
+      </node>
+      <node id="19576">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="19573">
+        <label>high_res_timer.h</label>
+        <link refid="high_res_timer.h"/>
+        <childnode refid="19574" relation="include">
+        </childnode>
+        <childnode refid="19576" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="19582">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="19583" relation="include">
+        </childnode>
+        <childnode refid="19584" relation="include">
+        </childnode>
+        <childnode refid="19585" relation="include">
+        </childnode>
+        <childnode refid="19586" relation="include">
+        </childnode>
+        <childnode refid="19587" relation="include">
+        </childnode>
+        <childnode refid="19588" relation="include">
+        </childnode>
+        <childnode refid="19589" relation="include">
+        </childnode>
+        <childnode refid="19590" relation="include">
+        </childnode>
+        <childnode refid="19591" relation="include">
+        </childnode>
+      </node>
+      <node id="19580">
+        <label>edit_box_msg.h</label>
+        <link refid="edit__box__msg_8h"/>
+      </node>
+      <node id="19594">
+        <label>spectrumUpdateEvents.h</label>
+        <link refid="spectrumUpdateEvents_8h"/>
+        <childnode refid="19583" relation="include">
+        </childnode>
+        <childnode refid="19582" relation="include">
+        </childnode>
+        <childnode refid="19585" relation="include">
+        </childnode>
+        <childnode refid="19586" relation="include">
+        </childnode>
+        <childnode refid="19592" relation="include">
+        </childnode>
+        <childnode refid="19595" relation="include">
+        </childnode>
+        <childnode refid="19588" relation="include">
+        </childnode>
+        <childnode refid="19589" relation="include">
+        </childnode>
+        <childnode refid="19590" relation="include">
+        </childnode>
+        <childnode refid="19591" relation="include">
+        </childnode>
+      </node>
+      <node id="19579">
+        <label>qtgui_types.h</label>
+        <link refid="qtgui__types_8h"/>
+        <childnode refid="19580" relation="include">
+        </childnode>
+        <childnode refid="19581" relation="include">
+        </childnode>
+        <childnode refid="19593" relation="include">
+        </childnode>
+      </node>
+      <node id="19590">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="19593">
+        <label>number_sink.h</label>
+        <link refid="number__sink_8h"/>
+      </node>
+      <node id="19588">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="19587" relation="include">
+        </childnode>
+      </node>
+      <node id="19581">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="19582" relation="include">
+        </childnode>
+        <childnode refid="19592" relation="include">
+        </childnode>
+      </node>
+      <node id="19598">
+        <label>WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="19596" relation="include">
+        </childnode>
+        <childnode refid="19591" relation="include">
+        </childnode>
+      </node>
+      <node id="19578">
+        <label>block_detail.h</label>
+        <link refid="block__detail_8h"/>
+      </node>
+      <node id="19587">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="19584">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="19583">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="19597">
+        <label>TimeRasterDisplayPlot.h</label>
+        <link refid="TimeRasterDisplayPlot_8h"/>
+        <childnode refid="19589" relation="include">
+        </childnode>
+      </node>
+      <node id="19592">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="19577">
+        <label>high_res_timer.h</label>
+        <link refid="high_res_timer.h"/>
+        <childnode refid="19578" relation="include">
+        </childnode>
+        <childnode refid="19579" relation="include">
+        </childnode>
+        <childnode refid="19594" relation="include">
+        </childnode>
+        <childnode refid="19597" relation="include">
+        </childnode>
+        <childnode refid="19598" relation="include">
+        </childnode>
+      </node>
+      <node id="19585">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="19584" relation="include">
+        </childnode>
+      </node>
+      <node id="19595">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="19596" relation="include">
+        </childnode>
+      </node>
+      <node id="19596">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="19595" relation="include">
+        </childnode>
+      </node>
+      <node id="19591">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="19589">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="19586">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="high__res__timer_8h_1ad645b59bc0d61d5a903abace4a738db9" prot="public" static="no">
+        <name>GNURADIO_HRT_USE_MICROSEC_CLOCK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/high_res_timer.h" line="41" column="14" bodyfile="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/high_res_timer.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/high_res_timer.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="msg__handler_8h" kind="file" language="C++">
+    <compoundname>msg_handler.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="message_8h" local="no">gnuradio/message.h</includes>
+    <includedby refid="msg__queue_8h" local="no">msg_queue.h</includedby>
+    <incdepgraph>
+      <node id="25614">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="25619">
+        <label>stdint.h</label>
+      </node>
+      <node id="25612">
+        <label>gnuradio/message.h</label>
+        <link refid="message_8h"/>
+        <childnode refid="25610" relation="include">
+        </childnode>
+        <childnode refid="25613" relation="include">
+        </childnode>
+        <childnode refid="25620" relation="include">
+        </childnode>
+      </node>
+      <node id="25620">
+        <label>string</label>
+      </node>
+      <node id="25611">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="25610">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="25611" relation="include">
+        </childnode>
+      </node>
+      <node id="25616">
+        <label>stddef.h</label>
+      </node>
+      <node id="25609">
+        <label>msg_handler.h</label>
+        <link refid="msg_handler.h"/>
+        <childnode refid="25610" relation="include">
+        </childnode>
+        <childnode refid="25612" relation="include">
+        </childnode>
+      </node>
+      <node id="25615">
+        <label>vector</label>
+      </node>
+      <node id="25613">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="25610" relation="include">
+        </childnode>
+        <childnode refid="25614" relation="include">
+        </childnode>
+        <childnode refid="25615" relation="include">
+        </childnode>
+        <childnode refid="25616" relation="include">
+        </childnode>
+        <childnode refid="25617" relation="include">
+        </childnode>
+        <childnode refid="25619" relation="include">
+        </childnode>
+      </node>
+      <node id="25617">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="25618" relation="include">
+        </childnode>
+      </node>
+      <node id="25618">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25629">
+        <label>ofdm_mapper_bcv.h</label>
+        <link refid="ofdm__mapper__bcv_8h"/>
+      </node>
+      <node id="25631">
+        <label>flex_parse.h</label>
+        <link refid="flex__parse_8h"/>
+      </node>
+      <node id="25628">
+        <label>ofdm_frame_sink.h</label>
+        <link refid="ofdm__frame__sink_8h"/>
+      </node>
+      <node id="25633">
+        <label>histo_sink_f.h</label>
+        <link refid="histo__sink__f_8h"/>
+      </node>
+      <node id="25627">
+        <label>framer_sink_1.h</label>
+        <link refid="framer__sink__1_8h"/>
+      </node>
+      <node id="25621">
+        <label>msg_handler.h</label>
+        <link refid="msg_handler.h"/>
+        <childnode refid="25622" relation="include">
+        </childnode>
+      </node>
+      <node id="25622">
+        <label>msg_queue.h</label>
+        <link refid="msg__queue_8h"/>
+        <childnode refid="25623" relation="include">
+        </childnode>
+        <childnode refid="25624" relation="include">
+        </childnode>
+        <childnode refid="25625" relation="include">
+        </childnode>
+        <childnode refid="25626" relation="include">
+        </childnode>
+        <childnode refid="25627" relation="include">
+        </childnode>
+        <childnode refid="25628" relation="include">
+        </childnode>
+        <childnode refid="25629" relation="include">
+        </childnode>
+        <childnode refid="25630" relation="include">
+        </childnode>
+        <childnode refid="25631" relation="include">
+        </childnode>
+        <childnode refid="25632" relation="include">
+        </childnode>
+        <childnode refid="25633" relation="include">
+        </childnode>
+        <childnode refid="25634" relation="include">
+        </childnode>
+        <childnode refid="25636" relation="include">
+        </childnode>
+      </node>
+      <node id="25626">
+        <label>message_source.h</label>
+        <link refid="message__source_8h"/>
+      </node>
+      <node id="25630">
+        <label>packet_sink.h</label>
+        <link refid="packet__sink_8h"/>
+      </node>
+      <node id="25636">
+        <label>oscope_sink_f.h</label>
+        <link refid="oscope__sink__f_8h"/>
+      </node>
+      <node id="25623">
+        <label>bin_statistics_f.h</label>
+        <link refid="bin__statistics__f_8h"/>
+      </node>
+      <node id="25632">
+        <label>amsg_source.h</label>
+        <link refid="amsg__source_8h"/>
+      </node>
+      <node id="25625">
+        <label>message_sink.h</label>
+        <link refid="message__sink_8h"/>
+      </node>
+      <node id="25624">
+        <label>message_burst_source.h</label>
+        <link refid="message__burst__source_8h"/>
+      </node>
+      <node id="25634">
+        <label>oscope_guts.h</label>
+        <link refid="oscope__guts_8h"/>
+        <childnode refid="25635" relation="include">
+        </childnode>
+      </node>
+      <node id="25635">
+        <label>oscope_sink_x.h</label>
+        <link refid="oscope__sink__x_8h"/>
+        <childnode refid="25636" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1msg__handler" prot="public">gr::msg_handler</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/msg_handler.h"/>
+  </compounddef>
+</doxygen>

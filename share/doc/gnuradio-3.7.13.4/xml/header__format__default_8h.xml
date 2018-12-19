@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="header__format__default_8h" kind="file" language="C++">
+    <compoundname>header_format_default.h</compoundname>
+    <includes refid="pmt_8h" local="no">pmt/pmt.h</includes>
+    <includes refid="gr-digital_2include_2gnuradio_2digital_2api_8h" local="no">gnuradio/digital/api.h</includes>
+    <includes refid="header__format__base_8h" local="no">gnuradio/digital/header_format_base.h</includes>
+    <includes refid="header__buffer_8h" local="no">gnuradio/digital/header_buffer.h</includes>
+    <includes refid="logger_8h" local="no">gnuradio/logger.h</includes>
+    <includes local="no">boost/enable_shared_from_this.hpp</includes>
+    <includedby refid="header__format__counter_8h" local="no">header_format_counter.h</includedby>
+    <includedby refid="header__format__crc_8h" local="no">header_format_crc.h</includedby>
+    <incdepgraph>
+      <node id="19422">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="19421">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="19438">
+        <label>assert.h</label>
+      </node>
+      <node id="19426">
+        <label>stdint.h</label>
+      </node>
+      <node id="19430">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="19431" relation="include">
+        </childnode>
+      </node>
+      <node id="19417">
+        <label>header_format_default.h</label>
+        <link refid="header_format_default.h"/>
+        <childnode refid="19418" relation="include">
+        </childnode>
+        <childnode refid="19433" relation="include">
+        </childnode>
+        <childnode refid="19434" relation="include">
+        </childnode>
+        <childnode refid="19435" relation="include">
+        </childnode>
+        <childnode refid="19436" relation="include">
+        </childnode>
+        <childnode refid="19444" relation="include">
+        </childnode>
+      </node>
+      <node id="19443">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="19428">
+        <label>stdexcept</label>
+      </node>
+      <node id="19425">
+        <label>string</label>
+      </node>
+      <node id="19432">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="19420" relation="include">
+        </childnode>
+      </node>
+      <node id="19420">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="19434">
+        <label>gnuradio/digital/header_format_base.h</label>
+        <link refid="header__format__base_8h"/>
+        <childnode refid="19418" relation="include">
+        </childnode>
+        <childnode refid="19433" relation="include">
+        </childnode>
+        <childnode refid="19435" relation="include">
+        </childnode>
+        <childnode refid="19436" relation="include">
+        </childnode>
+        <childnode refid="19444" relation="include">
+        </childnode>
+      </node>
+      <node id="19442">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="19433">
+        <label>gnuradio/digital/api.h</label>
+        <link refid="gr-digital_2include_2gnuradio_2digital_2api_8h"/>
+        <childnode refid="19420" relation="include">
+        </childnode>
+      </node>
+      <node id="19419">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="19420" relation="include">
+        </childnode>
+      </node>
+      <node id="19423">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="19437">
+        <label>sys/types.h</label>
+      </node>
+      <node id="19435">
+        <label>gnuradio/digital/header_buffer.h</label>
+        <link refid="header__buffer_8h"/>
+        <childnode refid="19433" relation="include">
+        </childnode>
+        <childnode refid="19429" relation="include">
+        </childnode>
+        <childnode refid="19426" relation="include">
+        </childnode>
+      </node>
+      <node id="19436">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="19437" relation="include">
+        </childnode>
+        <childnode refid="19432" relation="include">
+        </childnode>
+        <childnode refid="19438" relation="include">
+        </childnode>
+        <childnode refid="19439" relation="include">
+        </childnode>
+        <childnode refid="19440" relation="include">
+        </childnode>
+        <childnode refid="19441" relation="include">
+        </childnode>
+        <childnode refid="19442" relation="include">
+        </childnode>
+        <childnode refid="19443" relation="include">
+        </childnode>
+        <childnode refid="19418" relation="include">
+        </childnode>
+      </node>
+      <node id="19429">
+        <label>vector</label>
+      </node>
+      <node id="19441">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="19444">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="19440">
+        <label>time.h</label>
+      </node>
+      <node id="19427">
+        <label>iosfwd</label>
+      </node>
+      <node id="19439">
+        <label>iostream</label>
+      </node>
+      <node id="19431">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="19432" relation="include">
+        </childnode>
+        <childnode refid="19418" relation="include">
+        </childnode>
+        <childnode refid="19422" relation="include">
+        </childnode>
+      </node>
+      <node id="19418">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="19419" relation="include">
+        </childnode>
+        <childnode refid="19421" relation="include">
+        </childnode>
+        <childnode refid="19422" relation="include">
+        </childnode>
+        <childnode refid="19423" relation="include">
+        </childnode>
+        <childnode refid="19424" relation="include">
+        </childnode>
+        <childnode refid="19425" relation="include">
+        </childnode>
+        <childnode refid="19426" relation="include">
+        </childnode>
+        <childnode refid="19427" relation="include">
+        </childnode>
+        <childnode refid="19428" relation="include">
+        </childnode>
+        <childnode refid="19429" relation="include">
+        </childnode>
+        <childnode refid="19430" relation="include">
+        </childnode>
+      </node>
+      <node id="19424">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="19446">
+        <label>header_format_counter.h</label>
+        <link refid="header__format__counter_8h"/>
+      </node>
+      <node id="19445">
+        <label>header_format_default.h</label>
+        <link refid="header_format_default.h"/>
+        <childnode refid="19446" relation="include">
+        </childnode>
+        <childnode refid="19447" relation="include">
+        </childnode>
+      </node>
+      <node id="19447">
+        <label>header_format_crc.h</label>
+        <link refid="header__format__crc_8h"/>
+        <childnode refid="19448" relation="include">
+        </childnode>
+      </node>
+      <node id="19448">
+        <label>header_format_ofdm.h</label>
+        <link refid="header__format__ofdm_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1digital_1_1header__format__default" prot="public">gr::digital::header_format_default</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1digital">gr::digital</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-digital/include/gnuradio/digital/header_format_default.h"/>
+  </compounddef>
+</doxygen>

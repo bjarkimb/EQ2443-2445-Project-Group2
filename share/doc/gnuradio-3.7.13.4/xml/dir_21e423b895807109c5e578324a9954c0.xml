@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_21e423b895807109c5e578324a9954c0" kind="dir">
+    <compoundname>digital</compoundname>
+    <innerfile refid="burst__shaper__cc_8h">burst_shaper_cc.h</innerfile>
+    <innerfile refid="burst__shaper__ff_8h">burst_shaper_ff.h</innerfile>
+    <innerfile refid="chunks__to__symbols__bc_8h">chunks_to_symbols_bc.h</innerfile>
+    <innerfile refid="chunks__to__symbols__bf_8h">chunks_to_symbols_bf.h</innerfile>
+    <innerfile refid="chunks__to__symbols__ic_8h">chunks_to_symbols_ic.h</innerfile>
+    <innerfile refid="chunks__to__symbols__if_8h">chunks_to_symbols_if.h</innerfile>
+    <innerfile refid="chunks__to__symbols__sc_8h">chunks_to_symbols_sc.h</innerfile>
+    <innerfile refid="chunks__to__symbols__sf_8h">chunks_to_symbols_sf.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/build/gr-digital/include/gnuradio/digital/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ofdm__equalizer__simpledfe_8h" kind="file" language="C++">
+    <compoundname>ofdm_equalizer_simpledfe.h</compoundname>
+    <includes refid="gr-digital_2include_2gnuradio_2digital_2api_8h" local="no">gnuradio/digital/api.h</includes>
+    <includes refid="constellation_8h" local="no">gnuradio/digital/constellation.h</includes>
+    <includes refid="ofdm__equalizer__base_8h" local="no">gnuradio/digital/ofdm_equalizer_base.h</includes>
+    <incdepgraph>
+      <node id="27570">
+        <label>gnuradio/digital/metric_type.h</label>
+        <link refid="metric__type_8h"/>
+      </node>
+      <node id="27578">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="27577">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="27580">
+        <label>stdint.h</label>
+      </node>
+      <node id="27584">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="27585" relation="include">
+        </childnode>
+      </node>
+      <node id="27582">
+        <label>stdexcept</label>
+      </node>
+      <node id="27579">
+        <label>string</label>
+      </node>
+      <node id="27586">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="27568" relation="include">
+        </childnode>
+      </node>
+      <node id="27568">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="27566">
+        <label>ofdm_equalizer_simpledfe.h</label>
+        <link refid="ofdm_equalizer_simpledfe.h"/>
+        <childnode refid="27567" relation="include">
+        </childnode>
+        <childnode refid="27569" relation="include">
+        </childnode>
+        <childnode refid="27587" relation="include">
+        </childnode>
+      </node>
+      <node id="27567">
+        <label>gnuradio/digital/api.h</label>
+        <link refid="gr-digital_2include_2gnuradio_2digital_2api_8h"/>
+        <childnode refid="27568" relation="include">
+        </childnode>
+      </node>
+      <node id="27576">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="27568" relation="include">
+        </childnode>
+      </node>
+      <node id="27587">
+        <label>gnuradio/digital/ofdm_equalizer_base.h</label>
+        <link refid="ofdm__equalizer__base_8h"/>
+        <childnode refid="27567" relation="include">
+        </childnode>
+        <childnode refid="27588" relation="include">
+        </childnode>
+        <childnode refid="27573" relation="include">
+        </childnode>
+        <childnode refid="27571" relation="include">
+        </childnode>
+      </node>
+      <node id="27572">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="27583">
+        <label>vector</label>
+      </node>
+      <node id="27569">
+        <label>gnuradio/digital/constellation.h</label>
+        <link refid="constellation_8h"/>
+        <childnode refid="27567" relation="include">
+        </childnode>
+        <childnode refid="27570" relation="include">
+        </childnode>
+        <childnode refid="27571" relation="include">
+        </childnode>
+        <childnode refid="27572" relation="include">
+        </childnode>
+        <childnode refid="27573" relation="include">
+        </childnode>
+        <childnode refid="27575" relation="include">
+        </childnode>
+        <childnode refid="27583" relation="include">
+        </childnode>
+      </node>
+      <node id="27573">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="27574" relation="include">
+        </childnode>
+      </node>
+      <node id="27571">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="27581">
+        <label>iosfwd</label>
+      </node>
+      <node id="27585">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="27586" relation="include">
+        </childnode>
+        <childnode refid="27575" relation="include">
+        </childnode>
+        <childnode refid="27578" relation="include">
+        </childnode>
+      </node>
+      <node id="27575">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="27576" relation="include">
+        </childnode>
+        <childnode refid="27577" relation="include">
+        </childnode>
+        <childnode refid="27578" relation="include">
+        </childnode>
+        <childnode refid="27572" relation="include">
+        </childnode>
+        <childnode refid="27574" relation="include">
+        </childnode>
+        <childnode refid="27579" relation="include">
+        </childnode>
+        <childnode refid="27580" relation="include">
+        </childnode>
+        <childnode refid="27581" relation="include">
+        </childnode>
+        <childnode refid="27582" relation="include">
+        </childnode>
+        <childnode refid="27583" relation="include">
+        </childnode>
+        <childnode refid="27584" relation="include">
+        </childnode>
+      </node>
+      <node id="27588">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="27586" relation="include">
+        </childnode>
+        <childnode refid="27575" relation="include">
+        </childnode>
+      </node>
+      <node id="27574">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1digital_1_1ofdm__equalizer__simpledfe" prot="public">gr::digital::ofdm_equalizer_simpledfe</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1digital">gr::digital</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-digital/include/gnuradio/digital/ofdm_equalizer_simpledfe.h"/>
+  </compounddef>
+</doxygen>

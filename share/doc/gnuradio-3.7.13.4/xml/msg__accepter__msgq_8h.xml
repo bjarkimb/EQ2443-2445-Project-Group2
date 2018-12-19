@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="msg__accepter__msgq_8h" kind="file" language="C++">
+    <compoundname>msg_accepter_msgq.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="messages_2msg__accepter_8h" local="no">gnuradio/messages/msg_accepter.h</includes>
+    <includes refid="messages_2msg__queue_8h" local="no">gnuradio/messages/msg_queue.h</includes>
+    <incdepgraph>
+      <node id="25603">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="25605">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="25591">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="25590">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="25595">
+        <label>stdint.h</label>
+      </node>
+      <node id="25599">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="25587" relation="include">
+        </childnode>
+      </node>
+      <node id="25597">
+        <label>stdexcept</label>
+      </node>
+      <node id="25602">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="25600">
+        <label>gnuradio/messages/msg_queue.h</label>
+        <link refid="messages_2msg__queue_8h"/>
+        <childnode refid="25585" relation="include">
+        </childnode>
+        <childnode refid="25601" relation="include">
+        </childnode>
+        <childnode refid="25588" relation="include">
+        </childnode>
+        <childnode refid="25607" relation="include">
+        </childnode>
+      </node>
+      <node id="25601">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="25585" relation="include">
+        </childnode>
+        <childnode refid="25602" relation="include">
+        </childnode>
+        <childnode refid="25603" relation="include">
+        </childnode>
+        <childnode refid="25604" relation="include">
+        </childnode>
+        <childnode refid="25605" relation="include">
+        </childnode>
+        <childnode refid="25606" relation="include">
+        </childnode>
+        <childnode refid="25591" relation="include">
+        </childnode>
+        <childnode refid="25598" relation="include">
+        </childnode>
+      </node>
+      <node id="25594">
+        <label>string</label>
+      </node>
+      <node id="25586">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="25585">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="25586" relation="include">
+        </childnode>
+      </node>
+      <node id="25589">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="25586" relation="include">
+        </childnode>
+      </node>
+      <node id="25592">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="25604">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="25584">
+        <label>msg_accepter_msgq.h</label>
+        <link refid="msg_accepter_msgq.h"/>
+        <childnode refid="25585" relation="include">
+        </childnode>
+        <childnode refid="25587" relation="include">
+        </childnode>
+        <childnode refid="25600" relation="include">
+        </childnode>
+      </node>
+      <node id="25598">
+        <label>vector</label>
+      </node>
+      <node id="25606">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="25596">
+        <label>iosfwd</label>
+      </node>
+      <node id="25587">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="25585" relation="include">
+        </childnode>
+        <childnode refid="25588" relation="include">
+        </childnode>
+        <childnode refid="25591" relation="include">
+        </childnode>
+      </node>
+      <node id="25607">
+        <label>deque</label>
+      </node>
+      <node id="25588">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="25589" relation="include">
+        </childnode>
+        <childnode refid="25590" relation="include">
+        </childnode>
+        <childnode refid="25591" relation="include">
+        </childnode>
+        <childnode refid="25592" relation="include">
+        </childnode>
+        <childnode refid="25593" relation="include">
+        </childnode>
+        <childnode refid="25594" relation="include">
+        </childnode>
+        <childnode refid="25595" relation="include">
+        </childnode>
+        <childnode refid="25596" relation="include">
+        </childnode>
+        <childnode refid="25597" relation="include">
+        </childnode>
+        <childnode refid="25598" relation="include">
+        </childnode>
+        <childnode refid="25599" relation="include">
+        </childnode>
+      </node>
+      <node id="25593">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1messages_1_1msg__accepter__msgq" prot="public">gr::messages::msg_accepter_msgq</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1messages">gr::messages</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/messages/msg_accepter_msgq.h"/>
+  </compounddef>
+</doxygen>

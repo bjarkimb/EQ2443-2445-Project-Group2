@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="VectorDisplayPlot_8h" kind="file" language="C++">
+    <compoundname>VectorDisplayPlot.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">vector</includes>
+    <includes refid="DisplayPlot_8h" local="no">gnuradio/qtgui/DisplayPlot.h</includes>
+    <includedby refid="vectordisplayform_8h" local="no">vectordisplayform.h</includedby>
+    <incdepgraph>
+      <node id="46759">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="46761">
+        <label>qwt_plot_canvas.h</label>
+      </node>
+      <node id="46755">
+        <label>stdint.h</label>
+      </node>
+      <node id="46771">
+        <label>gnuradio/qtgui/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="46772" relation="include">
+        </childnode>
+        <childnode refid="46773" relation="include">
+        </childnode>
+        <childnode refid="46775" relation="include">
+        </childnode>
+        <childnode refid="46776" relation="include">
+        </childnode>
+        <childnode refid="46777" relation="include">
+        </childnode>
+        <childnode refid="46778" relation="include">
+        </childnode>
+      </node>
+      <node id="46773">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="46774" relation="include">
+        </childnode>
+      </node>
+      <node id="46774">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="46766">
+        <label>qwt_plot_panner.h</label>
+      </node>
+      <node id="46760">
+        <label>qwt_painter.h</label>
+      </node>
+      <node id="46756">
+        <label>cstdio</label>
+      </node>
+      <node id="46779">
+        <label>qwt_legend_item.h</label>
+      </node>
+      <node id="46757">
+        <label>vector</label>
+      </node>
+      <node id="46769">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="46763">
+        <label>qwt_scale_engine.h</label>
+      </node>
+      <node id="46777">
+        <label>QString</label>
+      </node>
+      <node id="46758">
+        <label>gnuradio/qtgui/DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="46755" relation="include">
+        </childnode>
+        <childnode refid="46756" relation="include">
+        </childnode>
+        <childnode refid="46757" relation="include">
+        </childnode>
+        <childnode refid="46759" relation="include">
+        </childnode>
+        <childnode refid="46760" relation="include">
+        </childnode>
+        <childnode refid="46761" relation="include">
+        </childnode>
+        <childnode refid="46762" relation="include">
+        </childnode>
+        <childnode refid="46763" relation="include">
+        </childnode>
+        <childnode refid="46764" relation="include">
+        </childnode>
+        <childnode refid="46765" relation="include">
+        </childnode>
+        <childnode refid="46766" relation="include">
+        </childnode>
+        <childnode refid="46767" relation="include">
+        </childnode>
+        <childnode refid="46768" relation="include">
+        </childnode>
+        <childnode refid="46769" relation="include">
+        </childnode>
+        <childnode refid="46770" relation="include">
+        </childnode>
+        <childnode refid="46771" relation="include">
+        </childnode>
+        <childnode refid="46779" relation="include">
+        </childnode>
+      </node>
+      <node id="46768">
+        <label>qwt_plot_marker.h</label>
+      </node>
+      <node id="46764">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="46772">
+        <label>qevent.h</label>
+      </node>
+      <node id="46765">
+        <label>qwt_plot_zoomer.h</label>
+      </node>
+      <node id="46767">
+        <label>qwt_plot_magnifier.h</label>
+      </node>
+      <node id="46770">
+        <label>qwt_legend.h</label>
+      </node>
+      <node id="46776">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="46754">
+        <label>VectorDisplayPlot.h</label>
+        <link refid="VectorDisplayPlot.h"/>
+        <childnode refid="46755" relation="include">
+        </childnode>
+        <childnode refid="46756" relation="include">
+        </childnode>
+        <childnode refid="46757" relation="include">
+        </childnode>
+        <childnode refid="46758" relation="include">
+        </childnode>
+      </node>
+      <node id="46762">
+        <label>qwt_plot_curve.h</label>
+      </node>
+      <node id="46775">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="46778">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="46781">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="46780">
+        <label>VectorDisplayPlot.h</label>
+        <link refid="VectorDisplayPlot.h"/>
+        <childnode refid="46781" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classVectorDisplayPlot" prot="public">VectorDisplayPlot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/VectorDisplayPlot.h"/>
+  </compounddef>
+</doxygen>

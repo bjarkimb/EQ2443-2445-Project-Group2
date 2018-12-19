@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gf2vec_8h" kind="file" language="C++">
+    <compoundname>gf2vec.h</compoundname>
+    <includes local="no">vector</includes>
+    <includedby refid="gf2mat_8h" local="yes">gf2mat.h</includedby>
+    <includedby refid="cldpc_8h" local="yes">cldpc.h</includedby>
+    <incdepgraph>
+      <node id="18185">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec.h"/>
+        <childnode refid="18186" relation="include">
+        </childnode>
+      </node>
+      <node id="18186">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="18187">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec.h"/>
+        <childnode refid="18188" relation="include">
+        </childnode>
+        <childnode refid="18191" relation="include">
+        </childnode>
+      </node>
+      <node id="18191">
+        <label>cldpc.h</label>
+        <link refid="cldpc_8h"/>
+        <childnode refid="18190" relation="include">
+        </childnode>
+      </node>
+      <node id="18190">
+        <label>ldpc_decoder.h</label>
+        <link refid="ldpc__decoder_8h"/>
+      </node>
+      <node id="18189">
+        <label>awgn_bp.h</label>
+        <link refid="awgn__bp_8h"/>
+        <childnode refid="18190" relation="include">
+        </childnode>
+      </node>
+      <node id="18188">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat_8h"/>
+        <childnode refid="18189" relation="include">
+        </childnode>
+        <childnode refid="18191" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classGF2Vec" prot="public">GF2Vec</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/gf2vec.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="realtime_8h" kind="file" language="C++">
+    <compoundname>realtime.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="realtime__impl_8h" local="no">gnuradio/realtime_impl.h</includes>
+    <includedby refid="sys__pri_8h" local="no">sys_pri.h</includedby>
+    <incdepgraph>
+      <node id="34615">
+        <label>gnuradio/realtime_impl.h</label>
+        <link refid="realtime__impl_8h"/>
+        <childnode refid="34613" relation="include">
+        </childnode>
+        <childnode refid="34616" relation="include">
+        </childnode>
+      </node>
+      <node id="34616">
+        <label>stdexcept</label>
+      </node>
+      <node id="34614">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="34613">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="34614" relation="include">
+        </childnode>
+      </node>
+      <node id="34612">
+        <label>realtime.h</label>
+        <link refid="realtime.h"/>
+        <childnode refid="34613" relation="include">
+        </childnode>
+        <childnode refid="34615" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="34618">
+        <label>sys_pri.h</label>
+        <link refid="sys__pri_8h"/>
+      </node>
+      <node id="34617">
+        <label>realtime.h</label>
+        <link refid="realtime.h"/>
+        <childnode refid="34618" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/realtime.h"/>
+  </compounddef>
+</doxygen>

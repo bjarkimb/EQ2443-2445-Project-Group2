@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-atsc_2include_2gnuradio_2atsc_2types_8h" kind="file" language="C++">
+    <compoundname>gr-atsc/include/gnuradio/atsc/types.h</compoundname>
+    <includes refid="consts_8h" local="no">gnuradio/atsc/consts.h</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">cassert</includes>
+    <includedby refid="data__interleaver__impl_8h" local="no">data_interleaver_impl.h</includedby>
+    <includedby refid="ds__to__softds_8h" local="no">ds_to_softds.h</includedby>
+    <includedby refid="field__sync__demux_8h" local="no">field_sync_demux.h</includedby>
+    <includedby refid="field__sync__mux_8h" local="no">field_sync_mux.h</includedby>
+    <includedby refid="randomizer__impl_8h" local="no">randomizer_impl.h</includedby>
+    <includedby refid="reed__solomon__impl_8h" local="no">reed_solomon_impl.h</includedby>
+    <includedby refid="trellis__encoder__impl_8h" local="no">trellis_encoder_impl.h</includedby>
+    <includedby refid="viterbi__decoder__impl_8h" local="no">viterbi_decoder_impl.h</includedby>
+    <incdepgraph>
+      <node id="45027">
+        <label>gnuradio/atsc/consts.h</label>
+        <link refid="consts_8h"/>
+      </node>
+      <node id="45026">
+        <label>types.h</label>
+        <link refid="gr-atsc/include/gnuradio/atsc/types.h"/>
+        <childnode refid="45027" relation="include">
+        </childnode>
+        <childnode refid="45028" relation="include">
+        </childnode>
+        <childnode refid="45029" relation="include">
+        </childnode>
+      </node>
+      <node id="45029">
+        <label>cassert</label>
+      </node>
+      <node id="45028">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="45031">
+        <label>data_interleaver_impl.h</label>
+        <link refid="data__interleaver__impl_8h"/>
+        <childnode refid="45032" relation="include">
+        </childnode>
+        <childnode refid="45033" relation="include">
+        </childnode>
+      </node>
+      <node id="45035">
+        <label>field_sync_demux.h</label>
+        <link refid="field__sync__demux_8h"/>
+      </node>
+      <node id="45046">
+        <label>viterbi_decoder.h</label>
+        <link refid="viterbi__decoder_8h"/>
+      </node>
+      <node id="45036">
+        <label>field_sync_mux.h</label>
+        <link refid="field__sync__mux_8h"/>
+      </node>
+      <node id="45032">
+        <label>deinterleaver.h</label>
+        <link refid="deinterleaver_8h"/>
+      </node>
+      <node id="45042">
+        <label>rs_encoder.h</label>
+        <link refid="rs__encoder_8h"/>
+      </node>
+      <node id="45041">
+        <label>rs_decoder.h</label>
+        <link refid="rs__decoder_8h"/>
+      </node>
+      <node id="45038">
+        <label>derandomizer.h</label>
+        <link refid="derandomizer_8h"/>
+      </node>
+      <node id="45033">
+        <label>interleaver.h</label>
+        <link refid="gr-atsc_2include_2gnuradio_2atsc_2interleaver_8h"/>
+      </node>
+      <node id="45030">
+        <label>types.h</label>
+        <link refid="gr-atsc/include/gnuradio/atsc/types.h"/>
+        <childnode refid="45031" relation="include">
+        </childnode>
+        <childnode refid="45034" relation="include">
+        </childnode>
+        <childnode refid="45035" relation="include">
+        </childnode>
+        <childnode refid="45036" relation="include">
+        </childnode>
+        <childnode refid="45037" relation="include">
+        </childnode>
+        <childnode refid="45040" relation="include">
+        </childnode>
+        <childnode refid="45043" relation="include">
+        </childnode>
+        <childnode refid="45045" relation="include">
+        </childnode>
+      </node>
+      <node id="45039">
+        <label>randomizer.h</label>
+        <link refid="randomizer_8h"/>
+      </node>
+      <node id="45044">
+        <label>trellis_encoder.h</label>
+        <link refid="trellis__encoder_8h"/>
+      </node>
+      <node id="45034">
+        <label>ds_to_softds.h</label>
+        <link refid="ds__to__softds_8h"/>
+      </node>
+      <node id="45045">
+        <label>viterbi_decoder_impl.h</label>
+        <link refid="viterbi__decoder__impl_8h"/>
+        <childnode refid="45046" relation="include">
+        </childnode>
+      </node>
+      <node id="45037">
+        <label>randomizer_impl.h</label>
+        <link refid="randomizer__impl_8h"/>
+        <childnode refid="45038" relation="include">
+        </childnode>
+        <childnode refid="45039" relation="include">
+        </childnode>
+      </node>
+      <node id="45040">
+        <label>reed_solomon_impl.h</label>
+        <link refid="reed__solomon__impl_8h"/>
+        <childnode refid="45041" relation="include">
+        </childnode>
+        <childnode refid="45042" relation="include">
+        </childnode>
+      </node>
+      <node id="45043">
+        <label>trellis_encoder_impl.h</label>
+        <link refid="trellis__encoder__impl_8h"/>
+        <childnode refid="45044" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classplinfo" prot="public">plinfo</innerclass>
+    <innerclass refid="classatsc__mpeg__packet" prot="public">atsc_mpeg_packet</innerclass>
+    <innerclass refid="classatsc__mpeg__packet__no__sync" prot="public">atsc_mpeg_packet_no_sync</innerclass>
+    <innerclass refid="classatsc__mpeg__packet__rs__encoded" prot="public">atsc_mpeg_packet_rs_encoded</innerclass>
+    <innerclass refid="classatsc__data__segment" prot="public">atsc_data_segment</innerclass>
+    <innerclass refid="classatsc__soft__data__segment" prot="public">atsc_soft_data_segment</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-atsc/include/gnuradio/atsc/types.h"/>
+  </compounddef>
+</doxygen>

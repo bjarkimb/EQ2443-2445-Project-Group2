@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="fxpt__nco_8h" kind="file" language="C++">
+    <compoundname>fxpt_nco.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="fxpt_8h" local="no">gnuradio/fxpt.h</includes>
+    <includes refid="gr__complex_8h" local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="17765">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="17770">
+        <label>stdint.h</label>
+      </node>
+      <node id="17762">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="17761">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="17762" relation="include">
+        </childnode>
+      </node>
+      <node id="17767">
+        <label>stddef.h</label>
+      </node>
+      <node id="17760">
+        <label>fxpt_nco.h</label>
+        <link refid="fxpt_nco.h"/>
+        <childnode refid="17761" relation="include">
+        </childnode>
+        <childnode refid="17763" relation="include">
+        </childnode>
+        <childnode refid="17768" relation="include">
+        </childnode>
+        <childnode refid="17770" relation="include">
+        </childnode>
+      </node>
+      <node id="17766">
+        <label>vector</label>
+      </node>
+      <node id="17764">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="17761" relation="include">
+        </childnode>
+        <childnode refid="17765" relation="include">
+        </childnode>
+        <childnode refid="17766" relation="include">
+        </childnode>
+        <childnode refid="17767" relation="include">
+        </childnode>
+        <childnode refid="17768" relation="include">
+        </childnode>
+        <childnode refid="17770" relation="include">
+        </childnode>
+      </node>
+      <node id="17768">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="17769" relation="include">
+        </childnode>
+      </node>
+      <node id="17763">
+        <label>gnuradio/fxpt.h</label>
+        <link refid="fxpt_8h"/>
+        <childnode refid="17761" relation="include">
+        </childnode>
+        <childnode refid="17764" relation="include">
+        </childnode>
+        <childnode refid="17770" relation="include">
+        </childnode>
+      </node>
+      <node id="17769">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1fxpt__nco" prot="public">gr::fxpt_nco</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/fxpt_nco.h"/>
+  </compounddef>
+</doxygen>

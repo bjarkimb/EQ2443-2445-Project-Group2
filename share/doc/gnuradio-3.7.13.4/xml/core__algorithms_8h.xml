@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="core__algorithms_8h" kind="file" language="C++">
+    <compoundname>core_algorithms.h</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">vector</includes>
+    <includes refid="metric__type_8h" local="no">gnuradio/digital/metric_type.h</includes>
+    <includes refid="fsm_8h" local="no">gnuradio/trellis/fsm.h</includes>
+    <includes refid="gr-trellis_2include_2gnuradio_2trellis_2interleaver_8h" local="no">gnuradio/trellis/interleaver.h</includes>
+    <includedby refid="viterbi__b_8h" local="no">viterbi_b.h</includedby>
+    <includedby refid="viterbi__combined__cb_8h" local="no">viterbi_combined_cb.h</includedby>
+    <includedby refid="viterbi__combined__ci_8h" local="no">viterbi_combined_ci.h</includedby>
+    <includedby refid="viterbi__combined__cs_8h" local="no">viterbi_combined_cs.h</includedby>
+    <includedby refid="viterbi__combined__fb_8h" local="no">viterbi_combined_fb.h</includedby>
+    <includedby refid="viterbi__combined__fi_8h" local="no">viterbi_combined_fi.h</includedby>
+    <includedby refid="viterbi__combined__fs_8h" local="no">viterbi_combined_fs.h</includedby>
+    <includedby refid="viterbi__combined__ib_8h" local="no">viterbi_combined_ib.h</includedby>
+    <includedby refid="viterbi__combined__ii_8h" local="no">viterbi_combined_ii.h</includedby>
+    <includedby refid="viterbi__combined__is_8h" local="no">viterbi_combined_is.h</includedby>
+    <includedby refid="viterbi__combined__sb_8h" local="no">viterbi_combined_sb.h</includedby>
+    <includedby refid="viterbi__combined__si_8h" local="no">viterbi_combined_si.h</includedby>
+    <includedby refid="viterbi__combined__ss_8h" local="no">viterbi_combined_ss.h</includedby>
+    <includedby refid="viterbi__i_8h" local="no">viterbi_i.h</includedby>
+    <includedby refid="viterbi__s_8h" local="no">viterbi_s.h</includedby>
+    <includedby refid="siso__combined__f_8h" local="no">siso_combined_f.h</includedby>
+    <includedby refid="siso__f_8h" local="no">siso_f.h</includedby>
+    <incdepgraph>
+      <node id="10000">
+        <label>gnuradio/digital/metric_type.h</label>
+        <link refid="metric__type_8h"/>
+      </node>
+      <node id="9998">
+        <label>cmath</label>
+      </node>
+      <node id="10001">
+        <label>gnuradio/trellis/fsm.h</label>
+        <link refid="fsm_8h"/>
+        <childnode refid="10002" relation="include">
+        </childnode>
+        <childnode refid="9999" relation="include">
+        </childnode>
+        <childnode refid="10004" relation="include">
+        </childnode>
+      </node>
+      <node id="10003">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="10005">
+        <label>gnuradio/trellis/interleaver.h</label>
+        <link refid="gr-trellis_2include_2gnuradio_2trellis_2interleaver_8h"/>
+        <childnode refid="10002" relation="include">
+        </childnode>
+        <childnode refid="9999" relation="include">
+        </childnode>
+      </node>
+      <node id="9999">
+        <label>vector</label>
+      </node>
+      <node id="10002">
+        <label>gnuradio/trellis/api.h</label>
+        <link refid="gr-trellis_2include_2gnuradio_2trellis_2api_8h"/>
+        <childnode refid="10003" relation="include">
+        </childnode>
+      </node>
+      <node id="10004">
+        <label>iosfwd</label>
+      </node>
+      <node id="9997">
+        <label>core_algorithms.h</label>
+        <link refid="core_algorithms.h"/>
+        <childnode refid="9998" relation="include">
+        </childnode>
+        <childnode refid="9999" relation="include">
+        </childnode>
+        <childnode refid="10000" relation="include">
+        </childnode>
+        <childnode refid="10001" relation="include">
+        </childnode>
+        <childnode refid="10005" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10021">
+        <label>viterbi_s.h</label>
+        <link refid="viterbi__s_8h"/>
+      </node>
+      <node id="10018">
+        <label>viterbi_combined_si.h</label>
+        <link refid="viterbi__combined__si_8h"/>
+      </node>
+      <node id="10023">
+        <label>siso_f.h</label>
+        <link refid="siso__f_8h"/>
+      </node>
+      <node id="10013">
+        <label>viterbi_combined_fs.h</label>
+        <link refid="viterbi__combined__fs_8h"/>
+      </node>
+      <node id="10007">
+        <label>viterbi_b.h</label>
+        <link refid="viterbi__b_8h"/>
+      </node>
+      <node id="10010">
+        <label>viterbi_combined_cs.h</label>
+        <link refid="viterbi__combined__cs_8h"/>
+      </node>
+      <node id="10014">
+        <label>viterbi_combined_ib.h</label>
+        <link refid="viterbi__combined__ib_8h"/>
+      </node>
+      <node id="10011">
+        <label>viterbi_combined_fb.h</label>
+        <link refid="viterbi__combined__fb_8h"/>
+      </node>
+      <node id="10019">
+        <label>viterbi_combined_ss.h</label>
+        <link refid="viterbi__combined__ss_8h"/>
+      </node>
+      <node id="10020">
+        <label>viterbi_i.h</label>
+        <link refid="viterbi__i_8h"/>
+      </node>
+      <node id="10015">
+        <label>viterbi_combined_ii.h</label>
+        <link refid="viterbi__combined__ii_8h"/>
+      </node>
+      <node id="10008">
+        <label>viterbi_combined_cb.h</label>
+        <link refid="viterbi__combined__cb_8h"/>
+      </node>
+      <node id="10012">
+        <label>viterbi_combined_fi.h</label>
+        <link refid="viterbi__combined__fi_8h"/>
+      </node>
+      <node id="10017">
+        <label>viterbi_combined_sb.h</label>
+        <link refid="viterbi__combined__sb_8h"/>
+      </node>
+      <node id="10016">
+        <label>viterbi_combined_is.h</label>
+        <link refid="viterbi__combined__is_8h"/>
+      </node>
+      <node id="10006">
+        <label>core_algorithms.h</label>
+        <link refid="core_algorithms.h"/>
+        <childnode refid="10007" relation="include">
+        </childnode>
+        <childnode refid="10008" relation="include">
+        </childnode>
+        <childnode refid="10009" relation="include">
+        </childnode>
+        <childnode refid="10010" relation="include">
+        </childnode>
+        <childnode refid="10011" relation="include">
+        </childnode>
+        <childnode refid="10012" relation="include">
+        </childnode>
+        <childnode refid="10013" relation="include">
+        </childnode>
+        <childnode refid="10014" relation="include">
+        </childnode>
+        <childnode refid="10015" relation="include">
+        </childnode>
+        <childnode refid="10016" relation="include">
+        </childnode>
+        <childnode refid="10017" relation="include">
+        </childnode>
+        <childnode refid="10018" relation="include">
+        </childnode>
+        <childnode refid="10019" relation="include">
+        </childnode>
+        <childnode refid="10020" relation="include">
+        </childnode>
+        <childnode refid="10021" relation="include">
+        </childnode>
+        <childnode refid="10022" relation="include">
+        </childnode>
+        <childnode refid="10023" relation="include">
+        </childnode>
+      </node>
+      <node id="10022">
+        <label>siso_combined_f.h</label>
+        <link refid="siso__combined__f_8h"/>
+      </node>
+      <node id="10009">
+        <label>viterbi_combined_ci.h</label>
+        <link refid="viterbi__combined__ci_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1trellis">gr::trellis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-trellis/include/gnuradio/trellis/core_algorithms.h"/>
+  </compounddef>
+</doxygen>

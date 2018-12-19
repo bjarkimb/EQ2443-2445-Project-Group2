@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="repetition__decoder_8h" kind="file" language="C++">
+    <compoundname>repetition_decoder.h</compoundname>
+    <includes refid="gr-fec_2include_2gnuradio_2fec_2api_8h" local="no">gnuradio/fec/api.h</includes>
+    <includes refid="generic__decoder_8h" local="no">gnuradio/fec/generic_decoder.h</includes>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="34893">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="34877">
+        <label>repetition_decoder.h</label>
+        <link refid="repetition_decoder.h"/>
+        <childnode refid="34878" relation="include">
+        </childnode>
+        <childnode refid="34880" relation="include">
+        </childnode>
+        <childnode refid="34903" relation="include">
+        </childnode>
+        <childnode refid="34896" relation="include">
+        </childnode>
+      </node>
+      <node id="34892">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="34884">
+        <label>assert.h</label>
+      </node>
+      <node id="34897">
+        <label>stdint.h</label>
+      </node>
+      <node id="34901">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="34902" relation="include">
+        </childnode>
+      </node>
+      <node id="34889">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="34899">
+        <label>stdexcept</label>
+      </node>
+      <node id="34896">
+        <label>string</label>
+      </node>
+      <node id="34883">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="34879" relation="include">
+        </childnode>
+      </node>
+      <node id="34879">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="34903">
+        <label>map</label>
+      </node>
+      <node id="34888">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="34891">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="34879" relation="include">
+        </childnode>
+      </node>
+      <node id="34894">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="34878">
+        <label>gnuradio/fec/api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="34879" relation="include">
+        </childnode>
+      </node>
+      <node id="34882">
+        <label>sys/types.h</label>
+      </node>
+      <node id="34881">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="34882" relation="include">
+        </childnode>
+        <childnode refid="34883" relation="include">
+        </childnode>
+        <childnode refid="34884" relation="include">
+        </childnode>
+        <childnode refid="34885" relation="include">
+        </childnode>
+        <childnode refid="34886" relation="include">
+        </childnode>
+        <childnode refid="34887" relation="include">
+        </childnode>
+        <childnode refid="34888" relation="include">
+        </childnode>
+        <childnode refid="34889" relation="include">
+        </childnode>
+        <childnode refid="34890" relation="include">
+        </childnode>
+      </node>
+      <node id="34900">
+        <label>vector</label>
+      </node>
+      <node id="34887">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="34886">
+        <label>time.h</label>
+      </node>
+      <node id="34898">
+        <label>iosfwd</label>
+      </node>
+      <node id="34885">
+        <label>iostream</label>
+      </node>
+      <node id="34902">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="34883" relation="include">
+        </childnode>
+        <childnode refid="34890" relation="include">
+        </childnode>
+        <childnode refid="34893" relation="include">
+        </childnode>
+      </node>
+      <node id="34890">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="34891" relation="include">
+        </childnode>
+        <childnode refid="34892" relation="include">
+        </childnode>
+        <childnode refid="34893" relation="include">
+        </childnode>
+        <childnode refid="34894" relation="include">
+        </childnode>
+        <childnode refid="34895" relation="include">
+        </childnode>
+        <childnode refid="34896" relation="include">
+        </childnode>
+        <childnode refid="34897" relation="include">
+        </childnode>
+        <childnode refid="34898" relation="include">
+        </childnode>
+        <childnode refid="34899" relation="include">
+        </childnode>
+        <childnode refid="34900" relation="include">
+        </childnode>
+        <childnode refid="34901" relation="include">
+        </childnode>
+      </node>
+      <node id="34895">
+        <label>complex</label>
+      </node>
+      <node id="34880">
+        <label>gnuradio/fec/generic_decoder.h</label>
+        <link refid="generic__decoder_8h"/>
+        <childnode refid="34878" relation="include">
+        </childnode>
+        <childnode refid="34881" relation="include">
+        </childnode>
+        <childnode refid="34893" relation="include">
+        </childnode>
+        <childnode refid="34889" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1fec_1_1code_1_1repetition__decoder" prot="public">gr::fec::code::repetition_decoder</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec">gr::fec</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec_1_1code">gr::fec::code</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/repetition_decoder.h"/>
+  </compounddef>
+</doxygen>

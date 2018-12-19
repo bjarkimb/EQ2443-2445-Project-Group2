@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-fft_2include_2gnuradio_2fft_2api_8h" kind="file" language="C++">
+    <compoundname>gr-fft/include/gnuradio/fft/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="ctrlport__probe__psd_8h" local="no">ctrlport_probe_psd.h</includedby>
+    <includedby refid="fft_8h" local="no">fft.h</includedby>
+    <includedby refid="fft__vcc_8h" local="no">fft_vcc.h</includedby>
+    <includedby refid="fft__vfc_8h" local="no">fft_vfc.h</includedby>
+    <includedby refid="goertzel_8h" local="no">goertzel.h</includedby>
+    <includedby refid="goertzel__fc_8h" local="no">goertzel_fc.h</includedby>
+    <includedby refid="window_8h" local="no">window.h</includedby>
+    <incdepgraph>
+      <node id="3718">
+        <label>api.h</label>
+        <link refid="gr-fft/include/gnuradio/fft/api.h"/>
+        <childnode refid="3719" relation="include">
+        </childnode>
+      </node>
+      <node id="3719">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3730">
+        <label>firdes.h</label>
+        <link refid="firdes_8h"/>
+        <childnode refid="3731" relation="include">
+        </childnode>
+        <childnode refid="3732" relation="include">
+        </childnode>
+        <childnode refid="3733" relation="include">
+        </childnode>
+        <childnode refid="3745" relation="include">
+        </childnode>
+        <childnode refid="3746" relation="include">
+        </childnode>
+        <childnode refid="3737" relation="include">
+        </childnode>
+        <childnode refid="3741" relation="include">
+        </childnode>
+        <childnode refid="3748" relation="include">
+        </childnode>
+        <childnode refid="3749" relation="include">
+        </childnode>
+        <childnode refid="3743" relation="include">
+        </childnode>
+      </node>
+      <node id="3734">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="3735" relation="include">
+        </childnode>
+        <childnode refid="3736" relation="include">
+        </childnode>
+        <childnode refid="3737" relation="include">
+        </childnode>
+        <childnode refid="3738" relation="include">
+        </childnode>
+        <childnode refid="3739" relation="include">
+        </childnode>
+        <childnode refid="3740" relation="include">
+        </childnode>
+        <childnode refid="3741" relation="include">
+        </childnode>
+        <childnode refid="3742" relation="include">
+        </childnode>
+        <childnode refid="3743" relation="include">
+        </childnode>
+      </node>
+      <node id="3748">
+        <label>waterfall_sink_c.h</label>
+        <link refid="waterfall__sink__c_8h"/>
+      </node>
+      <node id="3746">
+        <label>freq_sink_f.h</label>
+        <link refid="freq__sink__f_8h"/>
+        <childnode refid="3747" relation="include">
+        </childnode>
+      </node>
+      <node id="3729">
+        <label>window.h</label>
+        <link refid="window_8h"/>
+        <childnode refid="3730" relation="include">
+        </childnode>
+        <childnode refid="3747" relation="include">
+        </childnode>
+      </node>
+      <node id="3720">
+        <label>api.h</label>
+        <link refid="gr-fft/include/gnuradio/fft/api.h"/>
+        <childnode refid="3721" relation="include">
+        </childnode>
+        <childnode refid="3722" relation="include">
+        </childnode>
+        <childnode refid="3725" relation="include">
+        </childnode>
+        <childnode refid="3726" relation="include">
+        </childnode>
+        <childnode refid="3727" relation="include">
+        </childnode>
+        <childnode refid="3728" relation="include">
+        </childnode>
+        <childnode refid="3729" relation="include">
+        </childnode>
+      </node>
+      <node id="3732">
+        <label>const_sink_c.h</label>
+        <link refid="const__sink__c_8h"/>
+      </node>
+      <node id="3742">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="3721">
+        <label>ctrlport_probe_psd.h</label>
+        <link refid="ctrlport__probe__psd_8h"/>
+      </node>
+      <node id="3749">
+        <label>waterfall_sink_f.h</label>
+        <link refid="waterfall__sink__f_8h"/>
+        <childnode refid="3747" relation="include">
+        </childnode>
+      </node>
+      <node id="3740">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="3739" relation="include">
+        </childnode>
+      </node>
+      <node id="3723">
+        <label>fft_filter.h</label>
+        <link refid="fft__filter_8h"/>
+        <childnode refid="3724" relation="include">
+        </childnode>
+      </node>
+      <node id="3733">
+        <label>form_menus.h</label>
+        <link refid="form__menus_8h"/>
+        <childnode refid="3734" relation="include">
+        </childnode>
+        <childnode refid="3744" relation="include">
+        </childnode>
+      </node>
+      <node id="3739">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="3731">
+        <label>hilbert_fc.h</label>
+        <link refid="hilbert__fc_8h"/>
+      </node>
+      <node id="3736">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="3726">
+        <label>fft_vfc.h</label>
+        <link refid="fft__vfc_8h"/>
+      </node>
+      <node id="3735">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="3722">
+        <label>fft.h</label>
+        <link refid="fft_8h"/>
+        <childnode refid="3723" relation="include">
+        </childnode>
+        <childnode refid="3724" relation="include">
+        </childnode>
+      </node>
+      <node id="3744">
+        <label>numberdisplayform.h</label>
+        <link refid="numberdisplayform_8h"/>
+      </node>
+      <node id="3728">
+        <label>goertzel_fc.h</label>
+        <link refid="goertzel__fc_8h"/>
+      </node>
+      <node id="3737">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="3736" relation="include">
+        </childnode>
+      </node>
+      <node id="3725">
+        <label>fft_vcc.h</label>
+        <link refid="fft__vcc_8h"/>
+      </node>
+      <node id="3745">
+        <label>freq_sink_c.h</label>
+        <link refid="freq__sink__c_8h"/>
+      </node>
+      <node id="3743">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="3741">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="3747">
+        <label>display_qt.h</label>
+        <link refid="display__qt_8h"/>
+      </node>
+      <node id="3738">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="3727">
+        <label>goertzel.h</label>
+        <link refid="goertzel_8h"/>
+      </node>
+      <node id="3724">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-fft_2include_2gnuradio_2fft_2api_8h_1a970d73334383137115742a2ea952c803" prot="public" static="no">
+        <name>FFT_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-fft/include/gnuradio/fft/api.h" line="30" column="12" bodyfile="/home/project/prefix/src/gnuradio/gr-fft/include/gnuradio/fft/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fft/include/gnuradio/fft/api.h"/>
+  </compounddef>
+</doxygen>

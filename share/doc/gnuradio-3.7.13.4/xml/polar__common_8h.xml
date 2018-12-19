@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="polar__common_8h" kind="file" language="C++">
+    <compoundname>polar_common.h</compoundname>
+    <includes refid="gr-fec_2include_2gnuradio_2fec_2api_8h" local="no">gnuradio/fec/api.h</includes>
+    <includedby refid="polar__decoder__common_8h" local="no">polar_decoder_common.h</includedby>
+    <includedby refid="polar__encoder_8h" local="no">polar_encoder.h</includedby>
+    <includedby refid="polar__encoder__systematic_8h" local="no">polar_encoder_systematic.h</includedby>
+    <incdepgraph>
+      <node id="32218">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="32216">
+        <label>polar_common.h</label>
+        <link refid="polar_common.h"/>
+        <childnode refid="32217" relation="include">
+        </childnode>
+      </node>
+      <node id="32217">
+        <label>gnuradio/fec/api.h</label>
+        <link refid="gr-fec_2include_2gnuradio_2fec_2api_8h"/>
+        <childnode refid="32218" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="32225">
+        <label>polar_encoder_systematic.h</label>
+        <link refid="polar__encoder__systematic_8h"/>
+      </node>
+      <node id="32223">
+        <label>polar_decoder_sc_systematic.h</label>
+        <link refid="polar__decoder__sc__systematic_8h"/>
+      </node>
+      <node id="32219">
+        <label>polar_common.h</label>
+        <link refid="polar_common.h"/>
+        <childnode refid="32220" relation="include">
+        </childnode>
+        <childnode refid="32224" relation="include">
+        </childnode>
+        <childnode refid="32225" relation="include">
+        </childnode>
+      </node>
+      <node id="32224">
+        <label>polar_encoder.h</label>
+        <link refid="polar__encoder_8h"/>
+      </node>
+      <node id="32221">
+        <label>polar_decoder_sc.h</label>
+        <link refid="polar__decoder__sc_8h"/>
+      </node>
+      <node id="32222">
+        <label>polar_decoder_sc_list.h</label>
+        <link refid="polar__decoder__sc__list_8h"/>
+      </node>
+      <node id="32220">
+        <label>polar_decoder_common.h</label>
+        <link refid="polar__decoder__common_8h"/>
+        <childnode refid="32221" relation="include">
+        </childnode>
+        <childnode refid="32222" relation="include">
+        </childnode>
+        <childnode refid="32223" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1fec_1_1code_1_1polar__common" prot="public">gr::fec::code::polar_common</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks_1_1kernel">gr::blocks::kernel</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec">gr::fec</innernamespace>
+    <innernamespace refid="namespacegr_1_1fec_1_1code">gr::fec::code</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fec/include/gnuradio/fec/polar_common.h"/>
+  </compounddef>
+</doxygen>

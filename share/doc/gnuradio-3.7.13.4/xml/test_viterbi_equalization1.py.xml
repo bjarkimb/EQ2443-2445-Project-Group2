@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<programlisting>
+  1  #!/usr/bin/env python
+  2  
+  3  from gnuradio import gr
+  4  from gnuradio import audio
+  5  from gnuradio import trellis, digital, filter, blocks
+  6  from gnuradio import eng_notation
+  7  import math
+  8  import sys
+  9  import random
+ 10  import fsm_utils
+ 11  
+ 12  try:
+ 13      from gnuradio import analog
+ 14  except ImportError:
+ 15      sys.stderr.write(&quot;Error: Program requires gr-analog.\n&quot;)
+ 16      sys.exit(1)
+ 17  
+ 18  def run_test (f,Kb,bitspersymbol,K,channel,modulation,dimensionality,tot_constellation,N0,seed):
+ 19      tb = gr.top_block ()
+ 20      L = len(channel)
+ 21  
+ 22      # TX
+ 23      # this for loop is TOO slow in python!!!
+ 24      packet = [0]*(K+2*L)
+ 25      random.seed(seed)
+ 26      for i in range(len(packet)):
+ 27          packet[i] = random.randint(0, 2**bitspersymbol - 1) # random symbols
+ 28      for i in range(L): # first/last L symbols set to 0
+ 29          packet[i] = 0
+ 30          packet[len(packet)-i-1] = 0
+ 31      src = blocks.vector_source_s(packet,False)
+ 32      mod = digital.chunks_to_symbols_sf(modulation[1],modulation[0])
+ 33  
+ 34      # CHANNEL
+ 35      isi = filter.fir_filter_fff(1,channel)
+ 36      add = blocks.add_ff()
+ 37      noise = analog.noise_source_f(analog.GR_GAUSSIAN,math.sqrt(N0/2),seed)
+ 38  
+ 39      # RX
+ 40      skip = blocks.skiphead(gr.sizeof_float, L) # skip the first L samples since you know they are coming from the L zero symbols
+ 41      #metrics = trellis.metrics_f(f.O(),dimensionality,tot_constellation,digital.TRELLIS_EUCLIDEAN) # data preprocessing to generate metrics for Viterbi
+ 42      #va = trellis.viterbi_s(f,K+L,0,0) # Put -1 if the Initial/Final states are not set.
+ 43      va = trellis.viterbi_combined_s(f,K+L,0,0,dimensionality,tot_constellation,digital.TRELLIS_EUCLIDEAN) # using viterbi_combined_s instead of metrics_f/viterbi_s allows larger packet lengths because metrics_f is complaining for not being able to allocate large buffers. This is due to the large f.O() in this application...
+ 44      dst = blocks.vector_sink_s()
+ 45  
+ 46      tb.connect (src,mod)
+ 47      tb.connect (mod,isi,(add,0))
+ 48      tb.connect (noise,(add,1))
+ 49      #tb.connect (add,metrics)
+ 50      #tb.connect (metrics,va,dst)
+ 51      tb.connect (add,skip,va,dst)
+ 52  
+ 53      tb.run()
+ 54  
+ 55      data = dst.data()
+ 56      ntotal = len(data) - L
+ 57      nright=0
+ 58      for i in range(ntotal):
+ 59          if packet[i+L]==data[i]:
+ 60              nright=nright+1
+ 61          #else:
+ 62              #print &quot;Error in &quot;, i
+ 63  
+ 64      return (ntotal,ntotal-nright)
+ 65  
+ 66  
+ 67  def main(args):
+ 68      nargs = len (args)
+ 69      if nargs == 2:
+ 70          esn0_db=float(args[0])
+ 71          rep=int(args[1])
+ 72      else:
+ 73          sys.stderr.write (&apos;usage: test_viterbi_equalization1.py Es/No_db  repetitions\n&apos;)
+ 74          sys.exit (1)
+ 75  
+ 76      # system parameters
+ 77      Kb=2048  # packet size in bits
+ 78      modulation = fsm_utils.pam4 # see fsm_utlis.py for available predefined modulations
+ 79      channel = fsm_utils.c_channel # see fsm_utlis.py for available predefined test channels
+ 80      f=trellis.fsm(len(modulation[1]),len(channel)) # generate the FSM automatically
+ 81      bitspersymbol = int(round(math.log(f.I())/math.log(2))) # bits per FSM input symbol
+ 82      K=Kb/bitspersymbol # packet size in trellis steps
+ 83  
+ 84      tot_channel = fsm_utils.make_isi_lookup(modulation,channel,True) # generate the lookup table (normalize energy to 1)
+ 85      dimensionality = tot_channel[0]
+ 86      tot_constellation = tot_channel[1]
+ 87      N0=pow(10.0,-esn0_db/10.0); # noise variance
+ 88      if len(tot_constellation)/dimensionality != f.O():
+ 89          sys.stderr.write (&apos;Incompatible FSM output cardinality and lookup table size.\n&apos;)
+ 90          sys.exit (1)
+ 91  
+ 92      tot_s=0 # total number of transmitted shorts
+ 93      terr_s=0 # total number of shorts in error
+ 94      terr_p=0 # total number of packets in error
+ 95  
+ 96      for i in range(rep):
+ 97          (s,e)=run_test(f,Kb,bitspersymbol,K,channel,modulation,dimensionality,tot_constellation,N0,-long(666+i)) # run experiment with different seed to get different data and noise realizations
+ 98          tot_s=tot_s+s
+ 99          terr_s=terr_s+e
+100          terr_p=terr_p+(terr_s!=0)
+101          if ((i+1)%100==0) : # display progress
+102              print i+1,terr_p, &apos;%.2e&apos; % ((1.0*terr_p)/(i+1)),tot_s,terr_s, &apos;%.2e&apos; % ((1.0*terr_s)/tot_s)
+103      # estimate of the (short or symbol) error rate
+104      print rep,terr_p, &apos;%.2e&apos; % ((1.0*terr_p)/(i+1)),tot_s,terr_s, &apos;%.2e&apos; % ((1.0*terr_s)/tot_s)
+105  
+106  
+107  if __name__ == &apos;__main__&apos;:
+108      main (sys.argv[1:])
+</programlisting>

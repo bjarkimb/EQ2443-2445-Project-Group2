@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="goertzel_8h" kind="file" language="C++">
+    <compoundname>goertzel.h</compoundname>
+    <includes refid="gr-fft_2include_2gnuradio_2fft_2api_8h" local="no">gnuradio/fft/api.h</includes>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2types_8h" local="no">gnuradio/types.h</includes>
+    <incdepgraph>
+      <node id="18299">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="18304">
+        <label>stdint.h</label>
+      </node>
+      <node id="18295">
+        <label>gnuradio/fft/api.h</label>
+        <link refid="gr-fft_2include_2gnuradio_2fft_2api_8h"/>
+        <childnode refid="18296" relation="include">
+        </childnode>
+      </node>
+      <node id="18298">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="18296" relation="include">
+        </childnode>
+      </node>
+      <node id="18296">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="18301">
+        <label>stddef.h</label>
+      </node>
+      <node id="18300">
+        <label>vector</label>
+      </node>
+      <node id="18297">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="18298" relation="include">
+        </childnode>
+        <childnode refid="18299" relation="include">
+        </childnode>
+        <childnode refid="18300" relation="include">
+        </childnode>
+        <childnode refid="18301" relation="include">
+        </childnode>
+        <childnode refid="18302" relation="include">
+        </childnode>
+        <childnode refid="18304" relation="include">
+        </childnode>
+      </node>
+      <node id="18302">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="18303" relation="include">
+        </childnode>
+      </node>
+      <node id="18303">
+        <label>complex</label>
+      </node>
+      <node id="18294">
+        <label>goertzel.h</label>
+        <link refid="goertzel.h"/>
+        <childnode refid="18295" relation="include">
+        </childnode>
+        <childnode refid="18297" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1fft_1_1goertzel" prot="public">gr::fft::goertzel</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1fft">gr::fft</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-fft/include/gnuradio/fft/goertzel.h"/>
+  </compounddef>
+</doxygen>

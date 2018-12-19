@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="FrequencyDisplayPlot_8h" kind="file" language="C++">
+    <compoundname>FrequencyDisplayPlot.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">vector</includes>
+    <includes refid="DisplayPlot_8h" local="no">gnuradio/qtgui/DisplayPlot.h</includes>
+    <includedby refid="freqdisplayform_8h" local="no">freqdisplayform.h</includedby>
+    <includedby refid="spectrumdisplayform_8h" local="no">spectrumdisplayform.h</includedby>
+    <incdepgraph>
+      <node id="17588">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="17590">
+        <label>qwt_plot_canvas.h</label>
+      </node>
+      <node id="17584">
+        <label>stdint.h</label>
+      </node>
+      <node id="17600">
+        <label>gnuradio/qtgui/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="17601" relation="include">
+        </childnode>
+        <childnode refid="17602" relation="include">
+        </childnode>
+        <childnode refid="17604" relation="include">
+        </childnode>
+        <childnode refid="17605" relation="include">
+        </childnode>
+        <childnode refid="17606" relation="include">
+        </childnode>
+        <childnode refid="17607" relation="include">
+        </childnode>
+      </node>
+      <node id="17602">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="17603" relation="include">
+        </childnode>
+      </node>
+      <node id="17583">
+        <label>FrequencyDisplayPlot.h</label>
+        <link refid="FrequencyDisplayPlot.h"/>
+        <childnode refid="17584" relation="include">
+        </childnode>
+        <childnode refid="17585" relation="include">
+        </childnode>
+        <childnode refid="17586" relation="include">
+        </childnode>
+        <childnode refid="17587" relation="include">
+        </childnode>
+      </node>
+      <node id="17603">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="17595">
+        <label>qwt_plot_panner.h</label>
+      </node>
+      <node id="17589">
+        <label>qwt_painter.h</label>
+      </node>
+      <node id="17585">
+        <label>cstdio</label>
+      </node>
+      <node id="17608">
+        <label>qwt_legend_item.h</label>
+      </node>
+      <node id="17586">
+        <label>vector</label>
+      </node>
+      <node id="17598">
+        <label>qwt_symbol.h</label>
+      </node>
+      <node id="17592">
+        <label>qwt_scale_engine.h</label>
+      </node>
+      <node id="17606">
+        <label>QString</label>
+      </node>
+      <node id="17587">
+        <label>gnuradio/qtgui/DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="17584" relation="include">
+        </childnode>
+        <childnode refid="17585" relation="include">
+        </childnode>
+        <childnode refid="17586" relation="include">
+        </childnode>
+        <childnode refid="17588" relation="include">
+        </childnode>
+        <childnode refid="17589" relation="include">
+        </childnode>
+        <childnode refid="17590" relation="include">
+        </childnode>
+        <childnode refid="17591" relation="include">
+        </childnode>
+        <childnode refid="17592" relation="include">
+        </childnode>
+        <childnode refid="17593" relation="include">
+        </childnode>
+        <childnode refid="17594" relation="include">
+        </childnode>
+        <childnode refid="17595" relation="include">
+        </childnode>
+        <childnode refid="17596" relation="include">
+        </childnode>
+        <childnode refid="17597" relation="include">
+        </childnode>
+        <childnode refid="17598" relation="include">
+        </childnode>
+        <childnode refid="17599" relation="include">
+        </childnode>
+        <childnode refid="17600" relation="include">
+        </childnode>
+        <childnode refid="17608" relation="include">
+        </childnode>
+      </node>
+      <node id="17597">
+        <label>qwt_plot_marker.h</label>
+      </node>
+      <node id="17593">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="17601">
+        <label>qevent.h</label>
+      </node>
+      <node id="17594">
+        <label>qwt_plot_zoomer.h</label>
+      </node>
+      <node id="17596">
+        <label>qwt_plot_magnifier.h</label>
+      </node>
+      <node id="17599">
+        <label>qwt_legend.h</label>
+      </node>
+      <node id="17605">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="17591">
+        <label>qwt_plot_curve.h</label>
+      </node>
+      <node id="17604">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="17607">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="17609">
+        <label>FrequencyDisplayPlot.h</label>
+        <link refid="FrequencyDisplayPlot.h"/>
+        <childnode refid="17610" relation="include">
+        </childnode>
+        <childnode refid="17612" relation="include">
+        </childnode>
+      </node>
+      <node id="17611">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="17610">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="17611" relation="include">
+        </childnode>
+      </node>
+      <node id="17613">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="17612" relation="include">
+        </childnode>
+      </node>
+      <node id="17612">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="17613" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classFrequencyDisplayPlot" prot="public">FrequencyDisplayPlot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/FrequencyDisplayPlot.h"/>
+  </compounddef>
+</doxygen>

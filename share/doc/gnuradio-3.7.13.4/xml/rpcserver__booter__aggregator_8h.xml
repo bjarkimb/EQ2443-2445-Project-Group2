@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rpcserver__booter__aggregator_8h" kind="file" language="C++">
+    <compoundname>rpcserver_booter_aggregator.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="rpcserver__booter__base_8h" local="no">gnuradio/rpcserver_booter_base.h</includes>
+    <includes refid="rpcserver__aggregator_8h" local="no">gnuradio/rpcserver_aggregator.h</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includes local="no">string</includes>
+    <includedby refid="rpcmanager_8h" local="no">rpcmanager.h</includedby>
+    <incdepgraph>
+      <node id="35408">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="35407">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="35398">
+        <label>gnuradio/rpcserver_booter_base.h</label>
+        <link refid="rpcserver__booter__base_8h"/>
+        <childnode refid="35399" relation="include">
+        </childnode>
+        <childnode refid="35400" relation="include">
+        </childnode>
+      </node>
+      <node id="35411">
+        <label>stdint.h</label>
+      </node>
+      <node id="35414">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="35404" relation="include">
+        </childnode>
+      </node>
+      <node id="35413">
+        <label>stdexcept</label>
+      </node>
+      <node id="35399">
+        <label>string</label>
+      </node>
+      <node id="35397">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="35396">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="35397" relation="include">
+        </childnode>
+      </node>
+      <node id="35406">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="35397" relation="include">
+        </childnode>
+      </node>
+      <node id="35395">
+        <label>rpcserver_booter_aggregator.h</label>
+        <link refid="rpcserver_booter_aggregator.h"/>
+        <childnode refid="35396" relation="include">
+        </childnode>
+        <childnode refid="35398" relation="include">
+        </childnode>
+        <childnode refid="35401" relation="include">
+        </childnode>
+        <childnode refid="35408" relation="include">
+        </childnode>
+        <childnode refid="35399" relation="include">
+        </childnode>
+      </node>
+      <node id="35415">
+        <label>gnuradio/messages/msg_producer.h</label>
+        <link refid="msg__producer_8h"/>
+        <childnode refid="35396" relation="include">
+        </childnode>
+        <childnode refid="35405" relation="include">
+        </childnode>
+        <childnode refid="35408" relation="include">
+        </childnode>
+      </node>
+      <node id="35409">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="35400">
+        <label>vector</label>
+      </node>
+      <node id="35401">
+        <label>gnuradio/rpcserver_aggregator.h</label>
+        <link refid="rpcserver__aggregator_8h"/>
+        <childnode refid="35400" relation="include">
+        </childnode>
+        <childnode refid="35399" relation="include">
+        </childnode>
+        <childnode refid="35402" relation="include">
+        </childnode>
+        <childnode refid="35416" relation="include">
+        </childnode>
+      </node>
+      <node id="35412">
+        <label>iosfwd</label>
+      </node>
+      <node id="35404">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="35396" relation="include">
+        </childnode>
+        <childnode refid="35405" relation="include">
+        </childnode>
+        <childnode refid="35408" relation="include">
+        </childnode>
+      </node>
+      <node id="35402">
+        <label>gnuradio/rpcserver_base.h</label>
+        <link refid="rpcserver__base_8h"/>
+        <childnode refid="35403" relation="include">
+        </childnode>
+      </node>
+      <node id="35405">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="35406" relation="include">
+        </childnode>
+        <childnode refid="35407" relation="include">
+        </childnode>
+        <childnode refid="35408" relation="include">
+        </childnode>
+        <childnode refid="35409" relation="include">
+        </childnode>
+        <childnode refid="35410" relation="include">
+        </childnode>
+        <childnode refid="35399" relation="include">
+        </childnode>
+        <childnode refid="35411" relation="include">
+        </childnode>
+        <childnode refid="35412" relation="include">
+        </childnode>
+        <childnode refid="35413" relation="include">
+        </childnode>
+        <childnode refid="35400" relation="include">
+        </childnode>
+        <childnode refid="35414" relation="include">
+        </childnode>
+      </node>
+      <node id="35403">
+        <label>gnuradio/rpccallbackregister_base.h</label>
+        <link refid="rpccallbackregister__base_8h"/>
+        <childnode refid="35404" relation="include">
+        </childnode>
+        <childnode refid="35415" relation="include">
+        </childnode>
+      </node>
+      <node id="35410">
+        <label>complex</label>
+      </node>
+      <node id="35416">
+        <label>gnuradio/rpcmanager_base.h</label>
+        <link refid="rpcmanager__base_8h"/>
+        <childnode refid="35408" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="35419">
+        <label>rpcregisterhelpers.h</label>
+        <link refid="rpcregisterhelpers_8h"/>
+        <childnode refid="35420" relation="include">
+        </childnode>
+        <childnode refid="35421" relation="include">
+        </childnode>
+      </node>
+      <node id="35421">
+        <label>ctrlport_probe_c.h</label>
+        <link refid="ctrlport__probe__c_8h"/>
+      </node>
+      <node id="35417">
+        <label>rpcserver_booter_aggregator.h</label>
+        <link refid="rpcserver_booter_aggregator.h"/>
+        <childnode refid="35418" relation="include">
+        </childnode>
+      </node>
+      <node id="35418">
+        <label>rpcmanager.h</label>
+        <link refid="rpcmanager_8h"/>
+        <childnode refid="35419" relation="include">
+        </childnode>
+      </node>
+      <node id="35420">
+        <label>pycallback_object.h</label>
+        <link refid="pycallback__object_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classrpcserver__booter__aggregator" prot="public">rpcserver_booter_aggregator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/rpcserver_booter_aggregator.h"/>
+  </compounddef>
+</doxygen>

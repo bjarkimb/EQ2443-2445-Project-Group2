@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="utils_8h" kind="file" language="C++">
+    <compoundname>utils.h</compoundname>
+    <includes local="no">qevent.h</includes>
+    <includes refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h" local="no">gnuradio/qtgui/api.h</includes>
+    <includes local="no">qwt_plot_picker.h</includes>
+    <includes local="no">qwt_picker_machine.h</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">QCoreApplication</includes>
+    <includedby refid="DisplayPlot_8h" local="no">DisplayPlot.h</includedby>
+    <incdepgraph>
+      <node id="45656">
+        <label>utils.h</label>
+        <link refid="utils.h"/>
+        <childnode refid="45657" relation="include">
+        </childnode>
+        <childnode refid="45658" relation="include">
+        </childnode>
+        <childnode refid="45660" relation="include">
+        </childnode>
+        <childnode refid="45661" relation="include">
+        </childnode>
+        <childnode refid="45662" relation="include">
+        </childnode>
+        <childnode refid="45663" relation="include">
+        </childnode>
+      </node>
+      <node id="45658">
+        <label>gnuradio/qtgui/api.h</label>
+        <link refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h"/>
+        <childnode refid="45659" relation="include">
+        </childnode>
+      </node>
+      <node id="45659">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="45662">
+        <label>QString</label>
+      </node>
+      <node id="45657">
+        <label>qevent.h</label>
+      </node>
+      <node id="45661">
+        <label>qwt_picker_machine.h</label>
+      </node>
+      <node id="45660">
+        <label>qwt_plot_picker.h</label>
+      </node>
+      <node id="45663">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="45670">
+        <label>displayform.h</label>
+        <link refid="displayform_8h"/>
+        <childnode refid="45667" relation="include">
+        </childnode>
+        <childnode refid="45671" relation="include">
+        </childnode>
+        <childnode refid="45672" relation="include">
+        </childnode>
+        <childnode refid="45673" relation="include">
+        </childnode>
+        <childnode refid="45674" relation="include">
+        </childnode>
+        <childnode refid="45675" relation="include">
+        </childnode>
+        <childnode refid="45676" relation="include">
+        </childnode>
+        <childnode refid="45677" relation="include">
+        </childnode>
+        <childnode refid="45678" relation="include">
+        </childnode>
+      </node>
+      <node id="45664">
+        <label>utils.h</label>
+        <link refid="utils.h"/>
+        <childnode refid="45665" relation="include">
+        </childnode>
+      </node>
+      <node id="45677">
+        <label>vectordisplayform.h</label>
+        <link refid="vectordisplayform_8h"/>
+      </node>
+      <node id="45679">
+        <label>FrequencyDisplayPlot.h</label>
+        <link refid="FrequencyDisplayPlot_8h"/>
+        <childnode refid="45672" relation="include">
+        </childnode>
+        <childnode refid="45668" relation="include">
+        </childnode>
+      </node>
+      <node id="45675">
+        <label>timedisplayform.h</label>
+        <link refid="timedisplayform_8h"/>
+        <childnode refid="45674" relation="include">
+        </childnode>
+      </node>
+      <node id="45684">
+        <label>WaterfallDisplayPlot.h</label>
+        <link refid="WaterfallDisplayPlot_8h"/>
+        <childnode refid="45668" relation="include">
+        </childnode>
+        <childnode refid="45678" relation="include">
+        </childnode>
+      </node>
+      <node id="45674">
+        <label>timecontrolpanel.h</label>
+        <link refid="timecontrolpanel_8h"/>
+      </node>
+      <node id="45671">
+        <label>freqcontrolpanel.h</label>
+        <link refid="freqcontrolpanel_8h"/>
+      </node>
+      <node id="45667">
+        <label>constellationdisplayform.h</label>
+        <link refid="constellationdisplayform_8h"/>
+      </node>
+      <node id="45682">
+        <label>TimeRasterDisplayPlot.h</label>
+        <link refid="TimeRasterDisplayPlot_8h"/>
+        <childnode refid="45676" relation="include">
+        </childnode>
+      </node>
+      <node id="45666">
+        <label>ConstellationDisplayPlot.h</label>
+        <link refid="ConstellationDisplayPlot_8h"/>
+        <childnode refid="45667" relation="include">
+        </childnode>
+        <childnode refid="45668" relation="include">
+        </childnode>
+      </node>
+      <node id="45665">
+        <label>DisplayPlot.h</label>
+        <link refid="DisplayPlot_8h"/>
+        <childnode refid="45666" relation="include">
+        </childnode>
+        <childnode refid="45670" relation="include">
+        </childnode>
+        <childnode refid="45679" relation="include">
+        </childnode>
+        <childnode refid="45680" relation="include">
+        </childnode>
+        <childnode refid="45681" relation="include">
+        </childnode>
+        <childnode refid="45682" relation="include">
+        </childnode>
+        <childnode refid="45683" relation="include">
+        </childnode>
+        <childnode refid="45684" relation="include">
+        </childnode>
+      </node>
+      <node id="45672">
+        <label>freqdisplayform.h</label>
+        <link refid="freqdisplayform_8h"/>
+        <childnode refid="45671" relation="include">
+        </childnode>
+      </node>
+      <node id="45669">
+        <label>SpectrumGUIClass.h</label>
+        <link refid="SpectrumGUIClass_8h"/>
+        <childnode refid="45668" relation="include">
+        </childnode>
+      </node>
+      <node id="45681">
+        <label>TimeDomainDisplayPlot.h</label>
+        <link refid="TimeDomainDisplayPlot_8h"/>
+        <childnode refid="45668" relation="include">
+        </childnode>
+        <childnode refid="45675" relation="include">
+        </childnode>
+      </node>
+      <node id="45678">
+        <label>waterfalldisplayform.h</label>
+        <link refid="waterfalldisplayform_8h"/>
+      </node>
+      <node id="45668">
+        <label>spectrumdisplayform.h</label>
+        <link refid="spectrumdisplayform_8h"/>
+        <childnode refid="45669" relation="include">
+        </childnode>
+      </node>
+      <node id="45676">
+        <label>timerasterdisplayform.h</label>
+        <link refid="timerasterdisplayform_8h"/>
+      </node>
+      <node id="45683">
+        <label>VectorDisplayPlot.h</label>
+        <link refid="VectorDisplayPlot_8h"/>
+        <childnode refid="45677" relation="include">
+        </childnode>
+      </node>
+      <node id="45673">
+        <label>histogramdisplayform.h</label>
+        <link refid="histogramdisplayform_8h"/>
+      </node>
+      <node id="45680">
+        <label>HistogramDisplayPlot.h</label>
+        <link refid="HistogramDisplayPlot_8h"/>
+        <childnode refid="45673" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classQwtDblClickPlotPicker" prot="public">QwtDblClickPlotPicker</innerclass>
+    <innerclass refid="classQwtPickerDblClickPointMachine" prot="public">QwtPickerDblClickPointMachine</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="utils_8h_1a4460274553133c68afe48e892da04c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr-qtgui_2include_2gnuradio_2qtgui_2api_8h_1ad56994f3de62ec599559c55e7ec6191e" kindref="member">QTGUI_API</ref> QString</type>
+        <definition>QTGUI_API QString get_qt_style_sheet</definition>
+        <argsstring>(QString filename)</argsstring>
+        <name>get_qt_style_sheet</name>
+        <param>
+          <type>QString</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>From QSS file name, extracts the file contents and returns a QString that contains the QSS information. Designed to be passed to the qApplication. The QSS file is typically retrieved using the [qtgui] qss=&lt;filename&gt; section of the preferences files. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ad15a10c293b34764f1fd68109d31ac48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_set_qss</definition>
+        <argsstring>(QApplication *app)</argsstring>
+        <name>check_set_qss</name>
+        <param>
+          <type>QApplication *</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-qtgui/include/gnuradio/qtgui/utils.h"/>
+  </compounddef>
+</doxygen>

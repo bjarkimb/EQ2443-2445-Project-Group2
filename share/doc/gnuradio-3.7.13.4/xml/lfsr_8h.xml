@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="lfsr_8h" kind="file" language="C++">
+    <compoundname>lfsr.h</compoundname>
+    <includes refid="gr-digital_2include_2gnuradio_2digital_2api_8h" local="no">gnuradio/digital/api.h</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="22100">
+        <label>stdint.h</label>
+      </node>
+      <node id="22099">
+        <label>stdexcept</label>
+      </node>
+      <node id="22098">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="22097">
+        <label>gnuradio/digital/api.h</label>
+        <link refid="gr-digital_2include_2gnuradio_2digital_2api_8h"/>
+        <childnode refid="22098" relation="include">
+        </childnode>
+      </node>
+      <node id="22096">
+        <label>lfsr.h</label>
+        <link refid="lfsr.h"/>
+        <childnode refid="22097" relation="include">
+        </childnode>
+        <childnode refid="22099" relation="include">
+        </childnode>
+        <childnode refid="22100" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1digital_1_1lfsr" prot="public">gr::digital::lfsr</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1digital">gr::digital</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-digital/include/gnuradio/digital/lfsr.h"/>
+  </compounddef>
+</doxygen>

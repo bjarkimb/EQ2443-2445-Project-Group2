@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="msg__queue_8h" kind="file" language="C++">
+    <compoundname>msg_queue.h</compoundname>
+    <includes refid="gnuradio-runtime_2include_2gnuradio_2api_8h" local="no">gnuradio/api.h</includes>
+    <includes refid="msg__handler_8h" local="no">gnuradio/msg_handler.h</includes>
+    <includes refid="thread_8h" local="no">gnuradio/thread/thread.h</includes>
+    <includedby refid="bin__statistics__f_8h" local="no">bin_statistics_f.h</includedby>
+    <includedby refid="message__burst__source_8h" local="no">message_burst_source.h</includedby>
+    <includedby refid="message__sink_8h" local="no">message_sink.h</includedby>
+    <includedby refid="message__source_8h" local="no">message_source.h</includedby>
+    <includedby refid="framer__sink__1_8h" local="no">framer_sink_1.h</includedby>
+    <includedby refid="ofdm__frame__sink_8h" local="no">ofdm_frame_sink.h</includedby>
+    <includedby refid="ofdm__mapper__bcv_8h" local="no">ofdm_mapper_bcv.h</includedby>
+    <includedby refid="packet__sink_8h" local="no">packet_sink.h</includedby>
+    <includedby refid="flex__parse_8h" local="no">flex_parse.h</includedby>
+    <includedby refid="amsg__source_8h" local="no">amsg_source.h</includedby>
+    <includedby refid="histo__sink__f_8h" local="no">histo_sink_f.h</includedby>
+    <includedby refid="oscope__guts_8h" local="no">oscope_guts.h</includedby>
+    <includedby refid="oscope__sink__f_8h" local="no">oscope_sink_f.h</includedby>
+    <incdepgraph>
+      <node id="25722">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="25724">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="25713">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="25718">
+        <label>stdint.h</label>
+      </node>
+      <node id="25721">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="25711">
+        <label>gnuradio/message.h</label>
+        <link refid="message_8h"/>
+        <childnode refid="25708" relation="include">
+        </childnode>
+        <childnode refid="25712" relation="include">
+        </childnode>
+        <childnode refid="25719" relation="include">
+        </childnode>
+      </node>
+      <node id="25720">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="25708" relation="include">
+        </childnode>
+        <childnode refid="25721" relation="include">
+        </childnode>
+        <childnode refid="25722" relation="include">
+        </childnode>
+        <childnode refid="25723" relation="include">
+        </childnode>
+        <childnode refid="25724" relation="include">
+        </childnode>
+        <childnode refid="25725" relation="include">
+        </childnode>
+        <childnode refid="25713" relation="include">
+        </childnode>
+        <childnode refid="25714" relation="include">
+        </childnode>
+      </node>
+      <node id="25719">
+        <label>string</label>
+      </node>
+      <node id="25709">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="25708">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="25709" relation="include">
+        </childnode>
+      </node>
+      <node id="25715">
+        <label>stddef.h</label>
+      </node>
+      <node id="25710">
+        <label>gnuradio/msg_handler.h</label>
+        <link refid="msg__handler_8h"/>
+        <childnode refid="25708" relation="include">
+        </childnode>
+        <childnode refid="25711" relation="include">
+        </childnode>
+      </node>
+      <node id="25707">
+        <label>msg_queue.h</label>
+        <link refid="msg_queue.h"/>
+        <childnode refid="25708" relation="include">
+        </childnode>
+        <childnode refid="25710" relation="include">
+        </childnode>
+        <childnode refid="25720" relation="include">
+        </childnode>
+      </node>
+      <node id="25723">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="25714">
+        <label>vector</label>
+      </node>
+      <node id="25725">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="25712">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="25708" relation="include">
+        </childnode>
+        <childnode refid="25713" relation="include">
+        </childnode>
+        <childnode refid="25714" relation="include">
+        </childnode>
+        <childnode refid="25715" relation="include">
+        </childnode>
+        <childnode refid="25716" relation="include">
+        </childnode>
+        <childnode refid="25718" relation="include">
+        </childnode>
+      </node>
+      <node id="25716">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="25717" relation="include">
+        </childnode>
+      </node>
+      <node id="25717">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25733">
+        <label>ofdm_mapper_bcv.h</label>
+        <link refid="ofdm__mapper__bcv_8h"/>
+      </node>
+      <node id="25735">
+        <label>flex_parse.h</label>
+        <link refid="flex__parse_8h"/>
+      </node>
+      <node id="25732">
+        <label>ofdm_frame_sink.h</label>
+        <link refid="ofdm__frame__sink_8h"/>
+      </node>
+      <node id="25737">
+        <label>histo_sink_f.h</label>
+        <link refid="histo__sink__f_8h"/>
+      </node>
+      <node id="25731">
+        <label>framer_sink_1.h</label>
+        <link refid="framer__sink__1_8h"/>
+      </node>
+      <node id="25726">
+        <label>msg_queue.h</label>
+        <link refid="msg_queue.h"/>
+        <childnode refid="25727" relation="include">
+        </childnode>
+        <childnode refid="25728" relation="include">
+        </childnode>
+        <childnode refid="25729" relation="include">
+        </childnode>
+        <childnode refid="25730" relation="include">
+        </childnode>
+        <childnode refid="25731" relation="include">
+        </childnode>
+        <childnode refid="25732" relation="include">
+        </childnode>
+        <childnode refid="25733" relation="include">
+        </childnode>
+        <childnode refid="25734" relation="include">
+        </childnode>
+        <childnode refid="25735" relation="include">
+        </childnode>
+        <childnode refid="25736" relation="include">
+        </childnode>
+        <childnode refid="25737" relation="include">
+        </childnode>
+        <childnode refid="25738" relation="include">
+        </childnode>
+        <childnode refid="25740" relation="include">
+        </childnode>
+      </node>
+      <node id="25730">
+        <label>message_source.h</label>
+        <link refid="message__source_8h"/>
+      </node>
+      <node id="25734">
+        <label>packet_sink.h</label>
+        <link refid="packet__sink_8h"/>
+      </node>
+      <node id="25740">
+        <label>oscope_sink_f.h</label>
+        <link refid="oscope__sink__f_8h"/>
+      </node>
+      <node id="25727">
+        <label>bin_statistics_f.h</label>
+        <link refid="bin__statistics__f_8h"/>
+      </node>
+      <node id="25736">
+        <label>amsg_source.h</label>
+        <link refid="amsg__source_8h"/>
+      </node>
+      <node id="25729">
+        <label>message_sink.h</label>
+        <link refid="message__sink_8h"/>
+      </node>
+      <node id="25728">
+        <label>message_burst_source.h</label>
+        <link refid="message__burst__source_8h"/>
+      </node>
+      <node id="25738">
+        <label>oscope_guts.h</label>
+        <link refid="oscope__guts_8h"/>
+        <childnode refid="25739" relation="include">
+        </childnode>
+      </node>
+      <node id="25739">
+        <label>oscope_sink_x.h</label>
+        <link refid="oscope__sink__x_8h"/>
+        <childnode refid="25740" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1msg__queue" prot="public">gr::msg_queue</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gnuradio-runtime/include/gnuradio/msg_queue.h"/>
+  </compounddef>
+</doxygen>

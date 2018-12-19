@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__sink_8h" kind="file" language="C++">
+    <compoundname>usrp_sink.h</compoundname>
+    <includes refid="usrp__block_8h" local="no">gnuradio/uhd/usrp_block.h</includes>
+    <incdepgraph>
+      <node id="45585">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="45578">
+        <label>gnuradio/runtime_types.h</label>
+        <link refid="runtime__types_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45579" relation="include">
+        </childnode>
+      </node>
+      <node id="45587">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="45564">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="45563">
+        <label>gnuradio/sptr_magic.h</label>
+        <link refid="sptr__magic_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45564" relation="include">
+        </childnode>
+      </node>
+      <node id="45569">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="45598">
+        <label>assert.h</label>
+      </node>
+      <node id="45582">
+        <label>gnuradio/io_signature.h</label>
+        <link refid="io__signature_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45578" relation="include">
+        </childnode>
+      </node>
+      <node id="45573">
+        <label>stdint.h</label>
+      </node>
+      <node id="45577">
+        <label>pmt/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+        <childnode refid="45566" relation="include">
+        </childnode>
+      </node>
+      <node id="45591">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="45602">
+        <label>boost/format.hpp</label>
+      </node>
+      <node id="45575">
+        <label>stdexcept</label>
+      </node>
+      <node id="45584">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="45583">
+        <label>gnuradio/thread/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45584" relation="include">
+        </childnode>
+        <childnode refid="45585" relation="include">
+        </childnode>
+        <childnode refid="45586" relation="include">
+        </childnode>
+        <childnode refid="45587" relation="include">
+        </childnode>
+        <childnode refid="45588" relation="include">
+        </childnode>
+        <childnode refid="45564" relation="include">
+        </childnode>
+        <childnode refid="45576" relation="include">
+        </childnode>
+      </node>
+      <node id="45572">
+        <label>string</label>
+      </node>
+      <node id="45560">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="45559">
+        <label>gnuradio/api.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2api_8h"/>
+        <childnode refid="45560" relation="include">
+        </childnode>
+      </node>
+      <node id="45557">
+        <label>uhd/config.hpp</label>
+      </node>
+      <node id="45594">
+        <label>map</label>
+      </node>
+      <node id="45601">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="45568">
+        <label>pmt/api.h</label>
+        <link refid="gnuradio-runtime_2include_2pmt_2api_8h"/>
+        <childnode refid="45560" relation="include">
+        </childnode>
+      </node>
+      <node id="45555">
+        <label>gnuradio/uhd/usrp_block.h</label>
+        <link refid="usrp__block_8h"/>
+        <childnode refid="45556" relation="include">
+        </childnode>
+        <childnode refid="45558" relation="include">
+        </childnode>
+        <childnode refid="45603" relation="include">
+        </childnode>
+      </node>
+      <node id="45580">
+        <label>stddef.h</label>
+      </node>
+      <node id="45561">
+        <label>gnuradio/block.h</label>
+        <link refid="block_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45562" relation="include">
+        </childnode>
+        <childnode refid="45595" relation="include">
+        </childnode>
+        <childnode refid="45596" relation="include">
+        </childnode>
+      </node>
+      <node id="45556">
+        <label>gnuradio/uhd/api.h</label>
+        <link refid="gr-uhd_2include_2gnuradio_2uhd_2api_8h"/>
+        <childnode refid="45557" relation="include">
+        </childnode>
+      </node>
+      <node id="45590">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="45570">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="45597">
+        <label>sys/types.h</label>
+      </node>
+      <node id="45565">
+        <label>gnuradio/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45566" relation="include">
+        </childnode>
+        <childnode refid="45567" relation="include">
+        </childnode>
+      </node>
+      <node id="45586">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="45596">
+        <label>gnuradio/logger.h</label>
+        <link refid="logger_8h"/>
+        <childnode refid="45597" relation="include">
+        </childnode>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45598" relation="include">
+        </childnode>
+        <childnode refid="45592" relation="include">
+        </childnode>
+        <childnode refid="45599" relation="include">
+        </childnode>
+        <childnode refid="45600" relation="include">
+        </childnode>
+        <childnode refid="45601" relation="include">
+        </childnode>
+        <childnode refid="45602" relation="include">
+        </childnode>
+        <childnode refid="45567" relation="include">
+        </childnode>
+      </node>
+      <node id="45576">
+        <label>vector</label>
+      </node>
+      <node id="45588">
+        <label>boost/thread/barrier.hpp</label>
+      </node>
+      <node id="45600">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="45579">
+        <label>gnuradio/types.h</label>
+        <link refid="gnuradio-runtime_2include_2gnuradio_2types_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45564" relation="include">
+        </childnode>
+        <childnode refid="45576" relation="include">
+        </childnode>
+        <childnode refid="45580" relation="include">
+        </childnode>
+        <childnode refid="45581" relation="include">
+        </childnode>
+        <childnode refid="45573" relation="include">
+        </childnode>
+      </node>
+      <node id="45581">
+        <label>gnuradio/gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="45571" relation="include">
+        </childnode>
+      </node>
+      <node id="45558">
+        <label>gnuradio/sync_block.h</label>
+        <link refid="sync__block_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45561" relation="include">
+        </childnode>
+      </node>
+      <node id="45554">
+        <label>usrp_sink.h</label>
+        <link refid="usrp_sink.h"/>
+        <childnode refid="45555" relation="include">
+        </childnode>
+      </node>
+      <node id="45589">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="45599">
+        <label>time.h</label>
+      </node>
+      <node id="45574">
+        <label>iosfwd</label>
+      </node>
+      <node id="45592">
+        <label>iostream</label>
+      </node>
+      <node id="45566">
+        <label>gnuradio/messages/msg_accepter.h</label>
+        <link refid="messages_2msg__accepter_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45567" relation="include">
+        </childnode>
+        <childnode refid="45564" relation="include">
+        </childnode>
+      </node>
+      <node id="45593">
+        <label>deque</label>
+      </node>
+      <node id="45567">
+        <label>pmt/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="45568" relation="include">
+        </childnode>
+        <childnode refid="45569" relation="include">
+        </childnode>
+        <childnode refid="45564" relation="include">
+        </childnode>
+        <childnode refid="45570" relation="include">
+        </childnode>
+        <childnode refid="45571" relation="include">
+        </childnode>
+        <childnode refid="45572" relation="include">
+        </childnode>
+        <childnode refid="45573" relation="include">
+        </childnode>
+        <childnode refid="45574" relation="include">
+        </childnode>
+        <childnode refid="45575" relation="include">
+        </childnode>
+        <childnode refid="45576" relation="include">
+        </childnode>
+        <childnode refid="45577" relation="include">
+        </childnode>
+      </node>
+      <node id="45595">
+        <label>gnuradio/tags.h</label>
+        <link refid="tags_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45567" relation="include">
+        </childnode>
+      </node>
+      <node id="45603">
+        <label>uhd/usrp/multi_usrp.hpp</label>
+      </node>
+      <node id="45562">
+        <label>gnuradio/basic_block.h</label>
+        <link refid="basic__block_8h"/>
+        <childnode refid="45559" relation="include">
+        </childnode>
+        <childnode refid="45563" relation="include">
+        </childnode>
+        <childnode refid="45565" relation="include">
+        </childnode>
+        <childnode refid="45578" relation="include">
+        </childnode>
+        <childnode refid="45582" relation="include">
+        </childnode>
+        <childnode refid="45583" relation="include">
+        </childnode>
+        <childnode refid="45589" relation="include">
+        </childnode>
+        <childnode refid="45590" relation="include">
+        </childnode>
+        <childnode refid="45591" relation="include">
+        </childnode>
+        <childnode refid="45587" relation="include">
+        </childnode>
+        <childnode refid="45592" relation="include">
+        </childnode>
+        <childnode refid="45572" relation="include">
+        </childnode>
+        <childnode refid="45593" relation="include">
+        </childnode>
+        <childnode refid="45594" relation="include">
+        </childnode>
+      </node>
+      <node id="45571">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structuhd_1_1stream__args__t" prot="public">uhd::stream_args_t</innerclass>
+    <innerclass refid="classgr_1_1uhd_1_1usrp__sink" prot="public">gr::uhd::usrp_sink</innerclass>
+    <innernamespace refid="namespaceuhd">uhd</innernamespace>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1uhd">gr::uhd</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="usrp__sink_8h_1a7f8bfc83ec7e75ae71bfc3f95aec6dda" prot="public" static="no">
+        <name>INCLUDED_UHD_STREAM_HPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" line="45" column="11" bodyfile="/home/project/prefix/src/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-uhd/include/gnuradio/uhd/usrp_sink.h"/>
+  </compounddef>
+</doxygen>

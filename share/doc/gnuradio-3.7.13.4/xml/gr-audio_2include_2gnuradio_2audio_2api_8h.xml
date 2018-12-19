@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gr-audio_2include_2gnuradio_2audio_2api_8h" kind="file" language="C++">
+    <compoundname>gr-audio/include/gnuradio/audio/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gnuradio/attributes.h</includes>
+    <includedby refid="osx__impl_8h" local="no">osx_impl.h</includedby>
+    <includedby refid="sink_8h" local="no">sink.h</includedby>
+    <includedby refid="source_8h" local="no">source.h</includedby>
+    <incdepgraph>
+      <node id="3244">
+        <label>gnuradio/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="3243">
+        <label>api.h</label>
+        <link refid="gr-audio/include/gnuradio/audio/api.h"/>
+        <childnode refid="3244" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3248">
+        <label>source.h</label>
+        <link refid="source_8h"/>
+      </node>
+      <node id="3246">
+        <label>osx_impl.h</label>
+        <link refid="osx__impl_8h"/>
+      </node>
+      <node id="3247">
+        <label>sink.h</label>
+        <link refid="sink_8h"/>
+      </node>
+      <node id="3245">
+        <label>api.h</label>
+        <link refid="gr-audio/include/gnuradio/audio/api.h"/>
+        <childnode refid="3246" relation="include">
+        </childnode>
+        <childnode refid="3247" relation="include">
+        </childnode>
+        <childnode refid="3248" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-audio_2include_2gnuradio_2audio_2api_8h_1a222adfe41ab381b8e026445ba45db5a1" prot="public" static="no">
+        <name>GR_AUDIO_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/project/prefix/src/gnuradio/gr-audio/include/gnuradio/audio/api.h" line="30" column="12" bodyfile="/home/project/prefix/src/gnuradio/gr-audio/include/gnuradio/audio/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/project/prefix/src/gnuradio/gr-audio/include/gnuradio/audio/api.h"/>
+  </compounddef>
+</doxygen>

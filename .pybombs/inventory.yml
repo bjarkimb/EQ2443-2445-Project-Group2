@@ -1,0 +1,7 @@
+!!omap
+- apache-thrift:
+    source: git+https://github.com/apache/thrift.git
+    state: 40
+- gnuradio:
+    source: git+https://github.com/gnuradio/gnuradio.git
+    state: 40
